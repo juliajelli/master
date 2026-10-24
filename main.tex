@@ -1,0 +1,146 @@
+\documentclass[12pt,twoside=off,
+bibliography=totoc,
+listof=totoc,appendixprefix,paper=a4,headings=small]{scrbook} % 'twoside=on' für Druckversion oder 'twoside=off' für Onlineversion
+
+%
+% Packages
+% -----------------------------------
+\usepackage[
+  paper=a4paper,
+  left=12.5mm,
+  right=25mm,
+  top=25mm,
+  bottom=50mm,
+  bindingoffset=10mm]{geometry}		% Seitenränder und Bindungskorrektur einstellen
+  
+\usepackage{apacite} 				% Literatur-Referenzen: American Psycholog. Assoc.
+\usepackage{natbib}					
+
+\setcitestyle{round,aysep={}} 		% Indizierg. in runden Klammern, zw. Autor u. Jahr
+\usepackage[utf8]{inputenc}         % Umlaute im Text
+\usepackage{ngerman}				% Rechtschreibg.
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}				% Schriftfamilie
+\usepackage{microtype}				% für die Mikrotypografie (besseres Schriftbild)
+
+\usepackage{graphicx} 				% Grafiken einfügen (pdf,png - aber jpg vermeiden)
+\graphicspath{{./Bilder/}}          % Pfad zu den Bildern
+
+\usepackage{url}					% URL's formatieren (z.B. in Literatur) 
+\usepackage[colorlinks,linkcolor=black,citecolor=black,urlcolor=black]{hyperref} 				% für Hyperlinks in PDF-Dokumenten   
+  
+\usepackage{tabularx} 				% bessere Gestaltung von Tabellen
+\usepackage{longtable} 		
+\usepackage{multicol}				
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabularx}
+		
+\usepackage[active]{srcltx}
+
+\usepackage{graphicx} % Für \resizebox
+\usepackage{tikz}     % Für TikZ-Grafiken
+\usetikzlibrary{
+    positioning,      % Für below=of, right=of, left=of
+    shapes.geometric, % Für diamond und geometrische Formen
+    arrows.meta       % Für >=Stealth
+}
+
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algpseudocode}				% Algorithmen
+
+\usepackage{mdwlist}				% Listen
+
+\usepackage{setspace} 				% Zeileneinstellung
+\newtheorem{mydef}{Merksatz}  		% Falls Beispiele, Merksätze m. fortl. Nr. gebr. werden
+\newtheorem{bsp}{Beispiel}
+
+\usepackage{todonotes}				% zum Erstellen von ToDos im Editor
+
+\usepackage{lscape}					% zum Rotieren von Seiten
+
+\usepackage{amsmath}				% zum Schreiben von mathematischen Formeln
+
+\usepackage{calc}
+
+\usepackage{footnote}				% Fußnoten
+\usepackage{tablefootnote}			% Fußnoten in Tabellen
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\makeatletter
+\newenvironment{breakablealgorithm}
+  {%
+    \begin{center}
+      \refstepcounter{algorithm}%
+      \hrule height .8pt depth 0pt \kern 2pt
+      \renewcommand{\caption}[2][\relax]{%
+        {\raggedright\textbf{\fname@algorithm~\thealgorithm}%
+        ##2\par}%
+        \kern 2pt\hrule\kern 2pt
+      }%
+  }
+  {%
+      \kern 2pt\hrule
+    \end{center}
+  }
+\makeatother
+
+%\clubpenalty = 10000
+%\widowpenalty = 10000 \displaywidowpenalty = 10000
+
+\hyphenation{voll-st\"andigen}		% Worttrennungen global definieren
+
+\setcounter{tocdepth}{1}			% Ebenen, die im Inhaltsverzeichnis angezeigt werden
+
+% Document
+% -----------------------------------
+\begin{document}
+
+\frontmatter 
+    \include{./Titel/titel} 			% Titelblatt
+    \input{./Kapitel/abstract_deu} 	% Abstract auf Deutsch 
+    \newpage
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \include{./Kapitel/abstract_eng}
+    \newpage
+    
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/sperrvermerk}      % Sperrvermerk
+    \newpage
+    
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \onehalfspacing                  	% Zeilenabstand ab hier 1.5 zeilig
+    \tableofcontents 					% Inhaltsverzeichnis
+    \clearpage{\pagestyle{empty}\cleardoublepage} 
+    
+    \listoffigures 					 	% Abbildungsverzeichnis
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    
+    \listoftables						% Tabellenverzeichnis
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+
+% -----------------------------------
+\mainmatter 							% die einzelnen Kapitel
+    \input{./Kapitel/einleitung}
+    \clearpage{\pagestyle{empty}\cleardoublepage}		% löscht Kopfzeilen und Seitennummerierung von der letzten Seite eines Kapitels, sofern dort kein Text mehr steht
+    \input{./Kapitel/eigenanteil}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/ergebnisse}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    \input{./Kapitel/versuch}
+    \input{./Kapitel/erfolge}
+    \input{./Kapitel/Modell}
+    \input{./Kapitel/discussion}
+    \input{./Kapitel/fazit}
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+
+% -----------------------------------
+\backmatter 
+\bibliographystyle{apacite}				% bei natbib in deutsch
+\bibliography{./Literatur/quellen}		% Literaturquellen einbinden 
+\input{./Kapitel/erklaerung} 			% Eidesstattliche Erklärung (nicht bei Seminararb.)
+
+\end{document}
