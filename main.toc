@@ -48,44 +48,48 @@
 \contentsline {chapter}{\numberline {3}Design}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Integriertes Framework}{28}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Versuchsaufbau}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Technische Umsetzung und Output-Sicherung}{30}{subsection.3.2.1}%
-\contentsline {subsubsection}{\nonumberline Ausgewähltes Sprachmodell: Gemini}{30}{subsubsection*.29}%
-\contentsline {subsection}{\numberline {3.2.2}Sicherheitsprüfung}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}PSI-Zustands- und Potenzialanalyse}{33}{subsection.3.2.3}%
-\contentsline {subsubsection}{\nonumberline Analyse des Zustandes mittels Erstreaktion}{34}{subsubsection*.30}%
-\contentsline {subparagraph}{\nonumberline Operationalisierung der Affektbilanz}{34}{subparagraph*.31}%
-\contentsline {subsubsection}{\nonumberline Analyse des Potenzials mittels Zweitreaktion}{35}{subsubsection*.32}%
-\contentsline {subparagraph}{\nonumberline Operationalisierung der aktiven Systeme}{35}{subparagraph*.33}%
-\contentsline {paragraph}{\nonumberline Schritt A: Ermittlung der Rohpunkte ($R$)}{36}{paragraph*.34}%
-\contentsline {paragraph}{\nonumberline Schritt B: Relative Normalisierung (Prozentuierung)}{36}{paragraph*.35}%
-\contentsline {subsection}{\numberline {3.2.4}PSI-basierte Ziele}{38}{subsection.3.2.4}%
-\contentsline {subsubsection}{\nonumberline Regelbasierte Zielermittlung über die Modulationskanäle}{38}{subsubsection*.36}%
-\contentsline {section}{\numberline {3.3}Intervention}{39}{section.3.3}%
-\contentsline {paragraph}{\nonumberline Intervention 1 ($I_1$): Übergreifende Haltung}{39}{paragraph*.37}%
-\contentsline {paragraph}{\nonumberline Intervention 2 ($I_2$): Selbstmotivierung (Modulationsannahme 1)}{40}{paragraph*.38}%
-\contentsline {paragraph}{\nonumberline Intervention 3 ($I_3$): Selbstberuhigung (Modulationsannahme 2)}{40}{paragraph*.39}%
-\contentsline {subsubsection}{\nonumberline Auswahl der Interventionen}{41}{subsubsection*.40}%
-\contentsline {section}{\numberline {3.4}Gesprächsebene}{41}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Basispromt}{43}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Evaluation}{43}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Metriken und mathematische Operationalisierung}{43}{subsection.3.6.1}%
-\contentsline {subsubsection}{\nonumberline Szenarienspezifische Zielmetriken nach Modulationsannahmen}{44}{subsubsection*.41}%
-\contentsline {subsection}{\numberline {3.6.2}Hypothesenformulierung und statistische Auswertung}{44}{subsection.3.6.2}%
-\contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($r$)}{45}{subsubsection*.42}%
-\contentsline {chapter}{\numberline {4}Demonstration und Ergebnisse}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Szenarienauswahl und theoriegeleitete Soll-Herleitung}{47}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Szenario 1 (Basisszenario $\mathcal {S}_{M1}$): Der prokrastinierende Manager}{47}{subsection.4.1.1}%
-\contentsline {paragraph}{\nonumberline Beschreibung:}{47}{paragraph*.43}%
-\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{47}{paragraph*.44}%
-\contentsline {subsection}{\numberline {4.1.2}Szenario 2 (Basisszenario $\mathcal {S}_{M2}$): Die belastete Berufsschullehrerin}{48}{subsection.4.1.2}%
-\contentsline {paragraph}{\nonumberline Beschreibung:}{48}{paragraph*.45}%
-\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{48}{paragraph*.46}%
-\contentsline {section}{\numberline {4.2}Ergebnisse}{49}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Evaluation}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Bewertung des Modells}{50}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Diskussion und Implikationen}{51}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Schlussbetrachtung}{52}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Limitationen und Ausblick}{52}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Grenzen von KI im Coaching}{52}{subsection.7.1.1}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{53}{chapter*.47}%
+\contentsline {subsection}{\numberline {3.2.1}Technische Umsetzung}{32}{subsection.3.2.1}%
+\contentsline {subsubsection}{\nonumberline Ausgewähltes Sprachmodell: Gemini}{32}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Erstellung des Ergebnis-Datensatzes}{32}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {3.2.2}Sicherheitsprüfung}{32}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}PSI-Zustands- und Potenzialanalyse}{34}{subsection.3.2.3}%
+\contentsline {subsubsection}{\nonumberline Analyse des Zustandes mittels Erstreaktion}{35}{subsubsection*.31}%
+\contentsline {subparagraph}{\nonumberline Operationalisierung der Affektbilanz}{35}{subparagraph*.32}%
+\contentsline {subsubsection}{\nonumberline Analyse des Potenzials mittels Zweitreaktion}{36}{subsubsection*.33}%
+\contentsline {subparagraph}{\nonumberline Operationalisierung der aktiven Systeme}{36}{subparagraph*.34}%
+\contentsline {paragraph}{\nonumberline Schritt A: Ermittlung der Rohpunkte ($R$)}{37}{paragraph*.35}%
+\contentsline {paragraph}{\nonumberline Schritt B: Relative Normalisierung (Prozentuierung)}{37}{paragraph*.36}%
+\contentsline {subsection}{\numberline {3.2.4}PSI-basierte Ziele}{37}{subsection.3.2.4}%
+\contentsline {subsubsection}{\nonumberline Regelbasierte Zielermittlung über die Modulationskanäle}{39}{subsubsection*.37}%
+\contentsline {section}{\numberline {3.3}Intervention}{40}{section.3.3}%
+\contentsline {paragraph}{\nonumberline Intervention 1 ($I_1$): Übergreifende Haltung}{40}{paragraph*.38}%
+\contentsline {paragraph}{\nonumberline Intervention 2 ($I_2$): Selbstmotivierung (Modulationsannahme 1)}{41}{paragraph*.39}%
+\contentsline {paragraph}{\nonumberline Intervention 3 ($I_3$): Selbstberuhigung (Modulationsannahme 2)}{41}{paragraph*.40}%
+\contentsline {subsubsection}{\nonumberline Auswahl der Interventionen}{42}{subsubsection*.41}%
+\contentsline {section}{\numberline {3.4}Gesprächsebene}{42}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Basispromt}{44}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Evaluation}{44}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Metriken und mathematische Operationalisierung}{44}{subsection.3.6.1}%
+\contentsline {subsubsection}{\nonumberline Szenarienspezifische Zielmetriken nach Modulationsannahmen}{45}{subsubsection*.42}%
+\contentsline {subsection}{\numberline {3.6.2}Hypothesenformulierung und statistische Auswertung}{45}{subsection.3.6.2}%
+\contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($r$)}{46}{subsubsection*.43}%
+\contentsline {chapter}{\numberline {4}Demonstration und Ergebnisse}{48}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Szenarienauswahl und theoriegeleitete Soll-Herleitung}{48}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Szenario 1 (Basisszenario $\mathcal {S}_{M1}$): Der prokrastinierende Manager}{48}{subsection.4.1.1}%
+\contentsline {paragraph}{\nonumberline Beschreibung:}{48}{paragraph*.44}%
+\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{48}{paragraph*.45}%
+\contentsline {subsection}{\numberline {4.1.2}Szenario 2 (Basisszenario $\mathcal {S}_{M2}$): Die belastete Berufsschullehrerin}{49}{subsection.4.1.2}%
+\contentsline {paragraph}{\nonumberline Beschreibung:}{49}{paragraph*.46}%
+\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{49}{paragraph*.47}%
+\contentsline {section}{\numberline {4.2}Ergebnisse}{50}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Deskriptive Statistik und Systemverschiebungen}{50}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}Evaluation}{52}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Inferenzstatistische Prüfung der ersten Modulationsannahme (M1)}{52}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Inferenzstatistische Prüfung der zweiten Modulationsannahme (M2)}{52}{subsection.5.0.2}%
+\contentsline {section}{\numberline {5.1}Bewertung des Modells}{53}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Diskussion und Implikationen}{54}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Schlussbetrachtung}{55}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Limitationen und Ausblick}{55}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Grenzen von KI im Coaching}{55}{subsection.7.1.1}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{56}{chapter*.48}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

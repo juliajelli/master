@@ -422,6 +422,7 @@ INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
 OUTPUT main.lot
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT .\Kapitel\einleitung.tex
 INPUT .\Kapitel\einleitung.tex
 INPUT .\Kapitel\einleitung.tex
@@ -445,7 +446,6 @@ INPUT .\Bilder\neuron.png
 INPUT .\Bilder\neuron.png
 INPUT .\Bilder\neuron.png
 INPUT .\Bilder\neuron.png
-INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
@@ -521,6 +521,7 @@ INPUT Kapitel\fazit.tex
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmri12.tfm
 INPUT .\Kapitel\erklaerung.tex
 INPUT .\Kapitel\erklaerung.tex
 INPUT .\Kapitel\erklaerung.tex
@@ -540,6 +541,8 @@ INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb

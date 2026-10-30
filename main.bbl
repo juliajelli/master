@@ -790,6 +790,33 @@ Ovsiannikova, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pang%
+\ \BBA {} Lee%
+}{%
+Pang%
+\ \BBA {} Lee%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+pang2008opinion}
+\APACinsertmetastar {%
+pang2008opinion}%
+\begin{APACrefauthors}%
+Pang, B.%
+\BCBT {}\ \BBA {} Lee, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Opinion mining and sentiment analysis} {Opinion mining
+  and sentiment analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Foundations and Trends{\textregistered} in information
+  retrieval}{2}{1-2}{1--135}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Passmore%
 \ \BBA {} Tee%
 }{%

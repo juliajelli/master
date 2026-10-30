@@ -5,12 +5,13 @@ import time
 import random
 from google import genai
 from google.genai import types
+import pandas as pd
 
 # ==============================================================================
 # 1. LLM SCHNITTSTELLE (Google Gemini API-Client - 100% Kostenlos im Free-Tier)
 # ==============================================================================
 # Tragen Sie hier Ihren kostenlosen Gemini API-Key aus dem Google AI Studio ein:
-GEMINI_API_KEY = "" 
+#GEMINI_API_KEY = "" 
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -443,24 +444,6 @@ SCENARIO_XM2 = "Ich bin 41 Jahre alt und arbeite als Berufsschullehrerin, aber m
 
 
 
-
-
-# ==============================================================================
-# 1. VORAUSSETZUNGEN
-# ==============================================================================
-# Diese Variablen müssen bereits in deinem Projekt definiert sein:
-#
-# client = genai.Client(api_key="DEIN_API_KEY")
-# MODEL_NAME = "..."
-# SYSTEM_PROMPT_B_PSI = "..."
-# SYSTEM_PROMPT_B_K = "..."
-# SCENARIO_XM1 = "..."
-# SCENARIO_XM2 = "..."
-#
-# Verwende deinen API-Key sicher über eine Umgebungsvariable.
-# Den bestehenden API-Key nicht in den Code oder in geteilte Dateien schreiben.
-
-
 # ==============================================================================
 # 2. EXPERIMENTELLE BEDINGUNGEN
 # ==============================================================================
@@ -492,7 +475,7 @@ experimental_setups = [
     },
 ]
 
-ITERATIONS = 10
+ITERATIONS = 100
 OUTPUT_FILE = "masterarbeit_raw_data.csv"
 
 # Anzahl der API-Versuche pro Durchlauf einschließlich des ersten Versuchs.
@@ -877,28 +860,74 @@ else:
 
 
 # ==============================================================================
-# 9. BEISPIEL FÜR DIE STATISTISCHE AUSWERTUNG
+# 10. TYPISIERTE EXCEL-DATEI ERSTELLEN
 # ==============================================================================
-#
-# import pandas as pd
-# from scipy.stats import wilcoxon
-#
-# df = pd.read_csv(OUTPUT_FILE, sep=";")
-#
-# df_psi_xm2 = df[
-#     (df["Szenario"] == "XM2")
-#     & (df["Bedingung"] == "B_PSI")
-# ]
-#
-# # Vor der Analyse sicherstellen, dass die Zielvariable numerisch ist
-# # und genügend gültige Werte enthält.
-# delta = pd.to_numeric(df_psi_xm2["delta_OES"], errors="coerce").dropna()
-#
-# if len(delta) > 0:
-#     stat, p_value = wilcoxon(delta)
-#     print(
-#         f"Wilcoxon-Test für Delta_OES (B_PSI, XM2): "
-#         f"Statistik={stat}, p-Wert={p_value}"
-#     )
-# else:
-#     print("Keine gültigen numerischen delta_OES-Werte vorhanden.")
+
+EXCEL_FILE = "masterarbeit_raw_data_typed.xlsx"
+
+# CSV einlesen; "unknown" wird als fehlender Wert behandelt.
+df = pd.read_csv(
+    OUTPUT_FILE,
+    sep=";",
+    encoding="utf-8",
+    na_values=["unknown", "UNKNOWN", ""],
+    keep_default_na=True,
+)
+
+# Textspalten
+text_columns = [
+    "Szenario",
+    "Bedingung",
+    "SymptomBurden",
+    "Duration",
+    "FunctionalImpairment",
+    "Dominant_t0",
+    "Dominant_t1",
+]
+
+for col in text_columns:
+    df[col] = df[col].astype("string")
+
+# Ganzzahlige Spalten
+integer_columns = [
+    "Iteration",
+    "E1_IG", "E1_OES", "E1_EG", "E1_IVS",
+    "E2_IG", "E2_OES", "E2_EG", "E2_IVS",
+    "E4_IG", "E4_OES", "E4_EG", "E4_IVS",
+    "E5_IG", "E5_OES", "E5_EG", "E5_IVS",
+    "E6_IG", "E6_OES", "E6_EG", "E6_IVS",
+    "E7_IG", "E7_OES", "E7_EG", "E7_IVS",
+    "I1", "I2", "I3",
+]
+
+for col in integer_columns:
+    df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+
+# Dezimalspalten
+float_columns = [
+    "A_plus_t0", "A_minus_t0",
+    "P_IG_t0", "P_OES_t0", "P_EG_t0", "P_IVS_t0",
+    "tau_m1", "tau_m2",
+    "P_IG_t1", "P_OES_t1", "P_EG_t1", "P_IVS_t1",
+    "delta_IG", "delta_OES", "delta_EG", "delta_IVS",
+]
+
+for col in float_columns:
+    df[col] = pd.to_numeric(df[col], errors="coerce")
+
+# SafetySignal als Boolean interpretieren
+df["SafetySignal"] = (
+    df["SafetySignal"]
+    .astype("string")
+    .str.strip()
+    .str.lower()
+    .map({"true": True, "false": False})
+    .astype("boolean")
+)
+
+# Typisierte Excel-Datei speichern
+df.to_excel(EXCEL_FILE, index=False, engine="openpyxl")
+
+print(f"Excel-Datei mit Datentypen erstellt: {EXCEL_FILE}")
+print(f"Anzahl Zeilen: {len(df)}")
+print(f"Anzahl Spalten: {len(df.columns)}")
