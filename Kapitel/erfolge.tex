@@ -1,19 +1,19 @@
 \chapter{Demonstration und Ergebnisse}
 
-In diesem Kapitel wird die funktionale Funktionsfähigkeit des entwickelten PSI-Coaching-Frameworks anhand einer kontrollierten Dialogsimulation demonstriert. Ziel dieser Demonstration ist es, die translationslogische Kette von der initialen Nutzereingabe ($U_{t_0}$) über die regelbasierte Variablenbestimmung bis hin zur theoriegeleiteten Antwortgenerierung ($R_t$) empirisch sichtbar zu machen \citep{grum2022construction}. Es wird demonstriert, wie die Experimentalgruppe ($B_{PSI}$) im direkten Vergleich zur Kontrollgruppe ($B_K$) auf ungesehene Fallbeispiele reagiert und ob eine theoriekonforme, gerichtete Systemverschiebung auf den psychischen Achsen indiziert werden kann.
+In diesem Kapitel wird die Funktionsfähigkeit des entwickelten PSI-Coaching-Frameworks anhand einer kontrollierten Dialogsimulation demonstriert. Ziel dieser Demonstration ist es, die Kette von der initialen Nutzereingabe ($U_{t_0}$) über die regelbasierte Zustandsbestimmung bis hin zur theoriegeleiteten Antwortgenerierung ($R_t$) empirisch zu untersuchen. Es wird demonstriert, wie die Experimentalgruppe ($B_{PSI}$) im direkten Vergleich zur Kontrollgruppe ($B_K$) auf ungesehene Fallbeispiele reagiert und ob eine gerichtete Systemverschiebung indiziert werden kann.
 
 \section{Szenarienauswahl und theoriegeleitete Soll-Herleitung}
 
-Für das kontrollierte Experiment wurden zwei distinkte, biographisch fundierte Basisszenarien aus der einschlägigen Coaching-Literatur adaptiert und sprachlich so kalibriert, dass sie eine spürbare, aber moderate Belastung abbilden, um die Kriterien der vorgeschalteten Sicherheitsprüfung zu erfüllen. Die Auswahl dieser spezifischen Szenarien erfolgte gezielt, da sie die beiden primären psychischen Blockadeformen der PSI-Theorie (Willenshemmung auf der $A^+$-Achse und Hemmung der Selbstentwicklung auf der $A^-$-Achse) operationalisieren.
+Für das kontrollierte Experiment wurden zwei Basisszenarien aus der Literatur adaptiert. Die Auswahl dieser spezifischen Szenarien erfolgte gezielt, da sie die beiden primären psychischen Blockadeformen der PSI-Theorie (Willenshemmung auf der $A^+$-Achse und Hemmung der Selbstentwicklung auf der $A^-$-Achse) operationalisieren. Diese Auswahl ermöglicht eine theoretische Soll-Herleitung des Ergebnisses. Dieser Herleitung wird in der Evaluation das Ergebniss des Chatbots gegenüber gestellt um zu prüfen, ob eine Systemverschiebung im Sinne der PSI-Theorie durch das LLM möglich ist.
 
 \subsection{Szenario 1 (Basisszenario $\mathcal{S}_{M1}$): Der prokrastinierende Manager}
 \paragraph{Beschreibung:} Ein 32-jähriger Abteilungsleiter berichtet im Coaching, in einer Sackgasse festzustecken. Die strategischen Ziele seien zwar klar definiert und er wolle sich unbedingt verbessern und die Prozesse optimieren, er müsse sich jedoch jeden Tag aufs Neue unter hohem Druck an den Schreibtisch zwingen und blockiere komplett. Seine Gedanken geraten ins Stocken, er bricht seine täglichen Verhaltensroutinen ab, prokrastiniert und erlebt ein intensives Gefühl der demotivierten, nüchternen Frustration. Er weiß theoretisch genau, was er tun soll, schafft es aber nicht, ins Handeln zu kommen \citep{kuhl2014psi}.
 
 \paragraph{Theoretische Soll-Herleitung:} 
-Die linguistische Analyse der Erst- und Zweitreaktionen (EOS) zeigt eine klassische Willenshemmung. Der Manager verfügt über ein hochaktives Intentionsgedächtnis (IG), welches sich in der permanenten Formulierung von Zielen ausdrückt (Ebene 6: analytisch; Ebene 7: Selbstkontrolle). Da jedoch der positive Affekt gehemmt ist ($A^+ < 0$), ist der Übergang in die Intuitive Verhaltenssteuerung (IVS) blockiert. Der Klient verharrt im „kalten“, unproduktiven Planen.
+Die linguistische Analyse der Erst- und Zweitreaktionen (EOS) zeigt eine klassische Willenshemmung. Der Manager verfügt über ein hochaktives Intentionsgedächtnis (IG), welches sich in der permanenten Formulierung von Zielen ausdrückt (Ebene 6: analytisch; Ebene 7: Selbstkontrolle). Da jedoch der positive Affekt gehemmt ist ($A^+ < 0$), ist der Übergang in die Intuitive Verhaltenssteuerung (IVS) blockiert. Der Klient verharrt im unproduktiven Planen.
 \begin{itemize}
     \item Ausgangszustand $Z_{t_0}$: Mathematische IG-Dominanz bei gehemmtem positiven Affekt ($A^+ < 0$). Der Diskrepanzwert überschreitet den Schwellenwert ($\tau_{m1} = \%IG - \%IVS > 15\%$).
-    \item Psychologisches Unterstützungsziel $G$: Handlungsbahnung (Willensbahnung) durch Aktivierung des IVS via Erzeugung positiver Affekte.
+    \item Psychologisches Unterstützungsziel $G$: Handlungsbahnung (Willensbahnung) durch Aktivierung des IVS durch Erzeugung positiver Affekte.
     \item Soll-Intervention $I_j$: Intervention $I_2$ (Affektive Pendeltechnik). Durch den gesteuerten Wechsel zwischen Zielvisualisierung, bewusster Barrierenanalyse und erneuter Ressourcenaktivierung soll die IVS re-aktiviert werden.
     \item Evaluationskriterium für den Folgezustand $Z_{t_1}$: Nachweis einer theoriekonformen, gerichteten Systemverschiebung hin zum Zielsystem, operationalisiert über einen messbaren Zuwachs des IVS-Scores ($E_{M1} = \Delta\%IVS > 0$).
 \end{itemize}
@@ -22,7 +22,7 @@ Die linguistische Analyse der Erst- und Zweitreaktionen (EOS) zeigt eine klassis
 \paragraph{Beschreibung:} Eine 41-jährige Berufsschullehrerin beschreibt im Coaching, unter anhaltendem Stress zu leiden, sich oft ziemlich erschöpft zu fühlen und klagt über psychosomatische Kopf- und Nackenschmerzen. Sie habe das Gefühl, im Alltag ständig in einem Hamsterrad zu laufen und finde selbst an Wochenenden oder in kurzen Pausen kaum noch echte Entspannung. Ihr Blick sei verengt und starr auf die Probleme, Barrieren und Gefahren gerichtet, sodass sie überall Fehler und Unstimmigkeiten entdecke. Ihr fehle momentan jede Orientierung, sie habe den Zugang zu den eigenen Bedürfnissen verloren und passe sich fast nur noch fremden Erwartungen an \citep{kuhl2014psi}.
 
 \paragraph{Theoretische Soll-Herleitung:} 
-Dieses Szenario operationalisiert eine stressinduzierte Hemmung der Selbstentwicklung. Durch den permanenten Stress ist der negative Affekt unreguliert hoch ($A^- > 0$). Dies führt zu einer Dominanz des Objekterkennungssystems (OES), welches sich im starren Verharren auf die Symptome, Fehler und das Gefühl des Gefangenseins äußert (Ebene 4: Regression; Ebene 6: defizitär). Der Zugriff auf das holistische Erfahrungswissen und die beruhigenden Ressourcen des Extensionsgedächtnisses (EG/Selbst) ist blockiert, was zu einer drohenden Selbstfiltration führt.
+Dieses Szenario operationalisiert eine stressinduzierte Hemmung der Selbstentwicklung. Durch den permanenten Stress ist der negative Affekt unreguliert hoch ($A^- > 0$). Dies führt zu einer Dominanz des Objekterkennungssystems (OES), welches sich im starren Verharren auf die Symptome, Fehler und das Gefühl des Gefangenseins äußert (Ebene 4: Regression; Ebene 6: defizitär). Der Zugriff auf Erfahrungswissen und die beruhigenden Ressourcen des Extensionsgedächtnisses (EG/Selbst) ist blockiert, was zu einer drohenden Selbstfiltration führt.
 \begin{itemize}
     \item Ausgangszustand $Z_{t_0}$: Mathematische OES-Dominanz bei erhöhtem negativen Affekt ($A^- > 0$). Der Diskrepanzwert überschreitet den Schwellenwert ($\tau_{m2} = \%OES - \%EG > 15\%$).
     \item Psychologisches Unterstützungsziel $G$: Selbstberuhigung und Wiederherstellung des Selbstzugangs durch Herabregulierung des negativen Affekts ($A^- \downarrow$).
@@ -36,7 +36,7 @@ Im Folgenden werden die empirischen Ergebnisse der kontrollierten Dialogsimulati
 
 \subsection{Deskriptive Statistik und Systemverschiebungen}
 
-Die Auswertung der Richtungsverschiebungen zeigt für beide Szenariokonfigurationen eine theoriekonforme Tendenz zur Aktivierung der postulierten Zielsysteme. Der Steuerungseffekt bestimmt sich über das Differenzenmaß:
+Die Auswertung der Richtungsverschiebungen zeigt für beide Szenariokonfigurationen eine theoriekonforme Tendenz zur Aktivierung der angestrebten Zielsysteme. Der Steuerungseffekt bestimmt sich über das Differenzenmaß:
 \begin{equation}
     \Delta\%System = \%System(Z_{t_1}) - \%System(Z_{t_0})
 \end{equation}

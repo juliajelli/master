@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.4)  30 OCT 2026 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.4)  31 OCT 2026 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1197,7 +1197,7 @@ chapter 2.
 
 
 ] [6] [7]
-<Bilder/neuron.png, id=286, 209.78375pt x 82.80937pt>
+<Bilder/neuron.png, id=284, 209.78375pt x 82.80937pt>
 File: Bilder/neuron.png Graphic file (type png)
 <use Bilder/neuron.png>
 Package pdftex.def Info: Bilder/neuron.png  used on input line 31.
@@ -1206,23 +1206,23 @@ Package pdftex.def Info: Bilder/neuron.png  used on input line 31.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.38 \[a = \sum_{i=1}^{n} w_i x_i + b\]
+l.42 \[a = \sum_{i=1}^{n} w_i x_i + b\]
                                         <./Bilder/neuron.png>] [9{C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [10]
-<Bilder/Training.png, id=318, 349.305pt x 151.06438pt>
+<Bilder/Training.png, id=324, 349.305pt x 151.06438pt>
 File: Bilder/Training.png Graphic file (type png)
 <use Bilder/Training.png>
-Package pdftex.def Info: Bilder/Training.png  used on input line 58.
+Package pdftex.def Info: Bilder/Training.png  used on input line 60.
 (pdftex.def)             Requested size: 462.35732pt x 199.968pt.
  [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.65 
+l.67 
       <./Bilder/Training.png>] [12] [13]
-<Bilder/mind.png, id=370, 7034.28pt x 7476.93375pt>
+<Bilder/mind.png, id=376, 7034.28pt x 7476.93375pt>
 File: Bilder/mind.png Graphic file (type png)
 <use Bilder/mind.png>
-Package pdftex.def Info: Bilder/mind.png  used on input line 88.
+Package pdftex.def Info: Bilder/mind.png  used on input line 94.
 (pdftex.def)             Requested size: 462.35732pt x 491.37993pt.
 
 
@@ -1232,42 +1232,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.95 
-      <./Bilder/mind.png>]
-<Bilder/dtx.png, id=394, 468.75125pt x 187.19937pt>
+l.101 
+       <./Bilder/mind.png>]
+<Bilder/dtx.png, id=399, 468.75125pt x 187.19937pt>
 File: Bilder/dtx.png Graphic file (type png)
 <use Bilder/dtx.png>
-Package pdftex.def Info: Bilder/dtx.png  used on input line 98.
+Package pdftex.def Info: Bilder/dtx.png  used on input line 104.
 (pdftex.def)             Requested size: 462.35732pt x 184.64526pt.
  [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107 
+l.113 
        <./Bilder/dtx.png>] [17] [18] [19]
-<Bilder/Modulationsannahmen.png, id=461, 695.59875pt x 382.42876pt>
+<Bilder/Modulationsannahmen.png, id=470, 695.59875pt x 382.42876pt>
 File: Bilder/Modulationsannahmen.png Graphic file (type png)
 <use Bilder/Modulationsannahmen.png>
-Package pdftex.def Info: Bilder/Modulationsannahmen.png  used on input line 143.
+Package pdftex.def Info: Bilder/Modulationsannahmen.png  used on input line 152.
 (pdftex.def)             Requested size: 462.35732pt x 254.1952pt.
  [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.150 
+l.159 
        <./Bilder/Modulationsannahmen.png>] [21] [22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-[]|[]\T1/lmr/m/n/12 (+20) Unstimmigkeitssensible
- []
 
-[24
-pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.222 
-      ])
+Package natbib Warning: Citation `syskuhl2004systemdiagnostik' on page 24 undefined on input line 186.
+
+[24] [25])
 :<-
-[25] [26]
+[26]
 Package srcltx Info: Expanded filename `./Kapitel/ergebnisse' to `./Kapitel/ergebnisse.tex' on input line 131.
 
 :<+ ./Kapitel/ergebnisse.tex
@@ -1295,9 +1289,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.167 \]
-        ] [31] [32]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 229.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 233.
+        ] [31] [32] [33]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 244.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 248.
  (C:\Users\julia\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1305,28 +1299,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [33] [34] [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+ [34] [35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []|\T1/lmr/bx/n/10.95 (+20) Aktives
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []|\T1/lmr/bx/n/10.95 (+20) OES \T1/lmr/m/n/10.95 (+20) (Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []|\T1/lmr/m/n/10.95 (+20) Macht/Kontrollmotiviert: ^^REin-fluss^^P,
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 346--346
+Underfull \hbox (badness 1990) in paragraph at lines 361--361
 []|\T1/lmr/bx/n/10.95 (+20) EG \T1/lmr/m/n/10.95 (+20) (Selbst-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
 []|\T1/lmr/bx/n/10.95 (+20) IG \T1/lmr/m/n/10.95 (+20) (Selbst-
  []
 
@@ -1334,22 +1328,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--346
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.371 
-      ] [39] [40] [41] [42
+l.370 \begin{equation}
+                      ] [39] [40] [41] [42] [43
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.540 
-      ] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+l.557 \[
+        ]
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
-[44] [45])
+[44] [45] [46])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/erfolge' to `./Kapitel/erfolge.tex' on input line 134.
 :<+ ./Kapitel/erfolge.tex
-(Kapitel/erfolge.tex [46] [47]
+(Kapitel/erfolge.tex [47]
 chapter 4.
 [48
 
@@ -1410,30 +1404,33 @@ chapter without number
 
 
 
-] [57] [58])
+] [57] [58] [59])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/erklaerung' to `./Kapitel/erklaerung.tex' on input line 144.
 :<+ ./Kapitel/erklaerung.tex
-(Kapitel/erklaerung.tex [59])
+(Kapitel/erklaerung.tex [60])
 :<-
-[60] (main.aux (Titel/titel.aux) (Kapitel/abstract_eng.aux))
+
+Package natbib Warning: There were undefined citations.
+
+[61] (main.aux (Titel/titel.aux) (Kapitel/abstract_eng.aux))
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32717 strings out of 467510
- 632886 string characters out of 5408795
- 1203416 words of memory out of 5000000
- 60836 multiletter control sequences out of 15000+600000
- 718069 words of font info for 221 fonts, out of 8000000 for 9000
+ 32712 strings out of 467510
+ 632799 string characters out of 5408795
+ 1205416 words of memory out of 5000000
+ 60835 multiletter control sequences out of 15000+600000
+ 717833 words of font info for 219 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  108i,12n,107p,11300b,1130s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (68 pages, 1267612 bytes).
+Output written on main.pdf (69 pages, 1276912 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
+ 1076 PDF objects out of 1200 (max. 8388607)
  246 named destinations out of 1000 (max. 500000)
- 51987 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 51995 words of extra memory for PDF output out of 61914 (max. 10000000)
 

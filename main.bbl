@@ -463,6 +463,29 @@ Kendrick, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kinnebrock%
+}{%
+Kinnebrock%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+kinnebrock2018neuronale}
+\APACinsertmetastar {%
+kinnebrock2018neuronale}%
+\begin{APACrefauthors}%
+Kinnebrock, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2018}.
+\newblock
+\APACrefbtitle {Neuronale Netze: Grundlagen, Anwendungen, Beispiele} {Neuronale
+  netze: Grundlagen, anwendungen, beispiele}.
+\newblock
+\APACaddressPublisher{}{Walter de Gruyter GmbH \& Co KG}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kuhl%
 }{%
 Kuhl%

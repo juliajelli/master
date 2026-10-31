@@ -66,14 +66,14 @@ Allildung \ref{fig:psi-chatbot-ablauf} stellt den Ablauf des entwickelten PSI-ba
 
 % Interventionsentscheidungen
 \node[decision, below=of goal] (checkI2)
-    {$\tau_{m1}>30\%$ und $A^+<0$?};
+    {$\tau_{m1}>15\%$ und $A^+<0$?};
 
 \node[intervention, left=of checkI2] (onlyI1I2)
     {Interventionen\\
      $I_1=1,\ I_2=1,\ I_3=0$};
 
 \node[decision, below=of checkI2] (checkI3)
-    {$\tau_{m2}>30\%$ und $A^->0$?};
+    {$\tau_{m2}>15\%$ und $A^->0$?};
 
 \node[intervention, right=of checkI3] (onlyI1I3)
     {Interventionen\\
@@ -191,8 +191,7 @@ Um den theoretisch hergeleiteten Versuch über insgesamt $N = 400$ Simulationsl�
 
 Auf diese Weise wird sicher gestellt, dass jeder einzelne Simulationsdurchlauf isoliert betrachtet wird, um kontextuelle Verzerrungen innerhalb des Sprachmodells auszuschließen. Zu diesem Zweck wird bei jeder Iteration ein frischer API-Aufruf generiert, welcher das System-Prompt der jeweiligen experimentellen Bedingung ($B_{PSI}$ bzw. $B_K$) mit dem identischen, statischen Nutzer-Eingabetext ($U_t$) des entsprechenden Basisszenarios kombiniert.
 
-\subsubsection{Ausgewähltes Sprachmodell: Gemini}
-
+\subsubsection{Prompt-Design und algorithmische Dialogsteuerung}
 Für die Durchfühung des Experiments wird das Sprachmodell Gemini-3.8-flash von Google verwendet. Das Modells liefert eine hohe Performanz bei der Verarbeitung detaillierter System-Anweisungen und zeigt hohe Effizienz. Über das offizielle Google GenAI SDK lässt sich das Modell direkt in das Python-Skript einbinden.
 
 Um eine hinreichende sprachliche und stochastische Varianz in den Ausgaben des Modells zu gewährleisten, ohne die strukturelle Einhaltung der deterministischen Verarbeitungs-Pipeline zu gefährden, wird der Modell-Parameter Temperatur gesetzt:
@@ -200,13 +199,29 @@ Um eine hinreichende sprachliche und stochastische Varianz in den Ausgaben des M
     \text{Temperature} = 0{,}7
 \end{equation}
 
+
+Die deterministische Verhaltenssteuerung des Sprachmodells innerhalb der experimentellen Bedingung $B_{PSI}$ erfolgt über ein modular aufgebautes System-Prompting. 
+
+Im Sinne des Role Prompting wird dem Modell  eine explizite Systemidentität als traumasensibler, systemischer Coach zugewiesen. Mathematisch bewirkt diese Konditionierung eine Verengung des latenten Vektorraums des LLMs. Durch das gezielte Aktivieren semantischer Cluster, die mit therapeutischer Empathie, Validierung und psychologischem Fachwissen assoziiert sind, wird die Tonalität über den gesamten Dialogverlauf hinweg stabilisiert und das Risiko thematisch irrelevanter Ausgaben minimiert.
+    
+Structured Prompting sorgt für die Integration der dynamischen Kontextdaten ($K_t$) und der Ergebnisse der PSI-Zustandsanalyse ($Z_t$) erfolgt strikt getrennt von den statischen Instruktionen. Hierzu wird ein XML-basiertes Schema implementiert, das die Variablen zur Laufzeit in den Prompt injiziert.
+Diese formale Trennung zwingt das Sprachmodell dazu, als rein ausführende, generative Instanz innerhalb der algorithmisch vorgegebenen Systemgrenzen zu operieren.
+
+Chain-of-Thought (CoT) für mehrstufige Interventionsregeln wird verwendet, um die Einhaltung der in Abbildung \ref{fig:psi-chatbot-ablauf} definierten Entscheidungslogik zu garantieren, wird das Modell über Chain-of-Thought-Instruktionen dazu angewiesen, vor der eigentlichen Textgenerierung ($R_t$) einen internen, logischen Zwischenschritt zu vollziehen und explizit zu verschriftlichen. Das Modell evaluiert sequentiell, ob (1) eine Willenshemmung vorliegt, (2) Welches Zielsystem aktiviert werden muss und (3) Welche Interventionskomponente ($I_1, I_2, I_3$) demnach anzuwenden ist. Erst nach diesem Durchlaufen wird das finale Ausgabetoken generiert.
+    
+Zusätzlich wird Zero-Shot-Generalisierung zur adaptive Spiegelung eingesetzt. Anstatt dem System feste Antwortbeispiele vorzugeben, nutzt das Framework die fundamentale Generalisierungsfähigkeit des Transformer-Modells. Durch abstrakte, textuelle Regeln wird definiert, wie das Modell dysfunktionale Muster im Text identifiziert, ohne diese reaktiv zu reproduzieren. Das Modell dekonstruiert die semantische Logik der Nutzereingabe ($U_t$) autonom.
+
+
+Durch diese methodische Verknüpfung der Prompting-Techniken fungiert das LLM nicht als ungesteuerter Textgenerator, sondern als deterministische, psychologische Gesprächsinstanz im Sinne des DTx-Komponentenmodells.
+
+
 \subsubsection{Erstellung des Ergebnis-Datensatzes}
 
 Da die Rohausgabe eines Large Language Models standardmäßig als unstrukturierter Freitext vorliegt, wurde ein zweistufiges Sicherungsverfahren implementiert, um die qualitativen Coaching-Dialoge von den quantitativen systemdiagnostischen Metriken sauber zu trennen. Der System-Prompt steuert die internen Berechnungen und Klassifikationen nach einem strikten XML-Schema. 
 Das in Python implementierte Skript greift nach jedem erfolgreichen API-Call auf die Rohantwort des Modells zu und extrahiert diese Zeile. Im Ergebnis entsteht entsteht ein relationaler Datensatz mit 400 Datenzeilen.
 
 
-\subsection{Sicherheitsprüfung}
+\section{Sicherheitsprüfung}
 
 Die Sicherheitsprüfung bildet nach der Nutzereingabe die zweite Ebene des Systems und orientiert sich an den NICE-Leitlinien \citep{kendrick2012common}. Sie stellt somit ein wichtiges Designprinzip des entwickleten Frameworks dar, welches für beide geprüften Bedingungen herangezogen wird. Ziel dieser Ebene ist es, anhand der Nutzereingabe eine strukturierte Bewertung der psychischen Belastung vorzunehmen und potenzielle Sicherheitssignale zu erkennen. Dabei wird zwischen milden, moderaten und schweren Belastungszuständen unterschieden.
 Bei einer milden oder moderaten Belastung wird die Interaktion mit der anschließenden PSI-Zustandsanalyse fortgesetzt. Wird hingegen eine schwere Belastung beziehungsweise ein relevantes Sicherheitssignal erkannt, wird die weitere Verarbeitung durch das System beendet und der Nutzer an professionelle Unterstützung verwiesen. Die Sicherheitsprüfung dient somit insbesondere dazu, Situationen zu erkennen, in denen eine weitere Interaktion mit dem System nicht angemessen ist.
@@ -253,11 +268,11 @@ Algorithmus \ref{alg:sicherheitspruefung_gesamt} stellt die regelbasierte Sicher
 \end{algorithmic}
 \end{algorithm}
 
-\subsection{PSI-Zustands- und Potenzialanalyse}
+\section{PSI-Zustands- und Potenzialanalyse}
 Der Verscuh bezieht sich auf eine einzige initiale Eingabe des Nutzers in das System. Dieses Vorgehen wird gewählt, um einen möglichen Interpreatationsbias zu vermeiden. Dadurch lässt sich kein umfassendes Persönlichkeitsbild der Person, sondern ein für die aktuelle Situation spezifischer Zustand ableiten. Dies spiegelt einen klassischen Anwendungsfall wieder. Andieser Stelle sind meistens noch keine Informationen über den Nutzer bekannt.
 Aus der Nutzereingabe wird basierend auf beobachteten Merkmalen eine regelgeleitete Hypothese des aktuellen Zustandes, in dem sich der Nutzer befindet, vorgenommen. Der Zustand soll dabei Rückschlüsse darauf geben, welches System im Sinne der PSI aktiv oder dominat ist. Die damit verbundene Potenzialanalyse liefert zusätzlich Informationen darüber, welches Entwicklungspotenzial bei dem Nutzer zu vermuten ist. Die Analyse wird basierend auf den vier Makrosystemen der PSI-Theorie, sowie der 7 Systemebenen der daruf basierenden Entwicklungsorientierten Osnabrücker Systemdiagnostik (EOS) durchgeführt \citep{kuhl2005neue,kuhl2004systemdiagnostik}. Diese ergeben entsprechend die psychologischen Dimensionen. Bei der EOS werden verschiedene Funktionsbereiche der Persönlichkeit betrachtet, welche sie gegenüber anderen Ansätzen hervorhebt. Es wird zwischen der Erstreaktion, welche spontane Eigenschaften und Verhaltensweisen beschreibt, und der Zweitreaktion, die motivationale und selbstregulatorische Kompetenzen der Person abbildet, unterschieden.
 
-\subsubsection{Analyse des Zustandes mittels Erstreaktion}
+\subsection{Analyse des Zustandes mittels Erstreaktion}
 Durch Analyse der Ebenen 1 bis 3 der EOS wird die Erstreaktion des Nutzers bewertet und damit eingeordnet, in welchem Zustand sich dieser befindet. Das System misst den vorherschenden biologischen Zustand des Nutzers.
 
 \begin{itemize}
@@ -365,11 +380,11 @@ Damit die Summe aller vier Makrosysteme in der Gesamtbetrachtung exakt $100\,\%$
 Die Gewichtung der Systeme beinhaltet somit sowohl den aktuell aktiven Zustand (Erstreaktion) der Person, sowie auch ihr Potenzial zur persönlichen Entwicklung (Zweitreaktion). Durch Ebene 3 wird folglich zustätzlich der affektive Zustand berücksichtigt, um ein ganzheitliches Bild der spezifischen Situation zu erhlaten und darauf basierend ein geeignetes Coaching Ziel festzulegen.
 
 
-\subsection{PSI-basierte Ziele}
+\section{PSI-basierte Ziele}
 Im Rahmen des traumasensiblen Coachings wird das übergeordnete Ziel verfolgt, eine Unterstützung zur Emotionsregulation, Stressbewältigung, Ressourcenaktivierung und Selbstregulation zu leisten \citep{kuhl2005neue}. Das Modell soll als reflektierendes KI-System dazu beizutragen, den Zugang zum Selbstsystem zu unterstützen, Selbstmotivation und Selbstberuhigung zu fördern, sowie die Entwicklung selbstkonguenter Ziele zu ermöglichen.
 Die Ableitung des psychologischen Ziels sowie die Bestimmung des anzustrebenden Systemwechsels basieren auf den zwei zentralen Modulationsannahmen der PSI-Theorie \citep{Kuhl2000The}. Diese Annahmen zeigen, dass die Interaktion zwischen den kognitiven Makrosystemen nicht direkt, sondern über die Herauf- oder Herunterregulierung von positivem ($A+$) und negativem Affekt ($A-$) gesteuert wird.
 
-\subsubsection{Regelbasierte Zielermittlung über die Modulationskanäle}
+\subsection{Regelbasierte Zielermittlung über die Modulationskanäle}
 Die mathematische Grundlage bildet eine prozentuale Gewichtung der vier Makrosysteme durch das LLM, wobei gilt: $IG + OES + EG + IVS = 100\,\%$. Im Zusammenspiel mit den Werten der Affektbilanz ($A+$ und $A-$ im Intervall $[-1.0; +1.0]$) werden zwei Metriken definiert, dieie das Potenzial des Nutzers messbar machen:
 
 \begin{enumerate}
@@ -391,11 +406,11 @@ Die mathematische Grundlage bildet eine prozentuale Gewichtung der vier Makrosys
 Auf Basis diesen Potenzials ergeben sich zwei Zielzustände entsprechend der Modulationsannahmen. Liebt eine Willenshemmung vor, wird eine Aktivierung des IVS angestrebt. Bei gehemmter Selsbtentwicklung steht eine Aktivierung des EG im Fukus.
 
 \section{Intervention}
-Der Steuerungsmechanismus stellt die regelbasierte Gesprächsinstanz dar, die entscheidet, welche Intervention ausgewählt wird und die Auswahl an den Gesprächsverlauf anpasst. Intervention meint in Abgrenzung dazu, eine konkrete Maßnahme bzw. Methode, die im Dialog eingesetzt wird. Nach dem bestehenden DTx-Modell wird eine Intervention anhand mehrerer Komponenten beschrieben. Die Komponenten sind: Therapieeinheit, Interventionseinheit, Entscheidungslogik, narrative Ebene, Unterstützungsfunktion und therapeutische Gesprächsinstanz. Der Steuerungsmechanismus ist eine technische Komponente des Modells. Er übernimmt die Funktion einer Entscheidungs- bzw. Auswahlinstanz. Es wird ausgewählt, welches Unterstützungsziel verfolgt werden soll, welche Interventionen grundsätzlich geeignet wären und welche davon also priorisierte Wahl herangezogen wird. Der zusätzliche Bestandteil an dieser Stelle ist die Berücksichtigung des aktuellen PSI-Zustands, sowie die Ableitung eines PSI-Ziels und die daraus resultierende Gewichtung geeigneter Interventionen. Im Sinne der PSI Theorie wird ein Wechsel der Systeme und damit die Veränderung des Zustandes vorrangig durch Regulation von Affekten und damit der emotionalen Steuerung von Verhalten bedingt \citep{Kuhl2000The}.
+Der Steuerungsmechanismus stellt die regelbasierte Gesprächsinstanz dar, die entscheidet, welche Intervention ausgewählt wird und die Auswahl an den Gesprächsverlauf anpasst. Intervention meint in Abgrenzung dazu, eine konkrete Maßnahme bzw. Methode, die im Dialog eingesetzt wird. Nach dem bestehenden DTx-Modell wird eine Intervention anhand mehrerer Komponenten beschrieben. Die Komponenten sind: Therapieeinheit, Interventionseinheit, Entscheidungslogik, narrative Ebene, Unterstützungsfunktion und therapeutische Gesprächsinstanz. Der Steuerungsmechanismus ist eine technische Komponente des Modells. Er übernimmt die Funktion einer Entscheidungs- bzw. Auswahlinstanz. Es wird ausgewählt, welches Unterstützungsziel verfolgt werden soll, welche Interventionen grundsätzlich geeignet wären und welche davon als priorisierte Wahl herangezogen wird. Der zusätzliche Bestandteil an dieser Stelle ist die Berücksichtigung des aktuellen PSI-Zustands, sowie die Ableitung eines PSI-Ziels und die daraus resultierende Gewichtung geeigneter Interventionen. Im Sinne der PSI Theorie wird ein Wechsel der Systeme und damit die Veränderung des Zustandes vorrangig durch Regulation von Affekten und damit der emotionalen Steuerung von Verhalten bedingt \citep{Kuhl2000The}.
 
 \paragraph{Intervention 1 ($I_1$): Übergreifende Haltung}
 Es gibt einige Kriterien, die im Sinne der PSI Theorie übergreifend gelten sollen, damit eine traumasensible Persönlichkeitsentwicklung unterstützt werden kann. Diese Kriterien gelten auch dann, wenn die Indikatoren der beiden Modulationsannahmen nicht gegeben sind. 
-Das Konzept der emotionalen Dialektik stellt als übergreifende Haltung im traumasensiblen Coaching-Kontext eine besondere Wichtigkeit dar. Demnach sollte ein Coach in dem Bewusstsein egieren, dass weder eine dauerhaft positive noch eine dauerhaft negative Stimmung entwicklungsfördernd ist. Der Klient soll dabei unterstützt werden, Emotionen funktional einzuordnen, sich nicht in affektiven Zuständen zu verlieren, sondern Gefühle flexibel zu verarbeiten und als motivationale Kraftquellen zu nutzen \citep{kuhl2005neue}. 
+Das Konzept der emotionalen Dialektik stellt als übergreifende Haltung im traumasensiblen Coaching-Kontext eine besondere Wichtigkeit dar. Demnach sollte ein Coach in dem Bewusstsein agieren, dass weder eine dauerhaft positive noch eine dauerhaft negative Stimmung entwicklungsfördernd ist. Der Klient soll dabei unterstützt werden, Emotionen funktional einzuordnen, sich nicht in affektiven Zuständen zu verlieren, sondern Gefühle flexibel zu verarbeiten und als motivationale Kraftquellen zu nutzen \citep{kuhl2005neue}. 
 
 Folgende Kernaspekte ergeben sich aus dieser Beschreibung zur Entwicklung der Selsbtkompetenz:
 \begin{itemize}
@@ -418,8 +433,7 @@ erfüllt sind:
 \text{Willenshemmung} > \tau
 \quad \text{und} \quad A^+ < 0.0,
 \]
-wobei $\tau$ einen empirischen Schwellenwert bezeichnet,
-z.\,B. $30\,\%$.
+wobei $\tau$ einen empirischen Schwellenwert bezeichnet, der hier auf $15\,\%$ festgesetzt ist.
 
 Das Coaching-Ziel besteht darin, den Klienten durch
 Selbstmotivierung zur Umsetzung seiner Ziele zu befähigen.
@@ -448,6 +462,7 @@ wenn folgende Bedingungen erfüllt sind:
 \text{Hemmung der Selbstentwicklung} > \tau
 \quad \text{und} \quad A^- > 0.0.
 \]
+wobei $\tau$ den empirischen Schwellenwert mit $15\,\%$ bezeichnet.
 Ziel ist die Aktivierung des integrativen Erfahrungswissens
 ($EG$) durch die Herabregulierung negativer Affekte
 ($A^- \downarrow$).
@@ -499,7 +514,7 @@ Diese werden anschließend durch die sprachliche Ausgestaltung in die Chatbotant
 
     \node {$I_1 = 1$}
         child {
-            node {$\tau_{m1} > 30\,\% \;\wedge\; A^+ < 0$}
+            node {$\tau_{m1} > 15\,\% \;\wedge\; A^+ < 0$}
             child {
                 node {$I_2 = 1$}
                 edge from parent
@@ -512,7 +527,7 @@ Diese werden anschließend durch die sprachliche Ausgestaltung in die Chatbotant
             }
         }
         child {
-            node {$\tau_{m2} > 30\,\% \;\wedge\; A^- > 0$}
+            node {$\tau_{m2} > 15\,\% \;\wedge\; A^- > 0$}
             child {
                 node {$I_3 = 1$}
                 edge from parent
@@ -531,7 +546,7 @@ Diese werden anschließend durch die sprachliche Ausgestaltung in die Chatbotant
 \end{figure}
 
 
-Entsprechend des DTx-Modells würde die Therapieeinheit als Komponente dann verschiedene Interventionen und Gesprächsschritte bündeln, sodass ein unterstützender Prozess entsteht. Die narrative Ebene sorgt für einen nachvollziehbaren Gesprächsverlauf und liefert Motivation, Feedback, Erinnerungen, sowie technische Unterstützung. Die therapeutische Gesprächsinstanz erstellt dann die eigentliche Gesprächsebene des Chatbots.
+Entsprechend des DTx-Modells würde die Therapieeinheit als Komponente dann verschiedene Interventionen und Gesprächsschritte bündeln, sodass ein unterstützender Prozess entsteht. Die narrative Ebene sorgt für einen nachvollziehbaren Gesprächsverlauf und liefert Motivation, Feedback, Erinnerungen, sowie technische Unterstützung. Die Unterstützungsfunktion fungiert als der motivationale und technische Begleiter innerhalb des Chatbots. Sie hat die Aufgabe, die Zuversicht des Nutzers zu stärken. Die therapeutische Gesprächsinstanz erstellt dann die eigentliche Gesprächsebene des Chatbots.
 
 
 \section{Gesprächsebene}
@@ -559,15 +574,10 @@ I_t &:= \text{Auswahl der Intervention zum Zeitpunkt } t,\\
 K_t &:= \text{Kontextanalyse zum Zeitpunkt } t,\\
 \end{aligned}
 \]
-In diesem letzten Schritt wird erneut der Kontext der Interaktion herangezogen und bezüglich des auf EOS-Ebene 5 (\(K_{5t}\)) identifizierte unbewusste Basismotiv (Leistung, Macht, Anschluss oder Freiheit) interpretiert. An dieser Stelle wird geprüft, welche Metaphern, Schlüsselwörter und motivationalen Trigger das LLM wählt, um eine maximale Passung an die Persönlichkeitsstruktur des Nutzers zu erreichen. Die sprachliche Ausgestaltung wird dabei durch das Motivgerüst von $K$ eingefärbt. Ein leistungsmotivierter Nutzer wird über Zielerreichung und Optimierung adressiert, während ein freiheitsmotivierter Nutzer über Autonomie und Selbstbestimmung aktiviert wird. Durch diese strikte Trennung von Inhaltsebene (Nutzeranliegen) und Funktionsebene (PSI-Steuerung) wird sichergestellt, dass der Chatbot nicht lediglich bestehende, dysfunktionale Denkmuster reproduziert, sondern durch gezielte, motivkonforme Impulse zur aktiven Transformation beiträgt.
-
-
-\section{Basispromt}
-
-
+In diesem letzten Schritt wird erneut der Kontext der Interaktion herangezogen und bezüglich des auf EOS-Ebene 5 (\(K_{5t}\)) identifizierte unbewusste Basismotiv (Leistung, Macht, Anschluss oder Freiheit) interpretiert. An dieser Stelle wird geprüft, welche Metaphern, Schlüsselwörter und motivationalen Trigger das LLM wählt, um eine maximale Passung an die Persönlichkeitsstruktur des Nutzers zu erreichen. Ein leistungsmotivierter Nutzer wird über Zielerreichung und Optimierung adressiert, während ein freiheitsmotivierter Nutzer über Autonomie und Selbstbestimmung aktiviert wird. Durch diese strikte Trennung von Inhaltsebene (Nutzeranliegen) und Funktionsebene (PSI-Steuerung) wird sichergestellt, dass der Chatbot nicht lediglich bestehende, dysfunktionale Denkmuster reproduziert, sondern durch gezielte, motivkonforme Impulse zur aktiven Transformation beiträgt.
 
 \section{Evaluation}
-Das primäre Ziel der Evaluation besteht darin, die theoretisch-konzeptionelle Funktionsfähigkeit der modellierten Zustands-, Ziel- und Interventionslogik experimentell zu überprüfen. Es wird explizit keine klinische Wirksamkeitsstudie im therapeutischen Sinne durchgeführt. Vielmehr steht der Nachweis im Vordergrund, ob das Modell unter der Bedingung $B_{PSI}$ in der Lage is, ausgehend von einem initial erfassten Ausgangszustand eine theoriekonforme Intervention auszuwählen, die eine gerichtete, theoretisch fundierte Systemverschiebung auf den psychischen Achsen des Nutzers einleitet \citep{kuhl2005neue}. \\
+Das primäre Ziel der Evaluation besteht darin, die theoretisch-konzeptionelle Funktionsfähigkeit der modellierten Zustands-, Ziel- und Interventionslogik experimentell zu überprüfen. Es wird explizit keine klinische Wirksamkeitsstudie im therapeutischen Sinne durchgeführt. Es steht der Nachweis im Vordergrund, ob das Modell unter der Bedingung $B_{PSI}$ in der Lage is, ausgehend von einem initial erfassten Ausgangszustand eine theoriekonforme Intervention auszuwählen, um somit eine gerichtete, theoretisch fundierte Systemverschiebung auf den psychischen Achsen des Nutzers einzuleiten \citep{kuhl2005neue}. \\
 
 Für jedes simulierte Interaktionsszenario wird der funktionale PSI-Zustand ($Z$) auf Basis der mathematischen Aggregationslogik zu zwei diskreten Messzeitpunkten evaluiert:
 \begin{itemize}
@@ -575,11 +585,10 @@ Für jedes simulierte Interaktionsszenario wird der funktionale PSI-Zustand ($Z$
     \item $Z_{t_1}$: Der tatsächliche, phänomenologische Systemzustand, welcher durch die linguistische Analyse der generierten Chatbot-Antwort ($R_t$) induziert und direkt im Anschluss gemessen wird.
 \end{itemize}
 
-Im Rahmen des Systemtests generieren sowohl die Experimentalgruppe ($B_{PSI}$) als auch die Kontrollgruppe ($B_{K}$) auf Basis identischer Szenarien-Inputs eine Antwort $R_t$. Diese Antworten werden anschließend mittels der linguistischen Kriterien aus Tabelle \ref{tab:psi_eos_ebenen_parser} bewertet, um die Ausprägung des tatsächlichen Folgezustands $Z_{t_1}$ mathematisch zu bestimmen und den resultierenden Transformationseffekt im direkten Vorher-Nachher-Vergleich zu analysieren.
+Im Rahmen des Systemtests generieren sowohl die Experimentalgruppe ($B_{PSI}$) als auch die Kontrollgruppe ($B_{K}$) auf Basis identischer Szenarien-Inputs eine Antwort $R_t$. Diese Antworten werden anschließend mittels der linguistischen Kriterien aus Tabelle \ref{tab:psi_eos_ebenen_parser} bewertet, um die Ausprägung des angestrebten Folgezustands $Z_{t_1}$ mathematisch zu bestimmen und den resultierenden Transformationseffekt im direkten Vorher-Nachher-Vergleich zu analysieren.
 
 \subsection{Metriken und mathematische Operationalisierung}
-Um die theoriegeleitete Transformation der funktionalen Systemzustände numerisch zu erfassen, wird kein statischer, numerischer Zielzustand vordefiniert. Die Evaluation fokussiert stattdessen die Überprüfung einer gerichteten Systemverschiebung (\textit{Directional Shift}) auf den theoretisch postulierten Systemachsen. Ein Zustand $Z$ zu einem beliebigen Messzeitpunkt wird über seine relativen Makrosystem-Scores ($\%System$) im vierdimensionalen Raum beschrieben.
-
+Um die theoriegeleitete Transformation der funktionalen Systemzustände numerisch zu erfassen, wird kein statischer, numerischer Zielzustand vordefiniert. Die Evaluation fokussiert stattdessen die Überprüfung einer gerichteten Systemverschiebung. Ein Zustand $Z$ zu einem beliebigen Messzeitpunkt wird über seine relativen Makrosystem-Scores ($\%System$) im vierdimensionalen Raum beschrieben.
 Der experimentelle Steuerungseffekt wird direkt über das Differenzenmaß ($\Delta$) der normalisierten Prozentwerte zwischen dem Ausgangszustand ($Z_{t_0}$) und dem tatsächlichen Folgezustand ($Z_{t_1}$) operationalisiert:
 \begin{equation}
     \Delta\%System = \%System(Z_{t_1}) - \%System(Z_{t_0})
@@ -588,16 +597,16 @@ Der experimentelle Steuerungseffekt wird direkt über das Differenzenmaß ($\Del
 \subsubsection{Szenarienspezifische Zielmetriken nach Modulationsannahmen}
 Die Erfolgskontrolle basiert auf der gerichteten Veränderung jener psychischen Systeme, die laut den Modulationsannahmen der PSI-Theorie durch die jeweilige Intervention aktiviert werden sollen:
 \begin{enumerate}
-    \item \textbf{Fokus Erste Modulationsannahme (Willensbahnung):} Das primäre Evaluationsziel bei vorliegender Willenshemmung ist die Aktivierung der Intuitiven Verhaltenssteuerung ($IVS$) zur Auflösung der Blockade des Intentionsgedächtnisses ($IG$). Der Steuerungseffekt ($E_{M1}$) bestimmt sich somit primär über den Zuwachs des IVS-Scores:
+    \item \textbf{$M_{1}$:} Das primäre Evaluationsziel bei vorliegender Willenshemmung ist die Aktivierung der Intuitiven Verhaltenssteuerung ($IVS$) zur Auflösung der Blockade des Intentionsgedächtnisses ($IG$). Der Steuerungseffekt ($E_{M1}$) bestimmt sich somit primär über den Zuwachs des IVS-Scores:
     \begin{equation}
         E_{M1} = \Delta\%IVS = \%IVS(Z_{t_1}) - \%IVS(Z_{t_0})
     \end{equation}
-    
-    \item \textbf{Fokus Zweite Modulationsannahme (Selbstentwicklung):} Das primäre Evaluationsziel bei vorliegender stressinduzierter Hemmung der Selbstentwicklung ist die Wiederherstellung des Selbstzugangs durch Aktivierung des Extensionsgedächtnisses ($EG$) zur Reduktion des fehlerfokussierten Objekterkennungssystems ($OES$). Der Steuerungseffekt ($E_{M2}$) bestimmt sich somit über den Zuwachs des EG-Scores:
+    \item \textbf{$M_{2}$:} Das primäre Evaluationsziel bei vorliegender stressinduzierter Hemmung der Selbstentwicklung ist die Wiederherstellung des Selbstzugangs durch Aktivierung des Extensionsgedächtnisses ($EG$) zur Reduktion des Objekterkennungssystems ($OES$). Der Steuerungseffekt ($E_{M2}$) bestimmt sich somit über den Zuwachs des EG-Scores:
     \begin{equation}
         E_{M2} = \Delta\%EG = \%EG(Z_{t_1}) - \%EG(Z_{t_0})
     \end{equation}
 \end{enumerate}
+
 Ein positiver Wert ($E > 0$) indiziert den theoriekonformen Systemwechsel, während ein Wert von $E \le 0$ ein Verharren in der dysfunktionalen Blockade oder eine Vertiefung der Problem-Regression signalisiert.
 
 \subsection{Hypothesenformulierung und statistische Auswertung}
@@ -606,38 +615,26 @@ Der zentrale statistische Vergleich fokussiert nicht die absolute Qualität einz
 \begin{equation}
     H_{1, M1}: E_{M1, B_{PSI}} > E_{M1, B_{K}} \quad \Longrightarrow \quad (\Delta\%IVS)_{B_{PSI}} > (\Delta\%IVS)_{B_{K}}
 \end{equation}
-\begin{center}
-    \begin{minipage}{0.85\textwidth}
-    \textit{Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt bei Szenarien zur ersten Modulationsannahme im Vergleich zu einer konventionellen Kontrollbedingung ($B_{K}$) zu einer signifikant stärkeren Aktivierung der Intuitiven Verhaltenssteuerung ($IVS$).}
-    \end{minipage}
-\end{center}
+Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt bei Szenarien zur ersten Modulationsannahme im Vergleich zu einer konventionellen Kontrollbedingung ($B_{K}$) zu einer signifikant stärkeren Aktivierung der Intuitiven Verhaltenssteuerung ($IVS$).
+
 
 \begin{equation}
     H_{1, M2}: E_{M2, B_{PSI}} > E_{M2, B_{K}} \quad \Longrightarrow \quad (\Delta\%EG)_{B_{PSI}} > (\Delta\%EG)_{B_{K}}
 \end{equation}
-\begin{center}
-    \begin{minipage}{0.85\textwidth}
-    \textit{Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt bei Szenarien zur zweiten Modulationsannahme im Vergleich zu einer konventionellen Kontrollbedingung ($B_{K}$) zu einer signifikant stärkeren Aktivierung des Extensionsgedächtnisses ($EG$).}
-    \end{minipage}
-\end{center}
+Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt bei Szenarien zur zweiten Modulationsannahme im Vergleich zu einer konventionellen Kontrollbedingung ($B_{K}$) zu einer signifikant stärkeren Aktivierung des Extensionsgedächtnisses ($EG$).
 
-\vspace{2mm}
 Die korrespondierenden Nullhypothesen ($H_0$) lauten dementsprechend:
 \begin{align}
     H_{0, M1}: (\Delta\%IVS)_{B_{PSI}} \le (\Delta\%IVS)_{B_{K}} \\
     H_{0, M2}: (\Delta\%EG)_{B_{PSI}} \le (\Delta\%EG)_{B_{K}}
 \end{align}
-\begin{center}
-    \begin{minipage}{0.85\textwidth}
-    \textit{Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt im Vergleich zur Kontrollbedingung ($B_{K}$) zu keiner signifikant stärkeren Aktivierung des jeweils theoriekonformen Zielsystems ($IVS$ bzw. $EG$).}
-    \end{minipage}
-\end{center}
+Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt im Vergleich zur Kontrollbedingung ($B_{K}$) zu keiner signifikant stärkeren Aktivierung des jeweils theoriekonformen Zielsystems ($IVS$ bzw. $EG$).
 
-Da die durch das LLM vergebenen Erkennungs-Scores (Ebenen 1--7) ein ordinales Skalenniveau aufweisen und die berechneten Differenzenmaße ($\Delta\%System$) aufgrund des stochastischen Verhaltens von Sprachmodellen nicht als normalverteilt vorausgesetzt werden können, wird für den nicht-parametrischen Vergleich der verbundenen Stichproben der \textit{Wilcoxon-Vorzeichen-Rang-Test} herangezogen. Das statistische Signifikanzniveau für die Ablehnung der Nullhypothese wird auf einseitig $\alpha = 0{,}05$ festgelegt, bei einer Stichprobenarchitektur von exakt $n = 10$ verbundenen Paaren pro Modulationsannahme.
+Da die durch das LLM vergebenen Erkennungs-Scores (Ebenen 1--7) ein ordinales Skalenniveau aufweisen und die berechneten Differenzenmaße ($\Delta\%System$) aufgrund des stochastischen Verhaltens von Sprachmodellen nicht als normalverteilt vorausgesetzt werden können, wird für den nicht-parametrischen Vergleich der verbundenen Stichproben der Wilcoxon-Vorzeichen-Rang-Test herangezogen. Das statistische Signifikanzniveau für die Ablehnung der Nullhypothese wird auf einseitig $\alpha = 0{,}05$ festgelegt, bei einer Stichprobenarchitektur von exakt $n = 100$ verbundenen Paaren pro Modulationsannahme.
 
 \subsubsection{Statistische Effektstärke ($r$)}
 Ergänzend zur Prüfung des p-Werts wird die standardisierte Effektstärke $r$ berechnet, um die praktische Relevanz der Interventionssteuerung unabhängig vom Signifikanzniveau zu quantifizieren. Da es sich um ein nicht-parametrisches Verfahren handelt, wird $r$ aus der standardisierten Teststatistik $Z_{stat}$ des Wilcoxon-Tests abgeleitet:
 \begin{equation}
     r = \frac{|Z_{stat}|}{\sqrt{N}}
 \end{equation}
-Hierbei entspricht $N = 10$ der Anzahl der Simulationspaare der jeweiligen Bedingungsgruppe. Die Interpretation der Effektstärke erfolgt nach den Schwellenwerten von Cohen: $r \ge 0{,}1$ indiziert einen schwachen, $r \ge 0{,}3$ einen mittleren und $r \ge 0{,}5$ einen starken experimentellen Steuerungseffekt.
+Hierbei entspricht $N = 100$ der Anzahl der Simulationspaare der jeweiligen Bedingungsgruppe. Die Interpretation der Effektstärke erfolgt nach den Schwellenwerten von Cohen: $r \ge 0{,}1$ indiziert einen schwachen, $r \ge 0{,}3$ einen mittleren und $r \ge 0{,}5$ einen starken experimentellen Steuerungseffekt.
