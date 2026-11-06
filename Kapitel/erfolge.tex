@@ -2,7 +2,7 @@
 
 In diesem Kapitel wird die Funktionsfähigkeit des entwickelten PSI-Coaching-Frameworks anhand einer kontrollierten Dialogsimulation demonstriert. Ziel dieser Demonstration ist es, die Kette von der initialen Nutzereingabe ($U_{t_0}$) über die regelbasierte Zustandsbestimmung bis hin zur theoriegeleiteten Antwortgenerierung ($R_t$) empirisch zu untersuchen. Es wird demonstriert, wie die Experimentalgruppe ($B_{PSI}$) im direkten Vergleich zur Kontrollgruppe ($B_K$) auf ungesehene Fallbeispiele reagiert und ob eine gerichtete Systemverschiebung indiziert werden kann.
 
-\section{Szenarienauswahl und theoriegeleitete Soll-Herleitung}
+\section{Demonstration der Szenarienauswahl}
 
 Für das kontrollierte Experiment wurden zwei Basisszenarien aus der Literatur adaptiert. Die Auswahl dieser spezifischen Szenarien erfolgte gezielt, da sie die beiden primären psychischen Blockadeformen der PSI-Theorie (Willenshemmung auf der $A^+$-Achse und Hemmung der Selbstentwicklung auf der $A^-$-Achse) operationalisieren. Diese Auswahl ermöglicht eine theoretische Soll-Herleitung des Ergebnisses. Dieser Herleitung wird in der Evaluation das Ergebniss des Chatbots gegenüber gestellt um zu prüfen, ob eine Systemverschiebung im Sinne der PSI-Theorie durch das LLM möglich ist.
 
@@ -30,32 +30,92 @@ Dieses Szenario operationalisiert eine stressinduzierte Hemmung der Selbstentwic
     \item Evaluationskriterium für den Folgezustand $Z_{t_1}$: Nachweis einer theoriekonformen, gerichteten Systemverschiebung hin zum Zielsystem, operationalisiert über einen messbaren Zuwachs des EG-Scores ($E_{M2} = \Delta\%EG > 0$).
 \end{itemize}
 
-\section{Ergebnisse}
+\section{Darstellung der Ergebnisse}
 
-Im Folgenden werden die empirischen Ergebnisse der kontrollierten Dialogsimulation dargestellt und evaluiert. Das Ziel der statistischen Analyse bestand darin, die relative Überlegenheit der PSI-basierten Dialogsteuerungslogik (Bedingung $B_{PSI}$) gegenüber der konventionellen, rein traumasensiblen Kontrollbedingung ($B_K$) über einen Stichprobenumfang von insgesamt $N = 400$ Simulationsläufen (jeweils $n = 100$ verbundene Paare pro betrachteter Modulationsannahme) experimentell nachzuweisen. Die statistische Auswertung wurde mittels des einseitigen Wilcoxon-Vorzeichen-Rang-Tests bei einem Signifikanzniveau von $\alpha = 0{,}05$ durchgeführt.
+Im Folgenden werden die empirischen Ergebnisse der kontrollierten Dialogsimulation dargestellt. Das Ziel der statistischen Analyse bestand darin, die Funktionalität der PSI-basierten Dialogsteuerungslogik (Bedingung $B_{PSI}$) gegenüber der konventionellen, rein traumasensiblen Kontrollbedingung ($B_K$) über einen Stichprobenumfang von insgesamt $N = 400$ Simulationsläufen (jeweils $n = 100$ verbundene Paare pro betrachteter Modulationsannahme) experimentell nachzuweisen. Die statistische Auswertung wurde mittels des einseitigen Wilcoxon-Vorzeichen-Rang-Tests bei einem Signifikanzniveau von $\alpha = 0{,}05$ durchgeführt.
 
 \subsection{Deskriptive Statistik und Systemverschiebungen}
 
-Die Auswertung der Richtungsverschiebungen zeigt für beide Szenariokonfigurationen eine theoriekonforme Tendenz zur Aktivierung der angestrebten Zielsysteme. Der Steuerungseffekt bestimmt sich über das Differenzenmaß:
+Die Auswertung der Systemverschiebung zeigt für beide Szenariokonfigurationen eine Tendenz zur Aktivierung der angestrebten Zielsysteme. Der Steuerungseffekt bestimmt sich über die Differenz:
 \begin{equation}
     \Delta\%System = \%System(Z_{t_1}) - \%System(Z_{t_0})
 \end{equation}
-Tabelle \ref{tab:ergebnisse_uebersicht} fasst die deskriptiven Parameter und die inferenzstatistischen Kennwerte der beiden experimentellen Hauptachsen zusammen.
+Tabelle \ref{tab:ergebnisse_uebersicht} fasst die deskriptiven Parameter und die inferenzstatistischen Kennwerte der beiden experimentellen Bedingungen zusammen.
 
 \begin{table}[htbp]
-\caption{Übersicht der inferenzstatistischen Ergebnisse und Systemverschiebungen ($N=100$)}
+\caption{Übersicht der inferenzstatistischen Ergebnisse und Systemverschiebungen}
 \label{tab:ergebnisse_uebersicht}
 \centering
 \small
-\setlength{\tabcolsep}{4pt} % Verringert den horizontalen Spaltenabstand für mehr Platz
-% Feste Breiten für die Datenspalten schieben den maximalen Platz in die erste X-Spalte
+\setlength{\tabcolsep}{4pt}
 \begin{tabularx}{\textwidth}{X *{2}{p{1.4cm}} *{3}{p{1.6cm}} p{1.3cm}}
 \hline
-\textbf{Zielachse (Modulationsannahme)} & \centering\textbf{$M_{PSI}$ (\%)} & \centering\textbf{$M_{K}$ (\%)} & \centering\textbf{Statistik ($W$)} & \centering\textbf{$Z_{stat}$} & \centering\textbf{$p$-Wert} & \centering\textbf{Effektst. ($r$)} \tabularnewline \hline
-M1: Willensbahnung ($\Delta\%IVS$) & \centering $+24{,}05$ & \centering $+11{,}78$ & \centering $4753{,}0$ & \centering $+7{,}661$ & \centering $< 0{,}00001$ & \centering $0{,}766$ \tabularnewline
-M2: Selbstentwicklung ($\Delta\%EG$) & \centering $+26{,}51$ & \centering $+21{,}72$ & \centering $3053{,}0$ & \centering $+1{,}815$ & \centering $0{,}01309$ & \centering $0{,}182$ \tabularnewline \hline
+\textbf{Zielachse (Modulationsannahme)} & \centering\textbf{$M_{PSI}$ (\%)} & \centering\textbf{$M_{K}$ (\%)} & \centering\textbf{Statistik ($W$)} & \centering\textbf{$Z_{\text{stat}}$} & \centering\textbf{$p$-Wert} & \centering\textbf{Effektst. ($r$)} \tabularnewline \hline
+M1: Willensbahnung ($\Delta\%IVS$, $N=84$) & \centering $+24{,}01$ & \centering $+14{,}02$ & \centering $3321{,}0$ & \centering $+7{,}844$ & \centering $< 0{,}001$ & \centering $+0{,}872$ \tabularnewline
+M2: Selbstentwicklung ($\Delta\%EG$, $N=79$) & \centering $+26{,}75$ & \centering $+27{,}29$ & \centering $1282{,}0$ & \centering $-1{,}115$ & \centering $0{,}867$ & \centering $-0{,}127$ \tabularnewline \hline
 \end{tabularx}
 \end{table}
+
+
+\subsection{Szenario $XM_1$ (Systemachse $IG \rightarrow IVS$)}
+
+Deskriptiv verzeichnet die Kontrollgruppe ($B_K$) innerhalb des Szenarios $XM_1$ eine mittlere Differenz von $\Delta\,\%IVS = +14{,}02\,\%$ ($\text{Median} = +15{,}00\,\%$). Die Experimentalgruppe ($B_{PSI}$) weist hingegen eine mittlere Erhöhung des Zielsystems um $+24{,}01\,\%$ ($\text{Median} = +25{,}00\,\%$) auf. Nach Bereinigung der Daten ergibt sich eine Stichprobengröße von $N = 84$ vollständigen Paaren (davon $81$ Nicht-Null-Differenzen). 
+Der einseitige Wilcoxon-Vorzeichen-Rang-Test für verbundene Stichproben liefert für den gerichteten Vergleich $B_{PSI} > B_K$  einen Teststatistik Wert von $W = 3321{,}0$. Der standardisierte $Z$-Wert liegt bei $Z_{\text{stat}} = +7{,}844$ und der asymptotische $p$-Wert bei $p < 0{,}001$ ($p = 2{,}19 \times 10^{-15}$). Es ergibt sich eine starke standardisierte Effektstärke von $r = +0{,}872$.
+
+
+Die empirischen Verteilung der ersten Modulationsannahme ist in Abbildung~\ref{fig:plot_m1_boxplot} dargestellt. 
+Auf der Ordinate ist die gerichtete Verschiebung $\Delta\,\%IVS$ im Wertebereich von $10\%$ bis $35\%$ dargestellt, während die Abszisse in die Kontrollgruppe ($B_K$) und die Experimentalgruppe ($B_{PSI}$) unterteilt ist. Die Kontrollbedingung ($B_{K}$) ist in grau und die Experimantalbedingung ($B_{PSI}$) in blau dargestellt. 
+Für die Kontrollgruppe liegen vereinzelte Ausreißer bei $25\%$ und für die Experimentalgruppe erreichen vereinzelte Ausreißer einen Maximalwert von $35\%$.
+
+
+\subsection{Szenario $XM_2$ (Systemachse $OES \rightarrow EG$)}
+
+Im Szenario $XM_2$ ergibt die Auswertung für die Kontrollgruppe ($B_K$) ein mittleres Delta von $\Delta\,\%EG = +27{,}29\,\%$ ($\text{Median} = +27{,}47\,\%$). Für die Experimentalgruppe ($B_{PSI}$) dokumentiert der Datensatz eine mittlere positive Verschiebung des Extensionsgedächtnisses um $+26{,}75\,\%$ ($\text{Median} = +27{,}23\,\%$) bei einer Stichprobengröße von $N = 79$ vollständigen Paaren (davon $77$ Nicht-Null-Differenzen). 
+Der einseitige Wilcoxon-Vorzeichen-Rang-Test für den gerichteten Vergleich $B_{PSI} > B_K$ zeigt, dass sich die Experimentalgruppe deskriptiv geringfügig unterhalb der Kontrollgruppe bewegt. Die Teststatistik liegt bei $W = 1282{,}0$, der standardisierte $Z$-Wert bei $Z_{\text{stat}} = -1{,}115$ und der einseitige $p$-Wert bei $p = 0{,}867$. Die standardisierte Effektstärke liegt bei $r = -0{,}127$.
+
+Die empirische Verteilung der zweiten Modulationsannahme ist in Abbildung~\ref{fig:plot_m2_boxplot} dargestellt. 
+Der Wertebereich der gerichteten Verschiebung $\Delta\,\%EG$ liegt bei $15\%$ bis $50\%$. 
+Für die Kontrollgruppe liegen vereinzelte Ausreißer um $40\%$ und für die Experimentalgruppe erreichen vereinzelte Ausreißer einen Maximalwert von $50\%$.
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plot_m1_willensbahnung_boxplot.png}
+    \caption{Empirische Ergebnisse zum Szenario $XM_1$ ($N=84$ verbundene Paare): Boxplot- und Dispersionsanalyse der gerichteten Verschiebung ($\Delta\,\%IVS$).}
+    \label{fig:plot_m1_boxplot}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{plot_m2_selbstentwicklung_boxplot.png}
+    \caption{Empirische Ergebnisse zum Szenario $XM_2$ ($N=79$ verbundene Paare): Verteilungs- und Dispersionsanalyse der gerichteten Verschiebung ($\Delta\,\%EG$).}
+    \label{fig:plot_m2_boxplot}
+\end{figure}
+
+\section{Auswertung der Ergebnisse}
+Im Folgenden werden die empirischen Ergebnisse der Simulationsläufe systematisch ausgewertet und im Kontext der beiden untersuchten Modulationsannahmen der PSI-Theorie analysiert. Die Datengrundlage resultiert aus dem experimentellen Within-Scenario-Vergleich zwischen der Experimentalgruppe mit PSI-basierter Dialogsteuerung ($B_{PSI}$) und der Kontrollgruppe ohne psychologische Systemsteuerung ($B_{K}$).
+Die ursprüngliche Versuchsarchitektur sah eine Gesamtzahl von $N_{Total} = 400$ Datenzeilen vor, basierend auf jeweils 100 iterativen Durchläufen pro Szenario und Bedingung. Für die endgültige statistische Auswertung wurden jedoch ausschließlich valide, verbundene Paare herangezogen. Damit ergibt sich für Szenario XM1 eine Stichprobengröße von $N = 84$ und für Szenario XM2 eine Stichprobengröße von $N = 79$.
+
+Die Evaluation des entwickelten PSI-basierten Coaching-Frameworks verfolgt das Ziel, die Funktionsfähigkeit der theoretisch hergeleiteten Zustands-, Ziel- und Interventionslogik anhand kontrollierter Dialogsimulationen zu überprüfen. Dabei wird die Frage betrachtet, ob die Integration der PSI-Theorie in die Steuerungslogik eines KI-basierten Chatbots gegenüber einer konventionellen, traumasensiblen Dialogsteuerung zu einer stärkeren Aktivierung der jeweils angestrebten psychischen Systeme führt. Die Ergebnisse weisen dabei Unterschiede hinsichtlich der beiden untersuchten Modulationsannahmen auf.
+
+
+\subsection{Auswertung der ersten Modulationsannahme: Willensbahnung (XM1)}
+Für das Szenario XM1 wurde untersucht, inwiefern die PSI-basierte Steuerungslogik unter der Bedingung $B_{PSI}$ eine stärkere Aktivierung der intuitiven Verhaltenssteuerung (IVS) bewirken kann als die Kontrollbedingung $B_{K}$. Theoretische Grundlage ist die erste Modulationsannahme der PSI-Theorie, nach der die Umsetzung bestehender Intentionen durch die Regulation positiver Affekte unterstützt wird \citep{Kuhl2000The,kuhl2014psi}. Eine Aktivierung des IVS soll insbesondere dann erfolgen, wenn eine Person zwar über konkrete Ziele und Absichten verfügt, jedoch Schwierigkeiten hat, diese in tatsächliches Handeln zu überführen.
+
+Die deskriptiven Ergebnisse zeigen einen deutlichen Unterschied hinsichtlich des Differenzenmaßes $(\Delta\%IVS)$ zwischen der Experimental- und Kontrollgruppe. Während unter der Kontrollbedingung $B_{K}$ eine Systemverschiebung von $+14,02\%$ aufweist, liegt diese in der PSI-basierten Bedingung $B_{PSI}$ bei $+24,01\%$. Damit erzielt die theoriegeleitete Interventionssteuerung eine um $9,99$ Prozentpunkte höhere mittlere Aktivierung des angestrebten Zielsystems.
+
+Auch die inferenzstatistische Überprüfung stützt diesen deskriptiven Trend. Der einseitige Wilcoxon-Vorzeichen-Rang-Test ergibt einen standardisierten $Z$-Wert von $+7,844$. Bei einem resultierenden $p$-Wert von $p < 0,001$ wird das festgelegte Signifikanzniveau von $\alpha = 0{,}05$ deutlich unterschritten. Die nach \cite{cohen1988statistical} berechnete Effektstärke von $r = +0,872$ weist zudem auf einen statistisch starken Effekt hin. Somit kann die Nullhypothese $H_{0, M1}$ verworfen und die Alternativhypothese $H_{1, M1}$, nach der $(\Delta\%IVS)_{B_{PSI}} > (\Delta\%IVS)_{B_{K}}$ gilt, angenommen werden. Die Ergebnisse zeigen, dass die PSI-basierte Steuerungslogik im untersuchten Szenario eine signifikant stärkere angestrebte Aktivierung der intuitiven Verhaltenssteuerung durch die generierte Chatbot Antwort ermöglichen könnte als die konventionelle Kontrollbedingung.
+
+
+\subsection{Auswertung der zweiten Modulationsannahme: Selbstentwicklung (XM2)}
+Im zweiten Szenario XM2 wurde die Fähigkeit des Systems untersucht, durch die Regulation negativer Affekte den Zugang zum Extensionsgedächtnis (EG) zu unterstützen. Die theoretische Grundlage bildet die zweite Modulationsannahme der PSI-Theorie \citep{Kuhl2000The,kuhl2014psi}. Diese beschreibt, dass unter dem Einfluss negativer Affekte das Objekterkennungssystem (OES) verstärkt aktiviert wird und dadurch eine problemorientierte, auf einzelne negative Aspekte fokussierte Wahrnehmung entstehen kann. Durch Selbstberuhigung und emotionale Integration soll der Zugang zum Extensionsgedächtnis wiederhergestellt werden, wodurch persönliche Erfahrungen, Bedürfnisse und Werte stärker berücksichtigt werden können.
+
+Die deskriptiven Ergebnisse zeigen zunächst eine positive Systemverschiebung $(\Delta\%EG)$ in beiden Untersuchungsgruppen. Unter der Kontrollbedingung $B_{K}$ wird eine durchschnittliche Aktivierung des Extensionsgedächtnisses von $+27,29\%$ erreicht, während die Experimentalgruppe $B_{PSI}$ einen Wert von $+26,75\%$ aufweist. Damit liegt die PSI-basierte Dialogsteuerung geringfügig unterhalb der Kontrollgruppe; die Differenz beträgt lediglich $-0,54$ Prozentpunkte.
+
+Die inferenzstatistische Prüfung bestätigt, dass sich aus den vorliegenden Daten kein Vorteil der PSI-basierten Steuerungslogik ableiten lässt. Der Wilcoxon-Vorzeichen-Rang-Test ergibt einen standardisierten $Z$-Wert von $-1,115$ und einen einseitigen $p$-Wert von $0,867$. Da dieser Wert deutlich über dem kritischen Alpha-Niveau von $\alpha = 0{,}05$ liegt, verfehlt das Ergebnis die statistische Signifikanz. Die geringe Effektstärke von $r = -0,127$ weist zudem lediglich auf einen schwachen Effekt in der zur Hypothese entgegengesetzten Richtung hin. Die Nullhypothese $H_{0, M2}$ kann folglich nicht verworfen werden.
+
+Dieses Ergebnis bedeutet, dass die Bedingung $B_{PSI}$ im Szenario XM2 keine statistisch nachweisbare stärkere Aktivierung des Extensionsgedächtnisses gegenüber der Bedingung $B_{K}$ erzielt hat. Die Forschungshypothese $H_{1, M2}$, welche eine Relation von $(\Delta\%EG)_{B_{PSI}} > (\Delta\%EG)_{B_{K}}$ annimmt, muss demnach zurückgewiesen werden. Obwohl beide Gruppen eine positive Systemverschiebung aufweisen, lässt sich der zusätzliche Nutzen der expliziten PSI-Steuerung für diese spezifische Modulationsannahme anhand der vorliegenden Simulationsdaten nicht bestätigen.
+
 
 
 

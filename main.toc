@@ -44,7 +44,7 @@
 \contentsline {subparagraph}{\nonumberline 6) Denken und Fühlen}{25}{subparagraph*.27}%
 \contentsline {subparagraph}{\nonumberline 7) Selbststeuerung}{25}{subparagraph*.28}%
 \contentsline {section}{\numberline {2.4}Systematische Literaturübersicht}{25}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Forschungslücke}{25}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Forschungslücke}{26}{subsection.2.4.1}%
 \contentsline {chapter}{\numberline {3}Design}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Integriertes Framework}{28}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Versuchsaufbau}{29}{section.3.2}%
@@ -73,22 +73,31 @@
 \contentsline {subsection}{\numberline {3.8.2}Hypothesenformulierung und statistische Auswertung}{46}{subsection.3.8.2}%
 \contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($r$)}{47}{subsubsection*.41}%
 \contentsline {chapter}{\numberline {4}Demonstration und Ergebnisse}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Szenarienauswahl und theoriegeleitete Soll-Herleitung}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Demonstration der Szenarienauswahl}{48}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Szenario 1 (Basisszenario $\mathcal {S}_{M1}$): Der prokrastinierende Manager}{48}{subsection.4.1.1}%
 \contentsline {paragraph}{\nonumberline Beschreibung:}{48}{paragraph*.42}%
 \contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{48}{paragraph*.43}%
 \contentsline {subsection}{\numberline {4.1.2}Szenario 2 (Basisszenario $\mathcal {S}_{M2}$): Die belastete Berufsschullehrerin}{49}{subsection.4.1.2}%
 \contentsline {paragraph}{\nonumberline Beschreibung:}{49}{paragraph*.44}%
 \contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{49}{paragraph*.45}%
-\contentsline {section}{\numberline {4.2}Ergebnisse}{50}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Darstellung der Ergebnisse}{50}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Deskriptive Statistik und Systemverschiebungen}{50}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5}Evaluation}{52}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Inferenzstatistische Prüfung der ersten Modulationsannahme (M1)}{52}{subsection.5.0.1}%
-\contentsline {subsection}{\numberline {5.0.2}Inferenzstatistische Prüfung der zweiten Modulationsannahme (M2)}{52}{subsection.5.0.2}%
-\contentsline {section}{\numberline {5.1}Bewertung des Modells}{53}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Diskussion und Implikationen}{54}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Schlussbetrachtung}{55}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Limitationen und Ausblick}{55}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Grenzen von KI im Coaching}{55}{subsection.7.1.1}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{56}{chapter*.46}%
+\contentsline {subsection}{\numberline {4.2.2}Szenario $XM_1$ (Systemachse $IG \rightarrow IVS$)}{51}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Szenario $XM_2$ (Systemachse $OES \rightarrow EG$)}{51}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Auswertung der Ergebnisse}{52}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Auswertung der ersten Modulationsannahme: Willensbahnung (XM1)}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Auswertung der zweiten Modulationsannahme: Selbstentwicklung (XM2)}{54}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Diskussion und Implikationen}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Theoretische und wissenschaftliche Einordnung}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Erste Modulationsannahme M1 – Willensbahnung}{56}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Zweite Modulationsannahme M2 – Selbstentwicklung durch Affektregulation}{57}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Vergleichende Gesamtbewertung der beiden Modulationsannahmen}{58}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Beantwortzung Forschungsfrage}{58}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Praktische Implikationen}{59}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ethische Implikationen und Safety}{59}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Kritische Betrachtung}{59}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{60}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Limitationen und Ausblick}{60}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Grenzen von KI im Coaching}{60}{subsection.6.1.1}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{61}{chapter*.46}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

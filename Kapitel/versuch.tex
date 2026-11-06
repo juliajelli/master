@@ -633,8 +633,8 @@ Die Anwendung des PSI-basierten Modells ($B_{PSI}$) führt im Vergleich zur Kont
 Da die durch das LLM vergebenen Erkennungs-Scores (Ebenen 1--7) ein ordinales Skalenniveau aufweisen und die berechneten Differenzenmaße ($\Delta\%System$) aufgrund des stochastischen Verhaltens von Sprachmodellen nicht als normalverteilt vorausgesetzt werden können, wird für den nicht-parametrischen Vergleich der verbundenen Stichproben der Wilcoxon-Vorzeichen-Rang-Test herangezogen. Das statistische Signifikanzniveau für die Ablehnung der Nullhypothese wird auf einseitig $\alpha = 0{,}05$ festgelegt, bei einer Stichprobenarchitektur von exakt $n = 100$ verbundenen Paaren pro Modulationsannahme.
 
 \subsubsection{Statistische Effektstärke ($r$)}
-Ergänzend zur Prüfung des p-Werts wird die standardisierte Effektstärke $r$ berechnet, um die praktische Relevanz der Interventionssteuerung unabhängig vom Signifikanzniveau zu quantifizieren. Da es sich um ein nicht-parametrisches Verfahren handelt, wird $r$ aus der standardisierten Teststatistik $Z_{stat}$ des Wilcoxon-Tests abgeleitet:
+Ergänzend zur Prüfung des p-Werts wird die standardisierte Effektstärke $r$ nach \cite{cohen1988statistical} berechnet, um die praktische Relevanz der Interventionssteuerung unabhängig vom Signifikanzniveau zu quantifizieren. Da es sich um ein nicht-parametrisches Verfahren handelt, wird $r$ aus der standardisierten Teststatistik $Z_{stat}$ des Wilcoxon-Tests abgeleitet:
 \begin{equation}
     r = \frac{|Z_{stat}|}{\sqrt{N}}
 \end{equation}
-Hierbei entspricht $N = 100$ der Anzahl der Simulationspaare der jeweiligen Bedingungsgruppe. Die Interpretation der Effektstärke erfolgt nach den Schwellenwerten von Cohen: $r \ge 0{,}1$ indiziert einen schwachen, $r \ge 0{,}3$ einen mittleren und $r \ge 0{,}5$ einen starken experimentellen Steuerungseffekt.
+Hierbei entspricht $N = 100$ der Anzahl der Simulationspaare der jeweiligen Bedingungsgruppe. Die Interpretation der Effektstärke erfolgt nach den Schwellenwerten von \cite{cohen1988statistical}: $r \ge 0{,}1$ indiziert einen schwachen, $r \ge 0{,}3$ einen mittleren und $r \ge 0{,}5$ einen starken experimentellen Steuerungseffekt.

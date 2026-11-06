@@ -18,48 +18,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: ./Literatur/quellen.bib
-Warning--I didn't find a database entry for "syskuhl2004systemdiagnostik"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in bricken1990learning
-You've used 47 entries,
+You've used 49 entries,
             6951 wiz_defined-function locations,
-            1552 strings with 20131 characters,
-and the built_in function-call counts, 94390 in all, are:
-= -- 11548
-> -- 801
-< -- 4696
-+ -- 4790
-- -- 100
-* -- 6126
-:= -- 17569
-add.period$ -- 196
-call.type$ -- 47
-change.case$ -- 792
+            1564 strings with 20459 characters,
+and the built_in function-call counts, 97760 in all, are:
+= -- 11961
+> -- 825
+< -- 4856
++ -- 4938
+- -- 104
+* -- 6345
+:= -- 18198
+add.period$ -- 204
+call.type$ -- 49
+change.case$ -- 826
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 2565
-empty$ -- 3629
-format.name$ -- 1374
-if$ -- 17702
+cite$ -- 99
+duplicate$ -- 2651
+empty$ -- 3775
+format.name$ -- 1412
+if$ -- 18354
 int.to.chr$ -- 0
-int.to.str$ -- 141
+int.to.str$ -- 147
 missing$ -- 0
-newline$ -- 1198
-num.names$ -- 376
-pop$ -- 1488
+newline$ -- 1245
+num.names$ -- 392
+pop$ -- 1549
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 195
 quote$ -- 0
-skip$ -- 6131
+skip$ -- 6347
 stack$ -- 0
-substring$ -- 5188
-swap$ -- 1436
-text.length$ -- 130
+substring$ -- 5348
+swap$ -- 1494
+text.length$ -- 134
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4144
+type$ -- 4304
 warning$ -- 1
-while$ -- 450
+while$ -- 462
 width$ -- 0
-write$ -- 1488
-(There were 2 warnings)
+write$ -- 1543
+(There was 1 warning)

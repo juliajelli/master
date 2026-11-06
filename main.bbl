@@ -189,6 +189,30 @@ Brown, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cohen%
+}{%
+Cohen%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+cohen1988statistical}
+\APACinsertmetastar {%
+cohen1988statistical}%
+\begin{APACrefauthors}%
+Cohen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1988}.
+\newblock
+\APACrefbtitle {Statistical Power Analysis for the Behavioral Sciences}
+  {Statistical power analysis for the behavioral sciences}\
+  (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{Hillsdale, NJ}{Lawrence Erlbaum Associates}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Crocker%
 }{%
 Crocker%
@@ -1127,6 +1151,34 @@ Tan, Z.%
   personalized parameter-efficient fine-tuning}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{arXiv preprint arXiv:2402.04401}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tschacher%
+\ \BBA {} Storch%
+}{%
+Tschacher%
+\ \BBA {} Storch%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+tschacher2012bedeutung}
+\APACinsertmetastar {%
+tschacher2012bedeutung}%
+\begin{APACrefauthors}%
+Tschacher, W.%
+\BCBT {}\ \BBA {} Storch, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Die Bedeutung von embodiment f{\"u}r Psychologie und
+  Psychotherapie} {Die bedeutung von embodiment f{\"u}r psychologie und
+  psychotherapie}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychotherapie in Psychiatrie, Psychotherapeutischer
+  Medizin und Klinischer Psychologie}{17}{2}{259--267}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
