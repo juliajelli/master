@@ -670,6 +670,37 @@ Levine, P\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lewis%
+\ \protect \BOthers {.}}{%
+Lewis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+lewis2020retrieval}
+\APACinsertmetastar {%
+lewis2020retrieval}%
+\begin{APACrefauthors}%
+Lewis, P.%
+, Perez, E.%
+, Piktus, A.%
+, Petroni, F.%
+, Karpukhin, V.%
+, Goyal, N.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Retrieval-augmented generation for knowledge-intensive
+  nlp tasks} {Retrieval-augmented generation for knowledge-intensive nlp
+  tasks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in neural information processing
+  systems}{33}{}{9459--9474}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lämmel%
 \ \BBA {} Cleve%
 }{%
@@ -893,6 +924,36 @@ Passmore, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rafailov%
+\ \protect \BOthers {.}}{%
+Rafailov%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+rafailov2023direct}
+\APACinsertmetastar {%
+rafailov2023direct}%
+\begin{APACrefauthors}%
+Rafailov, R.%
+, Sharma, A.%
+, Mitchell, E.%
+, Manning, C\BPBI D.%
+, Ermon, S.%
+\BCBL {}\ \BBA {} Finn, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Direct preference optimization: Your language model is
+  secretly a reward model} {Direct preference optimization: Your language model
+  is secretly a reward model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in neural information processing
+  systems}{36}{}{53728--53741}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Raiaan%
 \ \protect \BOthers {.}}{%
 Raiaan%
@@ -923,6 +984,41 @@ Raiaan, M\BPBI A\BPBI K.%
 \APACjournalVolNumPages{IEEE Access}{12}{}{26839-26874}.
 \newblock
 \begin{APACrefDOI} \doi{10.1109/access.2024.3365742} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rebedea%
+, Dinu%
+, Sreedhar%
+, Parisien%
+\BCBL {}\ \BBA {} Cohen%
+}{%
+Rebedea%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+rebedea2023nemo}
+\APACinsertmetastar {%
+rebedea2023nemo}%
+\begin{APACrefauthors}%
+Rebedea, T.%
+, Dinu, R.%
+, Sreedhar, M\BPBI N.%
+, Parisien, C.%
+\BCBL {}\ \BBA {} Cohen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Nemo guardrails: A toolkit for controllable and safe llm
+  applications with programmable rails} {Nemo guardrails: A toolkit for
+  controllable and safe llm applications with programmable rails}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2023 conference on empirical methods
+  in natural language processing: system demonstrations} {Proceedings of the
+  2023 conference on empirical methods in natural language processing: system
+  demonstrations}\ (\BPGS\ 431--445).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1034,6 +1130,37 @@ Sangeetha, V.%
   {Introduction to artificial intelligence and neural networks}.
 \newblock
 \begin{APACrefDOI} \doi{10.47716/mts/978-93-92090-24-0} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sharma%
+\ \protect \BOthers {.}}{%
+Sharma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+sharma2024towards}
+\APACinsertmetastar {%
+sharma2024towards}%
+\begin{APACrefauthors}%
+Sharma, M.%
+, Tong, M.%
+, Korbak, T.%
+, Duvenaud, D.%
+, Askell, A.%
+, Bowman, S.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards understanding sycophancy in language models}
+  {Towards understanding sycophancy in language models}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Learning Representations}
+  {International conference on learning representations}\ (\BVOL\ 2024, \BPGS\
+  110--144).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
