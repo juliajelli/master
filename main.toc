@@ -100,9 +100,9 @@
 \contentsline {subsection}{\numberline {5.4.1}Methodische und empirische Limitationen}{63}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Technische Limitationen und Reproduzierbarkeit}{64}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Grenzen der Operationalisierung und Validität}{65}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Implikationen für zukünftige Forschung}{66}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{68}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Beantwortung der Forschungsfrage}{70}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Ausblick}{71}{section.6.2}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{72}{chapter*.46}%
+\contentsline {section}{\numberline {5.5}Implikationen für zukünftige Forschung}{67}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{69}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Beantwortung der Forschungsfrage}{71}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Ausblick}{72}{section.6.2}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{73}{chapter*.46}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

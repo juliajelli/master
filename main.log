@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.4)  16 NOV 2026 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.4)  16 NOV 2026 14:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1389,22 +1389,22 @@ chapter 5.
 [56
 
 
-] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66])
+] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/fazit' to `./Kapitel/fazit.tex' on input line 136.
 :<+ ./Kapitel/fazit.tex
-(Kapitel/fazit.tex [67]
+(Kapitel/fazit.tex [68]
 chapter 6.
-[68
+[69
 
 
-] [69] [70])
+] [70] [71])
 :<-
-[71]
+[72]
 :<+ main.bbl
 (main.bbl
 chapter without number
-[72
+[73
 
 
 
@@ -1412,30 +1412,30 @@ chapter without number
 
 
 
-] [73] [74] [75] [76])
+] [74] [75] [76] [77])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/erklaerung' to `./Kapitel/erklaerung.tex' on input line 143.
 :<+ ./Kapitel/erklaerung.tex
-(Kapitel/erklaerung.tex [77])
+(Kapitel/erklaerung.tex [78])
 :<-
-[78] (main.aux (Titel/titel.aux) (Kapitel/abstract_eng.aux))
+[79] (main.aux (Titel/titel.aux) (Kapitel/abstract_eng.aux))
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32846 strings out of 467510
- 635076 string characters out of 5408795
+ 32847 strings out of 467510
+ 635083 string characters out of 5408795
  1205416 words of memory out of 5000000
  60888 multiletter control sequences out of 15000+600000
  725608 words of font info for 240 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  108i,14n,107p,11300b,1130s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (86 pages, 1616745 bytes).
+Output written on main.pdf (87 pages, 1618466 bytes).
 PDF statistics:
- 1349 PDF objects out of 1440 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
+ 1353 PDF objects out of 1440 (max. 8388607)
+ 291 named destinations out of 1000 (max. 500000)
  56141 words of extra memory for PDF output out of 61914 (max. 10000000)
 
