@@ -94,13 +94,15 @@
 \contentsline {subsection}{\numberline {5.1.3}Vergleichende Gesamtbewertung der beiden Modulationsannahmen}{58}{subsection.5.1.3}%
 \contentsline {section}{\numberline {5.2}Praktische Implikationen}{59}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Relevanz der Systemkomponenten}{59}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Implikationen für die Gestaltung und Steuerung}{61}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Ethische Implikationen und Safety}{61}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Kritische Betrachtung}{62}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Bewertung der promptbasierten Dialogsteuerung}{63}{subsection.5.4.1}%
-\contentsline {section}{\numberline {5.5}Beantwortzung Forschungsfrage}{64}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{66}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Limitationen und Ausblick}{66}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Ausblick}{66}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Grenzen von KI im Coaching}{66}{subsection.6.1.2}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{67}{chapter*.46}%
+\contentsline {section}{\numberline {5.4}Kritische Reflexion und Limitation}{63}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Methodische und empirische Limitationen}{63}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Technische Limitationen und Reproduzierbarkeit}{64}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Grenzen der Operationalisierung und Validität}{65}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Implikationen für zukünftige Forschung}{66}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{68}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Beantwortung der Forschungsfrage}{70}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Ausblick}{71}{section.6.2}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{72}{chapter*.46}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

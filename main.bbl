@@ -906,6 +906,33 @@ Mai, V.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Morris%
+\ \BBA {} Mc~Grath%
+}{%
+Morris%
+\ \BBA {} Mc~Grath%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+morris1981response}
+\APACinsertmetastar {%
+morris1981response}%
+\begin{APACrefauthors}%
+Morris, G.%
+\BCBT {}\ \BBA {} Mc~Grath, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The response of multilamellar liposomes to freezing and
+  thawing} {The response of multilamellar liposomes to freezing and
+  thawing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cryobiology}{18}{4}{390--398}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Nielsen%
 }{%
 Nielsen%
