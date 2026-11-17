@@ -322,6 +322,34 @@ Dell’Aquila, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+DeLone%
+\ \BBA {} McLean%
+}{%
+DeLone%
+\ \BBA {} McLean%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+delone2003delone}
+\APACinsertmetastar {%
+delone2003delone}%
+\begin{APACrefauthors}%
+DeLone, W\BPBI H.%
+\BCBT {}\ \BBA {} McLean, E\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The DeLone and McLean model of information systems
+  success: a ten-year update} {The delone and mclean model of information
+  systems success: a ten-year update}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of management information
+  systems}{19}{4}{9--30}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Deng%
 \ \protect \BOthers {.}}{%
 Deng%
@@ -499,6 +527,34 @@ Gao, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Goodfellow%
+, Bengio%
+, Courville%
+\BCBL {}\ \BBA {} Bengio%
+}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+goodfellow2016deep}
+\APACinsertmetastar {%
+goodfellow2016deep}%
+\begin{APACrefauthors}%
+Goodfellow, I.%
+, Bengio, Y.%
+, Courville, A.%
+\BCBL {}\ \BBA {} Bengio, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {Deep learning} {Deep learning}\ (\BVOL~1)\ (\BNUM~2).
+\newblock
+\APACaddressPublisher{}{MIT press, Cambridge}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Grum%
 }{%
 Grum%
@@ -548,6 +604,29 @@ Hao, Y.%
   examples}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{arXiv preprint arXiv:2212.06713}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haykin%
+}{%
+Haykin%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+haykin2009neural}
+\APACinsertmetastar {%
+haykin2009neural}%
+\begin{APACrefauthors}%
+Haykin, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Neural networks and learning machines, 3/E} {Neural networks
+  and learning machines, 3/e}.
+\newblock
+\APACaddressPublisher{}{Pearson education india}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -679,6 +758,30 @@ Kuhl, J.%
   pers{\"o}nlichkeitstheorie}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Zugriff am}{20}{}{2022}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kuhl%
+}{%
+Kuhl%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+kuhl2010lehrbuch}
+\APACinsertmetastar {%
+kuhl2010lehrbuch}%
+\begin{APACrefauthors}%
+Kuhl, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Lehrbuch der Pers{\"o}nlichkeitspsychologie: Motivation,
+  Emotion und Selbststeuerung} {Lehrbuch der pers{\"o}nlichkeitspsychologie:
+  Motivation, emotion und selbststeuerung}.
+\newblock
+\APACaddressPublisher{}{Hogrefe, G{\"o}ttingen}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -819,6 +922,36 @@ Lewis, P.%
 \newblock
 \APACjournalVolNumPages{Advances in neural information processing
   systems}{33}{}{9459--9474}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+\ \protect \BOthers {.}}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+liu2023pre}
+\APACinsertmetastar {%
+liu2023pre}%
+\begin{APACrefauthors}%
+Liu, P.%
+, Yuan, W.%
+, Fu, J.%
+, Jiang, Z.%
+, Hayashi, H.%
+\BCBL {}\ \BBA {} Neubig, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pre-train, prompt, and predict: A systematic survey of
+  prompting methods in natural language processing} {Pre-train, prompt, and
+  predict: A systematic survey of prompting methods in natural language
+  processing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM computing surveys}{55}{9}{1--35}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1069,6 +1202,29 @@ Passmore, J.%
   organisations}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Coaching Psychologist}{19}{1}{47--54}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Quinlan%
+}{%
+Quinlan%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+quinlan1986induction}
+\APACinsertmetastar {%
+quinlan1986induction}%
+\begin{APACrefauthors}%
+Quinlan, J\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Induction of decision trees} {Induction of decision
+  trees}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Machine learning}{1}{1}{81--106}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

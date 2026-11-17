@@ -3,8 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: ./Titel/titel.aux
-Reallocating 'name_of_file' (item size: 1) to 27 items.
-A level-1 auxiliary file: ./Kapitel/abstract_eng.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apacite.bst
 Reallocating 'name_of_file' (item size: 1) to 20 items.
@@ -20,45 +18,45 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: ./Literatur/quellen.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in bricken1990learning
-You've used 58 entries,
+You've used 64 entries,
             6951 wiz_defined-function locations,
-            1611 strings with 22936 characters,
-and the built_in function-call counts, 120130 in all, are:
-= -- 14619
-> -- 1031
-< -- 6112
-+ -- 6224
-- -- 128
-* -- 7879
-:= -- 22580
-add.period$ -- 242
-call.type$ -- 58
-change.case$ -- 983
+            1641 strings with 23788 characters,
+and the built_in function-call counts, 130891 in all, are:
+= -- 15920
+> -- 1127
+< -- 6614
++ -- 6728
+- -- 140
+* -- 8559
+:= -- 24516
+add.period$ -- 266
+call.type$ -- 64
+change.case$ -- 1085
 chr.to.int$ -- 0
-cite$ -- 117
-duplicate$ -- 3265
-empty$ -- 4530
-format.name$ -- 1784
-if$ -- 22341
+cite$ -- 129
+duplicate$ -- 3583
+empty$ -- 4985
+format.name$ -- 1945
+if$ -- 24409
 int.to.chr$ -- 0
-int.to.str$ -- 174
+int.to.str$ -- 192
 missing$ -- 0
-newline$ -- 1486
-num.names$ -- 464
-pop$ -- 1928
+newline$ -- 1632
+num.names$ -- 512
+pop$ -- 2138
 preamble$ -- 1
-purify$ -- 233
+purify$ -- 257
 quote$ -- 0
-skip$ -- 7610
+skip$ -- 8292
 stack$ -- 0
-substring$ -- 6729
-swap$ -- 1836
-text.length$ -- 174
+substring$ -- 7273
+swap$ -- 2018
+text.length$ -- 190
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5152
+type$ -- 5632
 warning$ -- 1
-while$ -- 588
+while$ -- 643
 width$ -- 0
-write$ -- 1860
+write$ -- 2039
 (There was 1 warning)
