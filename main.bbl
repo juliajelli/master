@@ -1,32 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-A.%
-\ \BBA {} van~der Kolk%
-}{%
-A.%
-\ \BBA {} van~der Kolk%
-}{%
-{\protect \APACyear {1989}}%
-}]{%
-re1989compulsion}
-\APACinsertmetastar {%
-re1989compulsion}%
-\begin{APACrefauthors}%
-A., B.%
-\BCBT {}\ \BBA {} van~der Kolk.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1989}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Compulsion to Repeat the Trauma} {The compulsion to
-  repeat the trauma}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychiatric Clinics of North America}{12}{2}{389--411}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Alaparthi%
 \ \BBA {} Mishra%
 }{%
@@ -46,10 +20,12 @@ Alaparthi, S.%
 \newblock
 \APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {BERT: a sentiment analysis odyssey: S. Alaparthi, M.
-  Mishra} {Bert: a sentiment analysis odyssey: S. alaparthi, m. mishra}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{BERT}: {A} sentiment analysis odyssey} {{BERT}: {A}
+  sentiment analysis odyssey}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Marketing Analytics}{9}{2}{118--126}.
+\newblock
+\begin{APACrefDOI} \doi{10.1057/s41270-021-00109-8} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -69,13 +45,16 @@ Balzert, H.%
 \newblock
 \APACrefYearMonthDay{2009}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Was ist Software?} {Was ist software?}{\BBCQ}
+{\BBOQ}\APACrefatitle {Was ist {Software}?} {Was ist {Software}?}{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Lehrbuch der Softwaretechnik: Basiskonzepte und
-  Requirements Engineering} {Lehrbuch der softwaretechnik: Basiskonzepte und
-  requirements engineering}\ (\BPGS\ 3--7).
+\BIn{} \APACrefbtitle {Lehrbuch der {Softwaretechnik}: {Basiskonzepte} und
+  {Requirements} {Engineering}} {Lehrbuch der {Softwaretechnik}:
+  {Basiskonzepte} und {Requirements} {Engineering}}\ (\PrintOrdinal{3}\ \BEd,
+  \BPGS\ 3--7).
 \newblock
-\APACaddressPublisher{}{Springer}.
+\APACaddressPublisher{}{Spektrum Akademischer Verlag}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-8274-2247-7_1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -95,13 +74,15 @@ Baumel, A.%
 \newblock
 \APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {More than a chatbot: a practical framework to harness
+{\BBOQ}\APACrefatitle {More than a chatbot: {A} practical framework to harness
   artificial intelligence across key components to boost digital therapeutics
-  quality} {More than a chatbot: a practical framework to harness artificial
+  quality} {More than a chatbot: {A} practical framework to harness artificial
   intelligence across key components to boost digital therapeutics
   quality}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Frontiers in Digital Health}{7}{}{1541676}.
+\newblock
+\begin{APACrefDOI} \doi{10.3389/fdgth.2025.1541676} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -124,11 +105,11 @@ B{\"a}uml, J.%
 \newblock
 \APACrefYear{2018}.
 \newblock
-\APACrefbtitle {Psychoedukation: Bei schizophrenen Erkrankungen.
-  Konsensuspapier der Arbeitsgruppe ``Psychoedukation bei schizophrenen
-  Erkrankungen''} {Psychoedukation: Bei schizophrenen erkrankungen.
-  konsensuspapier der arbeitsgruppe ``psychoedukation bei schizophrenen
-  erkrankungen''}.
+\APACrefbtitle {Psychoedukation bei schizophrenen {Erkrankungen}:
+  {Konsensuspapier} der {Arbeitsgruppe} ``{Psychoedukation} bei schizophrenen
+  {Erkrankungen}''} {Psychoedukation bei schizophrenen {Erkrankungen}:
+  {Konsensuspapier} der {Arbeitsgruppe} ``{Psychoedukation} bei schizophrenen
+  {Erkrankungen}''}\ (\PrintOrdinal{2}\ \BEd).
 \newblock
 \APACaddressPublisher{}{Klett-Cotta}.
 \PrintBackRefs{\CurrentBib}
@@ -153,12 +134,14 @@ Boit, S.%
 \newblock
 \APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Prompt Engineering Framework for Large Language
-  Model--Based Mental Health Chatbots: Conceptual Framework} {A prompt
+{\BBOQ}\APACrefatitle {A prompt engineering framework for large language
+  model--based mental health chatbots: {Conceptual} framework} {A prompt
   engineering framework for large language model--based mental health chatbots:
-  Conceptual framework}.{\BBCQ}
+  {Conceptual} framework}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{JMIR Mental Health}{12}{1}{e75078}.
+\APACjournalVolNumPages{JMIR Mental Health}{12}{}{e75078}.
+\newblock
+\begin{APACrefDOI} \doi{10.2196/75078} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -178,10 +161,11 @@ Bricken, W.%
 \newblock
 \APACrefYearMonthDay{1990}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Learning in Virtual Reality.} {Learning in virtual
-  reality.}{\BBCQ}
+\APACrefbtitle {Learning in virtual reality} {Learning in virtual reality}\
+  \APACbVolEdTR{}{\BTR{}\ \BNUM\ HITL-M-90-5}.
 \newblock
-
+\APACaddressInstitution{}{Human Interface Technology Laboratory, University of
+  Washington}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -195,13 +179,13 @@ brown2020language}
 \APACinsertmetastar {%
 brown2020language}%
 \begin{APACrefauthors}%
-Brown, T.%
+Brown, T\BPBI B.%
 , Mann, B.%
 , Ryder, N.%
 , Subbiah, M.%
-, Kaplan, J\BPBI D.%
+, Kaplan, J.%
 , Dhariwal, P.%
-\BDBL {}others%
+\BDBL {}Amodei, D.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -210,8 +194,8 @@ Brown, T.%
 {\BBOQ}\APACrefatitle {Language models are few-shot learners} {Language models
   are few-shot learners}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Advances in neural information processing
-  systems}{33}{}{1877--1901}.
+\APACjournalVolNumPages{Advances in Neural Information Processing
+  Systems}{33}{}{1877--1901}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -221,7 +205,7 @@ Chen%
 }{%
 Chen%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
+{\protect \APACyear {2024}}%
 }]{%
 chen2023frugalgpt}
 \APACinsertmetastar {%
@@ -233,13 +217,13 @@ Chen, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2023}{}{}.
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Frugalgpt: How to use large language models while
-  reducing cost and improving performance} {Frugalgpt: How to use large
+{\BBOQ}\APACrefatitle {{FrugalGPT}: {How} to use large language models while
+  reducing cost and improving performance} {{FrugalGPT}: {How} to use large
   language models while reducing cost and improving performance}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{arXiv preprint arXiv:2305.05176}{}{}{}.
+\APACjournalVolNumPages{Transactions on Machine Learning Research}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -259,11 +243,11 @@ Cohen, J.%
 \newblock
 \APACrefYear{1988}.
 \newblock
-\APACrefbtitle {Statistical Power Analysis for the Behavioral Sciences}
-  {Statistical power analysis for the behavioral sciences}\
-  (\PrintOrdinal{2nd}\ \BEd).
+\APACrefbtitle {Statistical power analysis for the behavioral sciences}
+  {Statistical power analysis for the behavioral sciences}\ (\PrintOrdinal{2}\
+  \BEd).
 \newblock
-\APACaddressPublisher{Hillsdale, NJ}{Lawrence Erlbaum Associates}.
+\APACaddressPublisher{}{Lawrence Erlbaum Associates}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -283,18 +267,19 @@ Crocker, N\BPBI B.%
 \newblock
 \APACrefYear{2025}.
 \newblock
-\APACrefbtitle {Softwareentwicklung mit ChatGPT und Copilot: Mit innovativen
-  KI-Tools Produktivit{\"a}t, Effizienz und Codequalit{\"a}t steigern}
-  {Softwareentwicklung mit chatgpt und copilot: Mit innovativen ki-tools
-  produktivit{\"a}t, effizienz und codequalit{\"a}t steigern}.
+\APACrefbtitle {Softwareentwicklung mit {ChatGPT} und {Copilot}: {Mit}
+  innovativen {KI-Tools} {Produktivit{\"a}t}, {Effizienz} und
+  {Codequalit{\"a}t} steigern} {Softwareentwicklung mit {ChatGPT} und
+  {Copilot}: {Mit} innovativen {KI-Tools} {Produktivit{\"a}t}, {Effizienz} und
+  {Codequalit{\"a}t} steigern}.
 \newblock
-\APACaddressPublisher{}{dpunkt. verlag}.
+\APACaddressPublisher{}{dpunkt.verlag}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Dell’Aquila%
+Dell'Aquila%
 \ \protect \BOthers {.}}{%
-Dell’Aquila%
+Dell'Aquila%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2017}}%
 }]{%
@@ -302,7 +287,7 @@ dell2017educational}
 \APACinsertmetastar {%
 dell2017educational}%
 \begin{APACrefauthors}%
-Dell’Aquila, E.%
+Dell'Aquila, E.%
 , Marocco, D.%
 , Ponticorvo, M.%
 , Di~Ferdinando, A.%
@@ -311,14 +296,15 @@ Dell’Aquila, E.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2017}{}{}.
+\APACrefYear{2017}.
 \newblock
-{\BBOQ}\APACrefatitle {Educational games for soft-skills training in digital
+\APACrefbtitle {Educational games for soft-skills training in digital
   environments} {Educational games for soft-skills training in digital
-  environments}.{\BBCQ}
+  environments}.
 \newblock
-\APACjournalVolNumPages{Advances in Game-Based Learning. Cham, Switzerland:
-  Springer}{}{}{}.
+\APACaddressPublisher{}{Springer}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-319-06311-9} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -341,12 +327,14 @@ DeLone, W\BPBI H.%
 \newblock
 \APACrefYearMonthDay{2003}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The DeLone and McLean model of information systems
-  success: a ten-year update} {The delone and mclean model of information
-  systems success: a ten-year update}.{\BBCQ}
+{\BBOQ}\APACrefatitle {The {DeLone} and {McLean} model of information systems
+  success: {A} ten-year update} {The {DeLone} and {McLean} model of information
+  systems success: {A} ten-year update}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of management information
-  systems}{19}{4}{9--30}.
+\APACjournalVolNumPages{Journal of Management Information
+  Systems}{19}{4}{9--30}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/07421222.2003.11045748} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -365,17 +353,17 @@ Deng, Y.%
 , Lei, W.%
 , Yang, G\BPBI H.%
 , Lam, W.%
-\BCBL {}\ \BBA {} seng Chua, T.%
+\BCBL {}\ \BBA {} Chua, T\BHBI S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Proactive Conversational AI: A Comprehensive Survey of
-  Advancements and Opportunities} {Proactive conversational ai: A comprehensive
-  survey of advancements and opportunities}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Proactive conversational {AI}: {A} comprehensive survey
+  of advancements and opportunities} {Proactive conversational {AI}: {A}
+  comprehensive survey of advancements and opportunities}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{ACM Transactions on Information Systems}{43}{}{1 - 45}.
+\APACjournalVolNumPages{ACM Transactions on Information Systems}{43}{3}{1--45}.
 \newblock
 \begin{APACrefDOI} \doi{10.1145/3715097} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -397,9 +385,9 @@ Douglas, M\BPBI R.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Large Language Models} {Large language models}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Large language models} {Large language models}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Communications of the A'CM}{66}{}{7 - 7}.
+\APACjournalVolNumPages{Communications of the ACM}{66}{7}{7}.
 \newblock
 \begin{APACrefDOI} \doi{10.1145/3606337} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -424,13 +412,15 @@ Eisenhardt, K\BPBI M.%
 {\BBOQ}\APACrefatitle {Building theories from case study research} {Building
   theories from case study research}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Studi organizzativi}{}{2008/2}{}.
+\APACjournalVolNumPages{Studi Organizzativi}{}{2}{11--36}.
+\newblock
+\begin{APACrefDOI} \doi{10.3280/SO2008-002002} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{Europäisches Parlament und Rat der Europäischen Union}%
+{Europ{\"a}isches Parlament und Rat der Europ{\"a}ischen Union}%
 }{%
-{Europäisches Parlament und Rat der Europäischen Union}%
+{Europ{\"a}isches Parlament und Rat der Europ{\"a}ischen Union}%
 }{%
 {\protect \APACyear {2024}}%
 }]{%
@@ -438,27 +428,26 @@ eu2024aiact}
 \APACinsertmetastar {%
 eu2024aiact}%
 \begin{APACrefauthors}%
-{Europäisches Parlament und Rat der Europäischen Union}.%
+{Europ{\"a}isches Parlament und Rat der Europ{\"a}ischen Union}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2024}{{\APACmonth{07}}}{}.
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
-\APACrefbtitle {Verordnung (EU) 2024/1689 des Europäischen Parlaments und des
-  Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für
-  künstliche Intelligenz und zur Änderung der Verordnungen (EG) Nr. 300/2008,
-  (EU) Nr. 167/2013, (EU) Nr. 168/2013, (EU) 2018/858, (EU) 2018/1139 und (EU)
-  2019/2144 sowie der Richtlinien 2014/90/EU, (EU) 2016/797 und (EU) 2020/1828
-  (Verordnung über künstliche Intelligenz).} {Verordnung (eu) 2024/1689 des
-  europäischen parlaments und des rates vom 13. juni 2024 zur festlegung
-  harmonisierter vorschriften für künstliche intelligenz und zur Änderung
-  der verordnungen (eg) nr. 300/2008, (eu) nr. 167/2013, (eu) nr. 168/2013,
-  (eu) 2018/858, (eu) 2018/1139 und (eu) 2019/2144 sowie der richtlinien
-  2014/90/eu, (eu) 2016/797 und (eu) 2020/1828 (verordnung über künstliche
-  intelligenz).}
-\newblock
-\APAChowpublished {Amtsblatt der Europäischen Union, Reihe L, 2024/1689, S.
-  1}.
+\APACrefbtitle {Verordnung ({EU}) 2024/1689 des {Europ{\"a}ischen} {Parlaments}
+  und des {Rates} vom 13. {Juni} 2024 zur {Festlegung} harmonisierter
+  {Vorschriften} f{\"u}r k{\"u}nstliche {Intelligenz} und zur {{\"A}nderung}
+  der {Verordnungen} ({EG}) {Nr.} 300/2008, ({EU}) {Nr.} 167/2013, ({EU}) {Nr.}
+  168/2013, ({EU}) 2018/858, ({EU}) 2018/1139 und ({EU}) 2019/2144 sowie der
+  {Richtlinien} 2014/90/{EU}, ({EU}) 2016/797 und ({EU}) 2020/1828
+  ({Verordnung} {\"u}ber k{\"u}nstliche {Intelligenz})} {Verordnung ({EU})
+  2024/1689 des {Europ{\"a}ischen} {Parlaments} und des {Rates} vom 13. {Juni}
+  2024 zur {Festlegung} harmonisierter {Vorschriften} f{\"u}r k{\"u}nstliche
+  {Intelligenz} und zur {{\"A}nderung} der {Verordnungen} ({EG}) {Nr.}
+  300/2008, ({EU}) {Nr.} 167/2013, ({EU}) {Nr.} 168/2013, ({EU}) 2018/858,
+  ({EU}) 2018/1139 und ({EU}) 2019/2144 sowie der {Richtlinien} 2014/90/{EU},
+  ({EU}) 2016/797 und ({EU}) 2020/1828 ({Verordnung} {\"u}ber k{\"u}nstliche
+  {Intelligenz})}\ (\BNUM\ 2024/1689).
 \newblock
 \begin{APACrefURL}
   [{2026-11-15}]\url{https://eur-lex.europa.eu/eli/reg/2024/1689/oj}
@@ -488,15 +477,15 @@ Forman-Hoffman, V\BPBI L.%
 \newblock
 \APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Prevalence of Mild to Moderate Mental Illness,
-  Correlates of Treatment Patterns, and Perceived Unmet Need among U.S. Adults:
-  Results from the National Survey on Drug Use and Health, 2021} {Prevalence of
-  mild to moderate mental illness, correlates of treatment patterns, and
-  perceived unmet need among u.s. adults: Results from the national survey on
-  drug use and health, 2021}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Prevalence of mild to moderate mental illness,
+  correlates of treatment patterns, and perceived unmet need among {U.S.}
+  adults: {Results} from the {National Survey on Drug Use and Health}, 2021}
+  {Prevalence of mild to moderate mental illness, correlates of treatment
+  patterns, and perceived unmet need among {U.S.} adults: {Results} from the
+  {National Survey on Drug Use and Health}, 2021}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Clinical Practice \& Epidemiology in Mental
-  Health}{}{}{}.
+  Health}{21}{}{e17450179394114}.
 \newblock
 \begin{APACrefDOI} \doi{10.2174/0117450179394114251013063017} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -518,7 +507,7 @@ Gao, A.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Prompt Engineering for Large Language Models} {Prompt
+{\BBOQ}\APACrefatitle {Prompt engineering for large language models} {Prompt
   engineering for large language models}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{SSRN Electronic Journal}{}{}{}.
@@ -529,8 +518,7 @@ Gao, A.%
 \bibitem [\protect \citeauthoryear {%
 Goodfellow%
 , Bengio%
-, Courville%
-\BCBL {}\ \BBA {} Bengio%
+\BCBL {}\ \BBA {} Courville%
 }{%
 Goodfellow%
 \ \protect \BOthers {.}}{%
@@ -542,16 +530,15 @@ goodfellow2016deep}%
 \begin{APACrefauthors}%
 Goodfellow, I.%
 , Bengio, Y.%
-, Courville, A.%
-\BCBL {}\ \BBA {} Bengio, Y.%
+\BCBL {}\ \BBA {} Courville, A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYear{2016}.
 \newblock
-\APACrefbtitle {Deep learning} {Deep learning}\ (\BVOL~1)\ (\BNUM~2).
+\APACrefbtitle {Deep learning} {Deep learning}.
 \newblock
-\APACaddressPublisher{}{MIT press, Cambridge}.
+\APACaddressPublisher{}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -574,7 +561,9 @@ Grum, M.%
 \APACrefbtitle {Construction of a concept of neuronal modeling} {Construction
   of a concept of neuronal modeling}.
 \newblock
-\APACaddressPublisher{}{Springer Nature}.
+\APACaddressPublisher{}{Springer Gabler}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-658-35999-7} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -599,11 +588,13 @@ Hao, Y.%
 \newblock
 \APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Structured prompting: Scaling in-context learning to
-  1,000 examples} {Structured prompting: Scaling in-context learning to 1,000
+{\BBOQ}\APACrefatitle {Structured prompting: {Scaling} in-context learning to
+  1,000 examples} {Structured prompting: {Scaling} in-context learning to 1,000
   examples}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{arXiv preprint arXiv:2212.06713}{}{}{}.
+\APACjournalVolNumPages{arXiv}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.48550/arXiv.2212.06713} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -623,10 +614,10 @@ Haykin, S.%
 \newblock
 \APACrefYear{2009}.
 \newblock
-\APACrefbtitle {Neural networks and learning machines, 3/E} {Neural networks
-  and learning machines, 3/e}.
+\APACrefbtitle {Neural networks and learning machines} {Neural networks and
+  learning machines}\ (\PrintOrdinal{3}\ \BEd).
 \newblock
-\APACaddressPublisher{}{Pearson education india}.
+\APACaddressPublisher{}{Pearson}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -634,7 +625,7 @@ Hu%
 \ \protect \BOthers {.}}{%
 Hu%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2021}}%
+{\protect \APACyear {2022}}%
 }]{%
 hu2021lora}
 \APACinsertmetastar {%
@@ -650,12 +641,14 @@ Hu, E\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2021}{}{}.
+\APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Lora: Low-rank adaptation of large language models}
-  {Lora: Low-rank adaptation of large language models}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{LoRA}: {Low-rank} adaptation of large language models}
+  {{LoRA}: {Low-rank} adaptation of large language models}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{arXiv preprint arXiv:2106.09685}{}{}{}.
+\BIn{} \APACrefbtitle {Proceedings of the Tenth International Conference on
+  Learning Representations.} {Proceedings of the tenth international conference
+  on learning representations.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -678,12 +671,14 @@ Kendrick, T.%
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Common mental health disorders—identification and
-  pathways to care: NICE clinical guideline} {Common mental health
-  disorders—identification and pathways to care: Nice clinical
+{\BBOQ}\APACrefatitle {Common mental health disorders---identification and
+  pathways to care: {NICE} clinical guideline} {Common mental health
+  disorders---identification and pathways to care: {NICE} clinical
   guideline}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{The British Journal of General Practice}{62}{594}{47}.
+\APACjournalVolNumPages{British Journal of General Practice}{62}{594}{47--49}.
+\newblock
+\begin{APACrefDOI} \doi{10.3399/bjgp12X616481} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -703,10 +698,10 @@ Kinnebrock, W.%
 \newblock
 \APACrefYear{2018}.
 \newblock
-\APACrefbtitle {Neuronale Netze: Grundlagen, Anwendungen, Beispiele} {Neuronale
-  netze: Grundlagen, anwendungen, beispiele}.
+\APACrefbtitle {Neuronale {Netze}: {Grundlagen}, {Anwendungen}, {Beispiele}}
+  {Neuronale {Netze}: {Grundlagen}, {Anwendungen}, {Beispiele}}.
 \newblock
-\APACaddressPublisher{}{Walter de Gruyter GmbH \& Co KG}.
+\APACaddressPublisher{}{De Gruyter Oldenbourg}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -726,15 +721,15 @@ Kuhl, J.%
 \newblock
 \APACrefYearMonthDay{2000}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The volitional basis of Personality Systems Interaction
-  Theory:: applications in learning and treatment contexts} {The volitional
-  basis of personality systems interaction theory:: applications in learning
+{\BBOQ}\APACrefatitle {The volitional basis of {Personality Systems Interaction
+  Theory}: {Applications} in learning and treatment contexts} {The volitional
+  basis of {Personality Systems Interaction Theory}: {Applications} in learning
   and treatment contexts}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Journal of Educational
-  Research}{33}{}{665-703}.
+  Research}{33}{7--8}{665--703}.
 \newblock
-\begin{APACrefDOI} \doi{10.1016/s0883-0355(00)00045-8} \end{APACrefDOI}
+\begin{APACrefDOI} \doi{10.1016/S0883-0355(00)00045-8} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -754,10 +749,12 @@ Kuhl, J.%
 \newblock
 \APACrefYearMonthDay{2005}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Eine neue Pers{\"o}nlichkeitstheorie} {Eine neue
-  pers{\"o}nlichkeitstheorie}.{\BBCQ}
+\APACrefbtitle {Eine neue {Pers{\"o}nlichkeitstheorie}.} {Eine neue
+  {Pers{\"o}nlichkeitstheorie}.}
 \newblock
-\APACjournalVolNumPages{Zugriff am}{20}{}{2022}.
+\begin{APACrefURL} \url{https://www.psi-theorie.com/} \end{APACrefURL}
+\newblock
+\APACrefnote{Online-Manuskript, Universit{\"a}t Osnabr{\"u}ck}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -777,11 +774,12 @@ Kuhl, J.%
 \newblock
 \APACrefYear{2010}.
 \newblock
-\APACrefbtitle {Lehrbuch der Pers{\"o}nlichkeitspsychologie: Motivation,
-  Emotion und Selbststeuerung} {Lehrbuch der pers{\"o}nlichkeitspsychologie:
-  Motivation, emotion und selbststeuerung}.
+\APACrefbtitle {Lehrbuch der {Pers{\"o}nlichkeitspsychologie}: {Motivation},
+  {Emotion} und {Selbststeuerung}} {Lehrbuch der
+  {Pers{\"o}nlichkeitspsychologie}: {Motivation}, {Emotion} und
+  {Selbststeuerung}}.
 \newblock
-\APACaddressPublisher{}{Hogrefe, G{\"o}ttingen}.
+\APACaddressPublisher{}{Hogrefe}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -804,12 +802,16 @@ Kuhl, J.%
 \newblock
 \APACrefYearMonthDay{2004}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Systemdiagnostik: Assessment und F{\"o}rderung
-  pers{\"o}nlicher Kompetenzen} {Systemdiagnostik: Assessment und f{\"o}rderung
-  pers{\"o}nlicher kompetenzen}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Systemdiagnostik: {Assessment} und {F{\"o}rderung}
+  pers{\"o}nlicher {Kompetenzen}} {Systemdiagnostik: {Assessment} und
+  {F{\"o}rderung} pers{\"o}nlicher {Kompetenzen}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{F{\"o}rderung von Arbeitsmotivation und Gesundheit in
-  Organisationen}{}{}{125--142}.
+\BIn{} J.~Wegge\ \BBA {} K\BHBI H.~Schmidt\ (\BEDS), \APACrefbtitle
+  {F{\"o}rderung von {Arbeitsmotivation} und {Gesundheit} in {Organisationen}}
+  {F{\"o}rderung von {Arbeitsmotivation} und {Gesundheit} in {Organisationen}}\
+  (\BPGS\ 125--142).
+\newblock
+\APACaddressPublisher{}{Hogrefe}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -819,7 +821,7 @@ Kuhl%
 Kuhl%
 \ \BBA {} Schwer%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2021}}%
 }]{%
 kuhlsieben}
 \APACinsertmetastar {%
@@ -830,12 +832,19 @@ Kuhl, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Sieben Quellen der Motivation} {Sieben quellen der
-  motivation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Sieben {Quellen} der {Motivation}: {Zur} psychologischen
+  {Analyse} und {F{\"o}rderung} von {Selbstkompetenzen}} {Sieben {Quellen} der
+  {Motivation}: {Zur} psychologischen {Analyse} und {F{\"o}rderung} von
+  {Selbstkompetenzen}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Pers{\"o}nlichkeit--Motivation--Entwicklung}{}{}{309}.
+\BIn{} M.~Carmignola\ \BBA {} D.~Martinek\ (\BEDS), \APACrefbtitle
+  {Pers{\"o}nlichkeit -- {Motivation} -- {Entwicklung}: {Festschrift} f{\"u}r
+  {Franz} {Hofmann}} {Pers{\"o}nlichkeit -- {Motivation} -- {Entwicklung}:
+  {Festschrift} f{\"u}r {Franz} {Hofmann}}\ (\BPGS\ 309--326).
+\newblock
+\APACaddressPublisher{}{Verlag Dr. Kova{\v{c}}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -856,17 +865,41 @@ Kuhl, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2014}{}{}.
+\APACrefYear{2014}.
 \newblock
-{\BBOQ}\APACrefatitle {PSI-Theorie: Die vier psychischen Erkenntnissysteme}
-  {Psi-theorie: Die vier psychischen erkenntnissysteme}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Handlungspsychologische Grundlagen des Coaching:
-  Anwendung der Theorie der Pers{\"o}nlichkeits-System-Interaktionen (PSI)}
-  {Handlungspsychologische grundlagen des coaching: Anwendung der theorie der
-  pers{\"o}nlichkeits-system-interaktionen (psi)}\ (\BPGS\ 3--11).
+\APACrefbtitle {Handlungspsychologische {Grundlagen} des {Coaching}:
+  {Anwendung} der {Theorie} der {Pers{\"o}nlichkeits-System-Interaktionen}
+  ({PSI})} {Handlungspsychologische {Grundlagen} des {Coaching}: {Anwendung}
+  der {Theorie} der {Pers{\"o}nlichkeits-System-Interaktionen} ({PSI})}.
 \newblock
 \APACaddressPublisher{}{Springer}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-658-06475-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L{\"a}mmel%
+\ \BBA {} Cleve%
+}{%
+L{\"a}mmel%
+\ \BBA {} Cleve%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+lammel2012kunstliche}
+\APACinsertmetastar {%
+lammel2012kunstliche}%
+\begin{APACrefauthors}%
+L{\"a}mmel, U.%
+\BCBT {}\ \BBA {} Cleve, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {K{\"u}nstliche {Intelligenz}} {K{\"u}nstliche {Intelligenz}}.
+\newblock
+\APACaddressPublisher{}{Carl Hanser Verlag}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -886,9 +919,9 @@ Levine, P\BPBI A.%
 \newblock
 \APACrefYear{2010}.
 \newblock
-\APACrefbtitle {In an Unspoken Voice: How the Body Releases Trauma and Restores
-  Goodness} {In an unspoken voice: How the body releases trauma and restores
-  goodness}.
+\APACrefbtitle {In an unspoken voice: {How} the body releases trauma and
+  restores goodness} {In an unspoken voice: {How} the body releases trauma and
+  restores goodness}.
 \newblock
 \APACaddressPublisher{}{North Atlantic Books}.
 \PrintBackRefs{\CurrentBib}
@@ -910,18 +943,18 @@ Lewis, P.%
 , Petroni, F.%
 , Karpukhin, V.%
 , Goyal, N.%
-\BDBL {}others%
+\BDBL {}Kiela, D.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2020}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Retrieval-augmented generation for knowledge-intensive
-  nlp tasks} {Retrieval-augmented generation for knowledge-intensive nlp
+  {NLP} tasks} {Retrieval-augmented generation for knowledge-intensive {NLP}
   tasks}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Advances in neural information processing
-  systems}{33}{}{9459--9474}.
+\APACjournalVolNumPages{Advances in Neural Information Processing
+  Systems}{33}{}{9459--9474}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -946,37 +979,14 @@ Liu, P.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Pre-train, prompt, and predict: A systematic survey of
+{\BBOQ}\APACrefatitle {Pre-train, prompt, and predict: {A} systematic survey of
   prompting methods in natural language processing} {Pre-train, prompt, and
-  predict: A systematic survey of prompting methods in natural language
+  predict: {A} systematic survey of prompting methods in natural language
   processing}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{ACM computing surveys}{55}{9}{1--35}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Lämmel%
-\ \BBA {} Cleve%
-}{%
-Lämmel%
-\ \BBA {} Cleve%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-lammel2012kunstliche}
-\APACinsertmetastar {%
-lammel2012kunstliche}%
-\begin{APACrefauthors}%
-Lämmel, U.%
-\BCBT {}\ \BBA {} Cleve, J.%
-\end{APACrefauthors}%
-\unskip\
+\APACjournalVolNumPages{ACM Computing Surveys}{55}{9}{1--35}.
 \newblock
-\APACrefYear{2012}.
-\newblock
-\APACrefbtitle {Künstliche Intelligenz} {Künstliche intelligenz}.
-\newblock
-\APACaddressPublisher{}{Carl Hanser Verlag GmbH Co KG}.
+\begin{APACrefDOI} \doi{10.1145/3560815} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -999,14 +1009,18 @@ Mai, V.%
 \newblock
 \APACrefYearMonthDay{2020}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {AI Coaching: Effectiveness factors of the working
-  alliance in the coaching process between coachbot and human coachee--an
-  explorative study} {Ai coaching: Effectiveness factors of the working
-  alliance in the coaching process between coachbot and human coachee--an
+{\BBOQ}\APACrefatitle {{AI} coaching: {Effectiveness} factors of the working
+  alliance in the coaching process between coachbot and human coachee -- an
+  explorative study} {{AI} coaching: {Effectiveness} factors of the working
+  alliance in the coaching process between coachbot and human coachee -- an
   explorative study}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {EDULEARN20 Proceedings} {Edulearn20 proceedings}\
   (\BPGS\ 1239--1248).
+\newblock
+\APACaddressPublisher{}{IATED}.
+\newblock
+\begin{APACrefDOI} \doi{10.21125/edulearn.2020.0414} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1029,21 +1043,24 @@ Mai, V.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Chatbots im Coaching. Potenziale und
-  Einsatzm{\"o}glichkeiten von digitalen Coaching-Begleitern und Assistenten}
-  {Chatbots im coaching. potenziale und einsatzm{\"o}glichkeiten von digitalen
-  coaching-begleitern und assistenten}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Chatbots im {Coaching}. {Potenziale} und
+  {Einsatzm{\"o}glichkeiten} von digitalen {Coaching-Begleitern} und
+  {Assistenten}} {Chatbots im {Coaching}. {Potenziale} und
+  {Einsatzm{\"o}glichkeiten} von digitalen {Coaching-Begleitern} und
+  {Assistenten}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Organisationsberatung, Supervision,
-  Coaching}{30}{1}{45--57}.
+  Coaching}{30}{}{45--57}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11613-022-00801-3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
 Morris%
-\ \BBA {} Mc~Grath%
+\ \BBA {} McGrath%
 }{%
 Morris%
-\ \BBA {} Mc~Grath%
+\ \BBA {} McGrath%
 }{%
 {\protect \APACyear {1981}}%
 }]{%
@@ -1051,8 +1068,8 @@ morris1981response}
 \APACinsertmetastar {%
 morris1981response}%
 \begin{APACrefauthors}%
-Morris, G.%
-\BCBT {}\ \BBA {} Mc~Grath, J.%
+Morris, G\BPBI J.%
+\BCBT {}\ \BBA {} McGrath, J\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -1063,6 +1080,8 @@ Morris, G.%
   thawing}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Cryobiology}{18}{4}{390--398}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0011-2240(81)90112-7} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1083,9 +1102,12 @@ Nielsen, M\BPBI A.%
 \APACrefYear{2015}.
 \newblock
 \APACrefbtitle {Neural networks and deep learning} {Neural networks and deep
-  learning}\ (\BVOL~25).
+  learning}.
 \newblock
-\APACaddressPublisher{}{Determination press San Francisco, CA, USA}.
+\APACaddressPublisher{}{Determination Press}.
+\newblock
+\begin{APACrefURL} \url{http://neuralnetworksanddeeplearning.com}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1095,7 +1117,7 @@ Nyfoudi%
 Nyfoudi%
 \ \BBA {} Tasoulis%
 }{%
-{\protect \APACyear {2021}}%
+{\protect \APACyear {2022}}%
 }]{%
 nyfoudi2021talent}
 \APACinsertmetastar {%
@@ -1106,12 +1128,19 @@ Nyfoudi, M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2021}{}{}.
+\APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Talent Management Approach} {A talent management
-  approach}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Effective coaching for high-potentials: {A} talent
+  management approach} {Effective coaching for high-potentials: {A} talent
+  management approach}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{The Routledge companion to talent management}{}{}{471}.
+\BIn{} I.~Tarique\ (\BED), \APACrefbtitle {The {Routledge} companion to talent
+  management} {The {Routledge} companion to talent management}\ (\BPGS\
+  471--482).
+\newblock
+\APACaddressPublisher{}{Routledge}.
+\newblock
+\begin{APACrefDOI} \doi{10.4324/9781315474687-37} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1143,7 +1172,7 @@ Ovsiannikova, Y.%
   psychological health} {Peculiarities of the impact of stress on physical and
   psychological health}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Multidisciplinary Science Journal}{}{}{}.
+\APACjournalVolNumPages{Multidisciplinary Science Journal}{7}{}{e2024ss0711}.
 \newblock
 \begin{APACrefDOI} \doi{10.31893/multiscience.2024ss0711} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -1171,8 +1200,10 @@ Pang, B.%
 {\BBOQ}\APACrefatitle {Opinion mining and sentiment analysis} {Opinion mining
   and sentiment analysis}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Foundations and Trends{\textregistered} in information
-  retrieval}{2}{1-2}{1--135}.
+\APACjournalVolNumPages{Foundations and Trends in Information
+  Retrieval}{2}{1--2}{1--135}.
+\newblock
+\begin{APACrefDOI} \doi{10.1561/1500000011} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1195,9 +1226,9 @@ Passmore, J.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Can Chatbots like GPT-4 replace human coaches: Issues
-  and dilemmas for the coaching profession, coaching clients and for
-  organisations} {Can chatbots like gpt-4 replace human coaches: Issues and
+{\BBOQ}\APACrefatitle {Can chatbots like {GPT-4} replace human coaches:
+  {Issues} and dilemmas for the coaching profession, coaching clients and for
+  organisations} {Can chatbots like {GPT-4} replace human coaches: {Issues} and
   dilemmas for the coaching profession, coaching clients and for
   organisations}.{\BBCQ}
 \newblock
@@ -1224,7 +1255,9 @@ Quinlan, J\BPBI R.%
 {\BBOQ}\APACrefatitle {Induction of decision trees} {Induction of decision
   trees}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Machine learning}{1}{1}{81--106}.
+\APACjournalVolNumPages{Machine Learning}{1}{1}{81--106}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/BF00116251} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1249,12 +1282,12 @@ Rafailov, R.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Direct preference optimization: Your language model is
-  secretly a reward model} {Direct preference optimization: Your language model
-  is secretly a reward model}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Direct preference optimization: {Your} language model is
+  secretly a reward model} {Direct preference optimization: {Your} language
+  model is secretly a reward model}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Advances in neural information processing
-  systems}{36}{}{53728--53741}.
+\APACjournalVolNumPages{Advances in Neural Information Processing
+  Systems}{36}{}{53728--53741}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1280,14 +1313,14 @@ Raiaan, M\BPBI A\BPBI K.%
 \newblock
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Review on Large Language Models: Architectures,
-  Applications, Taxonomies, Open Issues and Challenges} {A review on large
-  language models: Architectures, applications, taxonomies, open issues and
+{\BBOQ}\APACrefatitle {A review on large language models: {Architectures},
+  applications, taxonomies, open issues and challenges} {A review on large
+  language models: {Architectures}, applications, taxonomies, open issues and
   challenges}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{IEEE Access}{12}{}{26839-26874}.
+\APACjournalVolNumPages{IEEE Access}{12}{}{26839--26874}.
 \newblock
-\begin{APACrefDOI} \doi{10.1109/access.2024.3365742} \end{APACrefDOI}
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2024.3365742} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1315,14 +1348,18 @@ Rebedea, T.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Nemo guardrails: A toolkit for controllable and safe llm
-  applications with programmable rails} {Nemo guardrails: A toolkit for
-  controllable and safe llm applications with programmable rails}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{NeMo Guardrails}: {A} toolkit for controllable and safe
+  {LLM} applications with programmable rails} {{NeMo Guardrails}: {A} toolkit
+  for controllable and safe {LLM} applications with programmable rails}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2023 conference on empirical methods
-  in natural language processing: system demonstrations} {Proceedings of the
-  2023 conference on empirical methods in natural language processing: system
+\BIn{} \APACrefbtitle {Proceedings of the 2023 Conference on Empirical Methods
+  in Natural Language Processing: System Demonstrations} {Proceedings of the
+  2023 conference on empirical methods in natural language processing: System
   demonstrations}\ (\BPGS\ 431--445).
+\newblock
+\APACaddressPublisher{}{Association for Computational Linguistics}.
+\newblock
+\begin{APACrefDOI} \doi{10.18653/v1/2023.emnlp-demo.40} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1346,10 +1383,10 @@ Ritz-Schulte, G.%
 \newblock
 \APACrefYear{2008}.
 \newblock
-\APACrefbtitle {Pers{\"o}nlichkeitsorientierte Psychotherapie}
-  {Pers{\"o}nlichkeitsorientierte psychotherapie}.
+\APACrefbtitle {Pers{\"o}nlichkeitsorientierte {Psychotherapie}}
+  {Pers{\"o}nlichkeitsorientierte {Psychotherapie}}.
 \newblock
-\APACaddressPublisher{}{Hogrefe Verlag GmbH \& Company KG}.
+\APACaddressPublisher{}{Hogrefe}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1375,14 +1412,17 @@ Ronanki, K.%
 \newblock
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Requirements engineering using generative ai: Prompts
-  and prompting patterns} {Requirements engineering using generative ai:
-  Prompts and prompting patterns}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Requirements engineering using generative {AI}:
+  {Prompts} and prompting patterns} {Requirements engineering using generative
+  {AI}: {Prompts} and prompting patterns}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Generative AI for effective software development}
-  {Generative ai for effective software development}\ (\BPGS\ 109--127).
+\BIn{} S.~Tiwari, D\BPBI D.~Pham\BCBL {}\ \BBA {} S\BPBI S.~Rathore\ (\BEDS),
+  \APACrefbtitle {Generative {AI} for effective software development}
+  {Generative {AI} for effective software development}\ (\BPGS\ 109--127).
 \newblock
 \APACaddressPublisher{}{Springer}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-031-55642-5_5} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1402,12 +1442,14 @@ Rubin, D\BPBI B.%
 \newblock
 \APACrefYearMonthDay{2008}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Comment: The design and analysis of gold standard
-  randomized experiments} {Comment: The design and analysis of gold standard
+{\BBOQ}\APACrefatitle {Comment: {The} design and analysis of gold standard
+  randomized experiments} {Comment: {The} design and analysis of gold standard
   randomized experiments}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of the American Statistical
   Association}{103}{484}{1350--1353}.
+\newblock
+\begin{APACrefDOI} \doi{10.1198/016214508000001011} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1430,10 +1472,43 @@ Sangeetha, V.%
 \newblock
 \APACrefYear{2023}.
 \newblock
-\APACrefbtitle {Introduction to Artificial Intelligence and Neural Networks}
+\APACrefbtitle {Introduction to artificial intelligence and neural networks}
   {Introduction to artificial intelligence and neural networks}.
 \newblock
+\APACaddressPublisher{}{Magestic Technology Solutions}.
+\newblock
 \begin{APACrefDOI} \doi{10.47716/mts/978-93-92090-24-0} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schmid%
+\ \protect \BOthers {.}}{%
+Schmid%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+reflectai2025}
+\APACinsertmetastar {%
+reflectai2025}%
+\begin{APACrefauthors}%
+Schmid, M.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ReflectAI: Design and Evaluation of an AI Coach to
+  Support Public Servants' Self-Reflection Competence} {Reflectai: Design and
+  evaluation of an ai coach to support public servants' self-reflection
+  competence}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Electronic Government (EGOV 2025)} {Electronic
+  government (egov 2025)}\ (\BVOL\ 15944).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-032-02515-9_7} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1452,8 +1527,8 @@ Sharma, M.%
 , Korbak, T.%
 , Duvenaud, D.%
 , Askell, A.%
-, Bowman, S.%
-\BDBL {}others%
+, Bowman, S\BPBI R.%
+\BDBL {}Perez, E.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -1462,9 +1537,9 @@ Sharma, M.%
 {\BBOQ}\APACrefatitle {Towards understanding sycophancy in language models}
   {Towards understanding sycophancy in language models}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {International Conference on Learning Representations}
-  {International conference on learning representations}\ (\BVOL\ 2024, \BPGS\
-  110--144).
+\BIn{} \APACrefbtitle {Proceedings of the Twelfth International Conference on
+  Learning Representations.} {Proceedings of the twelfth international
+  conference on learning representations.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1489,11 +1564,13 @@ Sonesh, S\BPBI C.%
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The power of coaching: a meta-analytic investigation}
-  {The power of coaching: a meta-analytic investigation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {The power of coaching: {A} meta-analytic investigation}
+  {The power of coaching: {A} meta-analytic investigation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Coaching: An International Journal of Theory, Research
   and Practice}{8}{2}{73--95}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/17521882.2015.1071418} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1517,16 +1594,19 @@ Storch, M.%
 \newblock
 \APACrefYearMonthDay{2007}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Ressourcenorientiertes Selbstmanagement f{\"u}r
-  Lehrkr{\"a}fte: Das Z{\"u}rcher Ressourcen Modell ZRM}
-  {Ressourcenorientiertes selbstmanagement f{\"u}r lehrkr{\"a}fte: Das
-  z{\"u}rcher ressourcen modell zrm}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Ressourcenorientiertes {Selbstmanagement} f{\"u}r
+  {Lehrkr{\"a}fte}: {Das} {Z{\"u}rcher} {Ressourcen} {Modell} ({ZRM})}
+  {Ressourcenorientiertes {Selbstmanagement} f{\"u}r {Lehrkr{\"a}fte}: {Das}
+  {Z{\"u}rcher} {Ressourcen} {Modell} ({ZRM})}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Belastung und beanspruchung im lehrerberuf: modelle,
-  befunde, interventionen} {Belastung und beanspruchung im lehrerberuf:
-  modelle, befunde, interventionen}\ (\BPGS\ 290--309).
+\BIn{} M.~Rothland\ (\BED), \APACrefbtitle {Belastung und {Beanspruchung} im
+  {Lehrerberuf}: {Modelle}, {Befunde}, {Interventionen}} {Belastung und
+  {Beanspruchung} im {Lehrerberuf}: {Modelle}, {Befunde}, {Interventionen}}\
+  (\BPGS\ 290--309).
 \newblock
-\APACaddressPublisher{}{Springer}.
+\APACaddressPublisher{}{VS Verlag f{\"u}r Sozialwissenschaften}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-531-90500-6_16} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1550,9 +1630,17 @@ Strong, N.%
 \APACrefYearMonthDay{2020}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Chatbots as an instance of an artificial intelligence
-  coach} {Chatbots as an instance of an artificial intelligence coach}.{\BBCQ}
+  coach: {A} perspective on current realities and future possibilities}
+  {Chatbots as an instance of an artificial intelligence coach: {A} perspective
+  on current realities and future possibilities}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Coaching im digitalen Wandel}{}{}{51--62}.
+\BIn{} R.~Wegener, S.~Ackermann, J.~Amstutz, S.~Deplazes, H.~K{\"u}nzli\BCBL
+  {}\ \BBA {} A.~Ryter\ (\BEDS), \APACrefbtitle {Coaching im digitalen
+  {Wandel}} {Coaching im digitalen {Wandel}}\ (\BPGS\ 51--62).
+\newblock
+\APACaddressPublisher{}{Vandenhoeck \& Ruprecht}.
+\newblock
+\begin{APACrefDOI} \doi{10.13109/9783666407420.51} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1577,11 +1665,17 @@ Tan, Z.%
 \newblock
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Democratizing Large Language Models via Personalized
-  Parameter-Efficient Fine-tuning} {Democratizing large language models via
+{\BBOQ}\APACrefatitle {Democratizing large language models via personalized
+  parameter-efficient fine-tuning} {Democratizing large language models via
   personalized parameter-efficient fine-tuning}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{arXiv preprint arXiv:2402.04401}{}{}{}.
+\BIn{} \APACrefbtitle {Proceedings of the 2024 Conference on Empirical Methods
+  in Natural Language Processing} {Proceedings of the 2024 conference on
+  empirical methods in natural language processing}\ (\BPGS\ 6476--6491).
+\newblock
+\APACaddressPublisher{}{Association for Computational Linguistics}.
+\newblock
+\begin{APACrefDOI} \doi{10.18653/v1/2024.emnlp-main.372} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1604,12 +1698,38 @@ Tschacher, W.%
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Die Bedeutung von embodiment f{\"u}r Psychologie und
-  Psychotherapie} {Die bedeutung von embodiment f{\"u}r psychologie und
-  psychotherapie}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Die {Bedeutung} von {Embodiment} f{\"u}r {Psychologie}
+  und {Psychotherapie}} {Die {Bedeutung} von {Embodiment} f{\"u}r {Psychologie}
+  und {Psychotherapie}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Psychotherapie in Psychiatrie, Psychotherapeutischer
   Medizin und Klinischer Psychologie}{17}{2}{259--267}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+van~der Kolk%
+}{%
+van~der Kolk%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+re1989compulsion}
+\APACinsertmetastar {%
+re1989compulsion}%
+\begin{APACrefauthors}%
+van~der Kolk, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The compulsion to repeat the trauma: {Re-enactment},
+  revictimization, and masochism} {The compulsion to repeat the trauma:
+  {Re-enactment}, revictimization, and masochism}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychiatric Clinics of North America}{12}{2}{389--411}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0193-953X(18)30439-8} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1638,8 +1758,8 @@ Vaswani, A.%
 {\BBOQ}\APACrefatitle {Attention is all you need} {Attention is all you
   need}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Advances in neural information processing
-  systems}{30}{}{}.
+\APACjournalVolNumPages{Advances in Neural Information Processing
+  Systems}{30}{}{5998--6008}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1662,11 +1782,11 @@ Webster, J.%
 \newblock
 \APACrefYearMonthDay{2002}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Analyzing the past to prepare for the future: Writing a
-  literature review} {Analyzing the past to prepare for the future: Writing a
-  literature review}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Analyzing the past to prepare for the future: {Writing}
+  a literature review} {Analyzing the past to prepare for the future: {Writing}
+  a literature review}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{MIS quarterly}{26}{2}{xiii--xxiii}.
+\APACjournalVolNumPages{MIS Quarterly}{26}{2}{xiii--xxiii}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1684,9 +1804,9 @@ Wei, J.%
 , Wang, X.%
 , Schuurmans, D.%
 , Bosma, M.%
+, Ichter, B.%
 , Xia, F.%
-, Chi, E.%
-\BDBL {}others%
+\BDBL {}Zhou, D.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -1696,8 +1816,8 @@ Wei, J.%
   language models} {Chain-of-thought prompting elicits reasoning in large
   language models}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Advances in neural information processing
-  systems}{35}{}{24824--24837}.
+\APACjournalVolNumPages{Advances in Neural Information Processing
+  Systems}{35}{}{24824--24837}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1717,12 +1837,14 @@ Werning, E.%
 \newblock
 \APACrefYear{2023}.
 \newblock
-\APACrefbtitle {Virtual Reality in Softskill-Training und Coaching:
-  Theoretische und praktische Einf{\"u}hrung sowie Anwendungsbeispiele}
-  {Virtual reality in softskill-training und coaching: Theoretische und
-  praktische einf{\"u}hrung sowie anwendungsbeispiele}.
+\APACrefbtitle {Virtual {Reality} in {Softskill-Training} und {Coaching}:
+  {Theoretische} und praktische {Einf{\"u}hrung} sowie {Anwendungsbeispiele}}
+  {Virtual {Reality} in {Softskill-Training} und {Coaching}: {Theoretische} und
+  praktische {Einf{\"u}hrung} sowie {Anwendungsbeispiele}}.
 \newblock
 \APACaddressPublisher{}{Springer}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-658-40129-0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1748,13 +1870,13 @@ Xiao, Y.%
 \newblock
 \APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Humanizing Machines: Rethinking LLM Anthropomorphism
-  Through a Multi-Level Framework of Design} {Humanizing machines: Rethinking
-  llm anthropomorphism through a multi-level framework of design}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Humanizing machines: {Rethinking} {LLM} anthropomorphism
+  through a multi-level framework of design} {Humanizing machines: {Rethinking}
+  {LLM} anthropomorphism through a multi-level framework of design}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{ArXiv}{abs/2508.17573}{}{}.
+\APACjournalVolNumPages{arXiv}{}{}{}.
 \newblock
-\begin{APACrefDOI} \doi{10.48550/arxiv.2508.17573} \end{APACrefDOI}
+\begin{APACrefDOI} \doi{10.48550/arXiv.2508.17573} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1780,14 +1902,18 @@ Zhang, Z.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Visar: A human-ai argumentative writing assistant with
-  visual programming and rapid draft prototyping} {Visar: A human-ai
+{\BBOQ}\APACrefatitle {{VISAR}: {A} human-{AI} argumentative writing assistant
+  with visual programming and rapid draft prototyping} {{VISAR}: {A} human-{AI}
   argumentative writing assistant with visual programming and rapid draft
   prototyping}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 36th annual ACM symposium on user
-  interface software and technology} {Proceedings of the 36th annual acm
+\BIn{} \APACrefbtitle {Proceedings of the 36th Annual ACM Symposium on User
+  Interface Software and Technology} {Proceedings of the 36th annual acm
   symposium on user interface software and technology}\ (\BPGS\ 1--30).
+\newblock
+\APACaddressPublisher{}{Association for Computing Machinery}.
+\newblock
+\begin{APACrefDOI} \doi{10.1145/3586183.3606800} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

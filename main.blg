@@ -5,7 +5,7 @@ Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: ./Titel/titel.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apacite.bst
-Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -15,48 +15,53 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Database file #1: ./Literatur/quellen.bib
+Database file #1: ./Literatur/quellen_APA.bib
+Warning--entry type for "kuhl2005neue" isn't style-file defined
+--line 290 of file ./Literatur/quellen_APA.bib
+Warning--entry type for "eu2024aiact" isn't style-file defined
+--line 689 of file ./Literatur/quellen_APA.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No journal in bricken1990learning
-You've used 64 entries,
+Warning--No address in bricken1990learning
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 65 entries,
             6951 wiz_defined-function locations,
-            1641 strings with 23788 characters,
-and the built_in function-call counts, 130891 in all, are:
-= -- 15920
-> -- 1127
-< -- 6614
-+ -- 6728
-- -- 140
-* -- 8559
-:= -- 24516
-add.period$ -- 266
-call.type$ -- 64
-change.case$ -- 1085
+            1680 strings with 25219 characters,
+and the built_in function-call counts, 140397 in all, are:
+= -- 17345
+> -- 1179
+< -- 7029
++ -- 7251
+- -- 134
+* -- 9194
+:= -- 26001
+add.period$ -- 281
+call.type$ -- 65
+change.case$ -- 1119
 chr.to.int$ -- 0
-cite$ -- 129
-duplicate$ -- 3583
-empty$ -- 4985
-format.name$ -- 1945
-if$ -- 24409
+cite$ -- 131
+duplicate$ -- 3851
+empty$ -- 5254
+format.name$ -- 1995
+if$ -- 26228
 int.to.chr$ -- 0
-int.to.str$ -- 192
+int.to.str$ -- 195
 missing$ -- 0
-newline$ -- 1632
-num.names$ -- 512
-pop$ -- 2138
+newline$ -- 1728
+num.names$ -- 532
+pop$ -- 2299
 preamble$ -- 1
-purify$ -- 257
+purify$ -- 260
 quote$ -- 0
-skip$ -- 8292
+skip$ -- 8912
 stack$ -- 0
-substring$ -- 7273
-swap$ -- 2018
-text.length$ -- 190
+substring$ -- 7954
+swap$ -- 2180
+text.length$ -- 223
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5632
-warning$ -- 1
-while$ -- 643
+type$ -- 6240
+warning$ -- 2
+while$ -- 679
 width$ -- 0
-write$ -- 2039
-(There was 1 warning)
+write$ -- 2134
+(There were 4 warnings)

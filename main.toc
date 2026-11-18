@@ -1,106 +1,106 @@
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{4}{chapter*.2}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{5}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Einleitung}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Problemstellung}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Zielsetzung}{8}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{10}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Theoretische Fundierung von KI-gestützten Chatbots im Coaching}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Funktionsweisen von Sprachmodellen}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Technische Grundlagen von LLMs}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Neuronale Netzwerke und neuronale Modelle}{14}{subsection.2.1.2}%
-\contentsline {subsubsection}{\nonumberline Biologischer Hintergrund}{14}{subsubsection*.4}%
-\contentsline {subsubsection}{\nonumberline Architektur künstlicher neuronaler Netzwerke}{15}{subsubsection*.5}%
-\contentsline {subsubsection}{\nonumberline Training künstlicher neuronaler Netze}{16}{subsubsection*.6}%
-\contentsline {subsection}{\numberline {2.1.3}Promptbasierte Dialogsteuerung}{18}{subsection.2.1.3}%
-\contentsline {subsubsection}{\nonumberline Role Prompting}{18}{subsubsection*.7}%
-\contentsline {subsubsection}{\nonumberline Structured Prompting}{18}{subsubsection*.8}%
-\contentsline {subsubsection}{\nonumberline Chain-of-Thought Prompting}{19}{subsubsection*.9}%
-\contentsline {subsubsection}{\nonumberline Zero-Shot Prompting}{19}{subsubsection*.10}%
-\contentsline {section}{\numberline {2.2}Nutzung von KI-Chatbots im Coaching}{19}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Related Work: Bisherige KI-basierte Erfolgsmodelle}{20}{subsection.2.2.1}%
-\contentsline {subsubsection}{\nonumberline MIND-SAFE Framework}{20}{subsubsection*.11}%
-\contentsline {subsubsection}{\nonumberline Digital Therapeutics (DTx) Komponentenmodell}{21}{subsubsection*.12}%
-\contentsline {section}{\numberline {2.3}PSI-Theorie als psychologischer Bezugsrahmen}{23}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Die vier psychischen Systeme}{24}{subsection.2.3.1}%
-\contentsline {subsubsection}{\nonumberline Intentionsgedächnis (IG)}{24}{subsubsection*.13}%
-\contentsline {subsubsection}{\nonumberline Intuitive Verhaltenssteuerung (IVS)}{24}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline Extensionsgedächnis (EG)}{24}{subsubsection*.15}%
-\contentsline {subsubsection}{\nonumberline Objekterkennungssystem (OES)}{25}{subsubsection*.16}%
-\contentsline {subsection}{\numberline {2.3.2}Modulationsannahmen der PSI-Theorie}{25}{subsection.2.3.2}%
-\contentsline {subsubsection}{\nonumberline Erste Modulationsannahme: Willensbahnung}{26}{subsubsection*.17}%
-\contentsline {subsubsection}{\nonumberline Zweite Modulationsannahme: Selbstentwicklung durch Affektregulation}{26}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Emotionale Steuerung von Verhalten}{27}{subsubsection*.19}%
-\contentsline {subsection}{\numberline {2.3.3}Bedeutung für Coachingprozesse}{28}{subsection.2.3.3}%
-\contentsline {subsubsection}{\nonumberline Prozessarbeit zur Willensbahnung (Erste Modulationsannahme)}{29}{subsubsection*.20}%
-\contentsline {subsubsection}{\nonumberline Prozessarbeit zur Selbstberuhigung durch Affekregulation (Zweite Modulationsannahme)}{29}{subsubsection*.21}%
-\contentsline {subsection}{\numberline {2.3.4}Die sieben Systemebenen der PSI-Theorie}{30}{subsection.2.3.4}%
-\contentsline {subparagraph}{\nonumberline 1) Automatisches Verhalten und Erkennen}{31}{subparagraph*.22}%
-\contentsline {subparagraph}{\nonumberline 2) Temperament}{31}{subparagraph*.23}%
-\contentsline {subparagraph}{\nonumberline 3) Affekte und Anreize}{32}{subparagraph*.24}%
-\contentsline {subparagraph}{\nonumberline 4) Stressbewältigung}{32}{subparagraph*.25}%
-\contentsline {subparagraph}{\nonumberline 5) Motive: Kraftquellen}{32}{subparagraph*.26}%
-\contentsline {subparagraph}{\nonumberline 6) Denken und Fühlen}{32}{subparagraph*.27}%
-\contentsline {subparagraph}{\nonumberline 7) Selbststeuerung}{32}{subparagraph*.28}%
-\contentsline {section}{\numberline {2.4}Systematische Literaturübersicht}{32}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Forschungslücke}{33}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Design}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Integriertes Framework}{36}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Versuchsaufbau}{37}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Technische Umsetzung}{40}{subsection.3.2.1}%
-\contentsline {subsubsection}{\nonumberline Prompt-Design und algorithmische Dialogsteuerung}{40}{subsubsection*.29}%
-\contentsline {subsubsection}{\nonumberline Erstellung des Ergebnis-Datensatzes}{41}{subsubsection*.30}%
-\contentsline {section}{\numberline {3.3}Sicherheitsprüfung}{41}{section.3.3}%
-\contentsline {section}{\numberline {3.4}PSI-Zustands- und Potenzialanalyse}{43}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Analyse des Zustandes mittels Erstreaktion}{44}{subsection.3.4.1}%
-\contentsline {subparagraph}{\nonumberline Operationalisierung der Affektbilanz}{44}{subparagraph*.31}%
-\contentsline {subsubsection}{\nonumberline Analyse des Potenzials mittels Zweitreaktion}{44}{subsubsection*.32}%
-\contentsline {subparagraph}{\nonumberline Operationalisierung der aktiven Systeme}{45}{subparagraph*.33}%
-\contentsline {paragraph}{\nonumberline Schritt A: Ermittlung der Rohpunkte ($R$)}{47}{paragraph*.34}%
-\contentsline {paragraph}{\nonumberline Schritt B: Relative Normalisierung (Prozentuierung)}{47}{paragraph*.35}%
-\contentsline {section}{\numberline {3.5}PSI-basierte Ziele}{47}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Regelbasierte Zielermittlung über die Modulationskanäle}{48}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Intervention}{48}{section.3.6}%
-\contentsline {paragraph}{\nonumberline Intervention 1 ($I_1$): Übergreifende Haltung}{49}{paragraph*.36}%
-\contentsline {paragraph}{\nonumberline Intervention 2 ($I_2$): Selbstmotivierung (Modulationsannahme 1)}{49}{paragraph*.37}%
-\contentsline {paragraph}{\nonumberline Intervention 3 ($I_3$): Selbstberuhigung (Modulationsannahme 2)}{50}{paragraph*.38}%
-\contentsline {subsubsection}{\nonumberline Auswahl der Interventionen}{50}{subsubsection*.39}%
-\contentsline {section}{\numberline {3.7}Gesprächsebene}{51}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Evaluation}{53}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Metriken und mathematische Operationalisierung}{53}{subsection.3.8.1}%
-\contentsline {subsubsection}{\nonumberline Szenarienspezifische Zielmetriken nach Modulationsannahmen}{54}{subsubsection*.40}%
-\contentsline {subsection}{\numberline {3.8.2}Hypothesenformulierung und statistische Auswertung}{54}{subsection.3.8.2}%
-\contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($r$)}{55}{subsubsection*.41}%
-\contentsline {chapter}{\numberline {4}Demonstration und Ergebnisse}{56}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Demonstration der Szenarienauswahl}{56}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Szenario 1 (Basisszenario $\mathcal {S}_{M1}$): Der prokrastinierende Manager}{56}{subsection.4.1.1}%
-\contentsline {paragraph}{\nonumberline Beschreibung:}{56}{paragraph*.42}%
-\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{56}{paragraph*.43}%
-\contentsline {subsection}{\numberline {4.1.2}Szenario 2 (Basisszenario $\mathcal {S}_{M2}$): Die belastete Berufsschullehrerin}{57}{subsection.4.1.2}%
-\contentsline {paragraph}{\nonumberline Beschreibung:}{57}{paragraph*.44}%
-\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{57}{paragraph*.45}%
-\contentsline {section}{\numberline {4.2}Darstellung der Ergebnisse}{58}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Deskriptive Statistik und Systemverschiebungen}{58}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Szenario $XM_1$ (Systemachse $IG \rightarrow IVS$)}{59}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Szenario $XM_2$ (Systemachse $OES \rightarrow EG$)}{59}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Auswertung der Ergebnisse}{60}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Auswertung der ersten Modulationsannahme: Willensbahnung (XM1)}{61}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Auswertung der zweiten Modulationsannahme: Selbstentwicklung (XM2)}{62}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Diskussion und Implikationen}{64}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Theoretische und wissenschaftliche Einordnung}{64}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Erste Modulationsannahme M1 – Willensbahnung}{64}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Zweite Modulationsannahme M2 – Selbstentwicklung durch Affektregulation}{65}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Vergleichende Gesamtbewertung der beiden Modulationsannahmen}{66}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Praktische Implikationen}{67}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Relevanz der Systemkomponenten}{67}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Implikationen für die Gestaltung und Steuerung}{69}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Ethische Implikationen und Safety}{69}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Kritische Reflexion und Limitation}{71}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Methodische und empirische Limitationen}{71}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Technische Limitationen und Reproduzierbarkeit}{72}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Grenzen der Operationalisierung und Validität}{73}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Implikationen für zukünftige Forschung}{75}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{77}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Beantwortung der Forschungsfrage}{79}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Ausblick}{80}{section.6.2}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{81}{chapter*.46}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{v}{chapter*.2}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{vi}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Problemstellung}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Theoretische Fundierung von KI-gestützten Chatbots im Coaching}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Funktionsweisen von Sprachmodellen}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Technische Grundlagen von LLMs}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Neuronale Netzwerke und neuronale Modelle}{8}{subsection.2.1.2}%
+\contentsline {subsubsection}{\nonumberline Biologischer Hintergrund}{8}{subsubsection*.4}%
+\contentsline {subsubsection}{\nonumberline Architektur künstlicher neuronaler Netzwerke}{8}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline Training künstlicher neuronaler Netze}{10}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {2.1.3}Promptbasierte Dialogsteuerung}{11}{subsection.2.1.3}%
+\contentsline {subsubsection}{\nonumberline Role Prompting}{12}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Structured Prompting}{12}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Chain-of-Thought Prompting}{12}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Zero-Shot Prompting}{13}{subsubsection*.10}%
+\contentsline {section}{\numberline {2.2}Nutzung von KI-Chatbots im Coaching}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Related Work: Bisherige KI-basierte Erfolgsmodelle}{13}{subsection.2.2.1}%
+\contentsline {subsubsection}{\nonumberline MIND-SAFE Framework}{14}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Digital Therapeutics (DTx) Komponentenmodell}{15}{subsubsection*.12}%
+\contentsline {section}{\numberline {2.3}PSI-Theorie als psychologischer Bezugsrahmen}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Die vier psychischen Systeme}{17}{subsection.2.3.1}%
+\contentsline {subsubsection}{\nonumberline Intentionsgedächnis (IG)}{17}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Intuitive Verhaltenssteuerung (IVS)}{17}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Extensionsgedächnis (EG)}{17}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Objekterkennungssystem (OES)}{18}{subsubsection*.16}%
+\contentsline {subsection}{\numberline {2.3.2}Modulationsannahmen der PSI-Theorie}{18}{subsection.2.3.2}%
+\contentsline {subsubsection}{\nonumberline Erste Modulationsannahme: Willensbahnung}{19}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Zweite Modulationsannahme: Selbstentwicklung durch Affektregulation}{19}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Emotionale Steuerung von Verhalten}{20}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {2.3.3}Bedeutung für Coachingprozesse}{21}{subsection.2.3.3}%
+\contentsline {subsubsection}{\nonumberline Prozessarbeit zur Willensbahnung (Erste Modulationsannahme)}{21}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Prozessarbeit zur Selbstberuhigung durch Affekregulation (Zweite Modulationsannahme)}{22}{subsubsection*.21}%
+\contentsline {subsection}{\numberline {2.3.4}Die sieben Systemebenen der PSI-Theorie}{23}{subsection.2.3.4}%
+\contentsline {subparagraph}{\nonumberline 1) Automatisches Verhalten und Erkennen}{24}{subparagraph*.22}%
+\contentsline {subparagraph}{\nonumberline 2) Temperament}{24}{subparagraph*.23}%
+\contentsline {subparagraph}{\nonumberline 3) Affekte und Anreize}{24}{subparagraph*.24}%
+\contentsline {subparagraph}{\nonumberline 4) Stressbewältigung}{24}{subparagraph*.25}%
+\contentsline {subparagraph}{\nonumberline 5) Motive: Kraftquellen}{24}{subparagraph*.26}%
+\contentsline {subparagraph}{\nonumberline 6) Denken und Fühlen}{24}{subparagraph*.27}%
+\contentsline {subparagraph}{\nonumberline 7) Selbststeuerung}{24}{subparagraph*.28}%
+\contentsline {section}{\numberline {2.4}Systematische Literaturübersicht}{25}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Forschungslücke}{25}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Design}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Integriertes Framework}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Versuchsaufbau}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Technische Umsetzung}{31}{subsection.3.2.1}%
+\contentsline {subsubsection}{\nonumberline Prompt-Design und algorithmische Dialogsteuerung}{31}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Erstellung des Ergebnis-Datensatzes}{32}{subsubsection*.30}%
+\contentsline {section}{\numberline {3.3}Sicherheitsprüfung}{32}{section.3.3}%
+\contentsline {section}{\numberline {3.4}PSI-Zustands- und Potenzialanalyse}{33}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Analyse des Zustandes mittels Erstreaktion}{34}{subsection.3.4.1}%
+\contentsline {subparagraph}{\nonumberline Operationalisierung der Affektbilanz}{35}{subparagraph*.31}%
+\contentsline {subsubsection}{\nonumberline Analyse des Potenzials mittels Zweitreaktion}{35}{subsubsection*.32}%
+\contentsline {subparagraph}{\nonumberline Operationalisierung der aktiven Systeme}{36}{subparagraph*.33}%
+\contentsline {paragraph}{\nonumberline Schritt A: Ermittlung der Rohpunkte ($R$)}{36}{paragraph*.34}%
+\contentsline {paragraph}{\nonumberline Schritt B: Relative Normalisierung (Prozentuierung)}{36}{paragraph*.35}%
+\contentsline {section}{\numberline {3.5}PSI-basierte Ziele}{38}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Regelbasierte Zielermittlung über die Modulationskanäle}{38}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Intervention}{39}{section.3.6}%
+\contentsline {paragraph}{\nonumberline Intervention 1 ($I_1$): Übergreifende Haltung}{39}{paragraph*.36}%
+\contentsline {paragraph}{\nonumberline Intervention 2 ($I_2$): Selbstmotivierung (Modulationsannahme 1)}{40}{paragraph*.37}%
+\contentsline {paragraph}{\nonumberline Intervention 3 ($I_3$): Selbstberuhigung (Modulationsannahme 2)}{40}{paragraph*.38}%
+\contentsline {subsubsection}{\nonumberline Auswahl der Interventionen}{41}{subsubsection*.39}%
+\contentsline {section}{\numberline {3.7}Gesprächsebene}{41}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Evaluation}{42}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Metriken und mathematische Operationalisierung}{43}{subsection.3.8.1}%
+\contentsline {subsubsection}{\nonumberline Szenarienspezifische Zielmetriken nach Modulationsannahmen}{43}{subsubsection*.40}%
+\contentsline {subsection}{\numberline {3.8.2}Hypothesenformulierung und statistische Auswertung}{44}{subsection.3.8.2}%
+\contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($r$)}{45}{subsubsection*.41}%
+\contentsline {chapter}{\numberline {4}Demonstration und Ergebnisse}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Demonstration der Szenarienauswahl}{46}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Szenario 1 (Basisszenario $\mathcal {S}_{M1}$): Der prokrastinierende Manager}{46}{subsection.4.1.1}%
+\contentsline {paragraph}{\nonumberline Beschreibung:}{46}{paragraph*.42}%
+\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{46}{paragraph*.43}%
+\contentsline {subsection}{\numberline {4.1.2}Szenario 2 (Basisszenario $\mathcal {S}_{M2}$): Die belastete Berufsschullehrerin}{47}{subsection.4.1.2}%
+\contentsline {paragraph}{\nonumberline Beschreibung:}{47}{paragraph*.44}%
+\contentsline {paragraph}{\nonumberline Theoretische Soll-Herleitung:}{47}{paragraph*.45}%
+\contentsline {section}{\numberline {4.2}Darstellung der Ergebnisse}{48}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Deskriptive Statistik und Systemverschiebungen}{48}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Szenario $XM_1$ (Systemachse $IG \rightarrow IVS$)}{48}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Szenario $XM_2$ (Systemachse $OES \rightarrow EG$)}{49}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Auswertung der Ergebnisse}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Auswertung der ersten Modulationsannahme: Willensbahnung (XM1)}{51}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Auswertung der zweiten Modulationsannahme: Selbstentwicklung (XM2)}{51}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Diskussion und Implikationen}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Theoretische und wissenschaftliche Einordnung}{53}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Erste Modulationsannahme M1 – Willensbahnung}{53}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Zweite Modulationsannahme M2 – Selbstentwicklung durch Affektregulation}{54}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Vergleichende Gesamtbewertung der beiden Modulationsannahmen}{55}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Praktische Implikationen}{56}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Relevanz der Systemkomponenten}{56}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Implikationen für die Gestaltung und Steuerung}{58}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Ethische Implikationen und Safety}{58}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Kritische Reflexion und Limitation}{60}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Methodische und empirische Limitationen}{60}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Technische Limitationen und Reproduzierbarkeit}{61}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Grenzen der Operationalisierung und Validität}{62}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Implikationen für zukünftige Forschung}{63}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Schlussbetrachtung}{65}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Beantwortung der Forschungsfrage}{66}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Ausblick}{67}{section.6.2}%
+\contentsline {chapter}{\nonumberline Quellenverzeichnis}{69}{chapter*.46}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

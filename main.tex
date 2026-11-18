@@ -7,11 +7,12 @@ listof=totoc,appendixprefix,paper=a4,headings=small]{scrbook} % 'twoside=on' fü
 % -----------------------------------
 \usepackage[
   paper=a4paper,
-  left=12.5mm,
-  right=25mm,
-  top=25mm,
-  bottom=50mm,
-  bindingoffset=10mm]{geometry}		% Seitenränder und Bindungskorrektur einstellen
+  left=23mm,
+  right=23mm,
+  top=23mm,
+  bottom=23mm,
+  bindingoffset=0mm]{geometry} % Alle Seitenränder auf 2,3 cm (23 mm) eingestellt
+
   
 \usepackage{apacite} 				% Literatur-Referenzen: American Psycholog. Assoc.
 \usepackage{natbib}					
@@ -95,13 +96,20 @@ listof=totoc,appendixprefix,paper=a4,headings=small]{scrbook} % 'twoside=on' fü
 
 \setcounter{tocdepth}{1}			% Ebenen, die im Inhaltsverzeichnis angezeigt werden
 
+% Abbildungs- und Tabellenbeschriftungen auf 10pt und serifenlos setzen
+\setkomafont{caption}{\sffamily\footnotesize}
+\setkomafont{captionlabel}{\sffamily\footnotesize\bfseries}
+
 % Document
 % -----------------------------------
 \begin{document}
 
-\mainmatter 
+\frontmatter
     \include{./Titel/titel} 			% Titelblatt
     \newpage
+
+    \input{./Kapitel/abstract_deu}          % Abstract / Zusammenfassung (noch römisch nummeriert)
+    \clearpage{\pagestyle{empty}\cleardoublepage}
     
     \clearpage{\pagestyle{empty}\cleardoublepage}
     \onehalfspacing                  	% Zeilenabstand ab hier 1.5 zeilig
@@ -115,7 +123,8 @@ listof=totoc,appendixprefix,paper=a4,headings=small]{scrbook} % 'twoside=on' fü
     \clearpage{\pagestyle{empty}\cleardoublepage}
 
 % -----------------------------------
-							% die einzelnen Kapitel
+\mainmatter
+% die einzelnen Kapitel
     \input{./Kapitel/einleitung}
     \clearpage{\pagestyle{empty}\cleardoublepage}		% löscht Kopfzeilen und Seitennummerierung von der letzten Seite eines Kapitels, sofern dort kein Text mehr steht
     \input{./Kapitel/eigenanteil}
@@ -130,8 +139,9 @@ listof=totoc,appendixprefix,paper=a4,headings=small]{scrbook} % 'twoside=on' fü
 
 % -----------------------------------
 \backmatter 
+\renewcommand{\bibname}{Quellenverzeichnis}
 \bibliographystyle{apacite}				% bei natbib in deutsch
-\bibliography{./Literatur/quellen}		% Literaturquellen einbinden 
+\bibliography{./Literatur/quellen_APA}		% Literaturquellen einbinden 
 \input{./Kapitel/erklaerung} 			% Eidesstattliche Erklärung (nicht bei Seminararb.)
 
 \end{document}
