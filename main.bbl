@@ -542,6 +542,58 @@ Goodfellow, I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Google}%
+}{%
+{Google}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+Google2026GenAISDK}
+\APACinsertmetastar {%
+Google2026GenAISDK}%
+\begin{APACrefauthors}%
+{Google}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Google Gen AI SDK Dokumentation} {Google gen ai sdk
+  dokumentation}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL}
+  [{2026-11-19}]\url{https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/sdks/overview}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Google DeepMind}%
+}{%
+{Google DeepMind}%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+GoogleDeepMind2026Gemini38Flash}
+\APACinsertmetastar {%
+GoogleDeepMind2026Gemini38Flash}%
+\begin{APACrefauthors}%
+{Google DeepMind}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{September}{}.
+\newblock
+\APACrefbtitle {Gemini 3.8 Flash -- Model Card} {Gemini 3.8 flash -- model
+  card}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{Google DeepMind}.
+\newblock
+\begin{APACrefURL}
+  [{2026-11-19}]\url{https://deepmind.google/models/model-cards/gemini-3-8-flash/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Grum%
 }{%
 Grum%
@@ -621,9 +673,9 @@ Haykin, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Hu%
+E\BPBI J.~Hu%
 \ \protect \BOthers {.}}{%
-Hu%
+E\BPBI J.~Hu%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2022}}%
 }]{%
@@ -649,6 +701,35 @@ Hu, E\BPBI J.%
 \BIn{} \APACrefbtitle {Proceedings of the Tenth International Conference on
   Learning Representations.} {Proceedings of the tenth international conference
   on learning representations.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Z.~Hu%
+, Rostami%
+\BCBL {}\ \BBA {} Thomason%
+}{%
+Z.~Hu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+hu2026expert}
+\APACinsertmetastar {%
+hu2026expert}%
+\begin{APACrefauthors}%
+Hu, Z.%
+, Rostami, M.%
+\BCBL {}\ \BBA {} Thomason, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+\APACrefbtitle {Expert personas improve {LLM} alignment but damage accuracy:
+  Bootstrapping intent-based persona routing with {PRISM}.} {Expert personas
+  improve {LLM} alignment but damage accuracy: Bootstrapping intent-based
+  persona routing with {PRISM}.}
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -702,6 +783,41 @@ Kinnebrock, W.%
   {Neuronale {Netze}: {Grundlagen}, {Anwendungen}, {Beispiele}}.
 \newblock
 \APACaddressPublisher{}{De Gruyter Oldenbourg}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kong%
+\ \protect \BOthers {.}}{%
+Kong%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+kong2024better}
+\APACinsertmetastar {%
+kong2024better}%
+\begin{APACrefauthors}%
+Kong, A.%
+, Zhao, S.%
+, Chen, H.%
+, Li, Q.%
+, Qin, Y.%
+, Sun, R.%
+\BDBL {}Dong, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Better zero-shot reasoning with role-play prompting}
+  {Better zero-shot reasoning with role-play prompting}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (NAACL-HLT)} {Proceedings of the 2024 conference of the north
+  american chapter of the association for computational linguistics: Human
+  language technologies (naacl-hlt)}\ (\BPGS\ 4099--4113).
+\newblock
+\begin{APACrefURL} \url{https://aclanthology.org} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1233,6 +1349,37 @@ Passmore, J.%
   organisations}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Coaching Psychologist}{19}{1}{47--54}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Peffers%
+, Tuunanen%
+, Rothenberger%
+\BCBL {}\ \BBA {} Chatterjee%
+}{%
+Peffers%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+peffers2007design}
+\APACinsertmetastar {%
+peffers2007design}%
+\begin{APACrefauthors}%
+Peffers, K.%
+, Tuunanen, T.%
+, Rothenberger, M\BPBI A.%
+\BCBL {}\ \BBA {} Chatterjee, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A design science research methodology for information
+  systems research} {A design science research methodology for information
+  systems research}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of management information
+  systems}{24}{3}{45--77}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

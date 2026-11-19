@@ -44,32 +44,32 @@
 \contentsline {section}{\numberline {2.4}Systematische Literaturübersicht}{25}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Forschungslücke}{25}{subsection.2.4.1}%
 \contentsline {chapter}{\numberline {3}Design}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Integriertes Framework}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.1}PSI-basiertes Coaching-Framework}{28}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Versuchsaufbau}{28}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Technische Umsetzung}{31}{subsection.3.2.1}%
 \contentsline {subsubsection}{\nonumberline Prompt-Design und algorithmische Dialogsteuerung}{31}{subsubsection*.29}%
 \contentsline {subsubsection}{\nonumberline Erstellung des Ergebnis-Datensatzes}{32}{subsubsection*.30}%
-\contentsline {section}{\numberline {3.3}Sicherheitsprüfung}{32}{section.3.3}%
-\contentsline {section}{\numberline {3.4}PSI-Zustands- und Potenzialanalyse}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.3}Sicherheitsprüfung}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.4}PSI-Zustands- und Potenzialanalyse}{34}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Analyse des Zustandes mittels Erstreaktion}{34}{subsection.3.4.1}%
-\contentsline {subparagraph}{\nonumberline Operationalisierung der Affektbilanz}{35}{subparagraph*.31}%
+\contentsline {subparagraph}{\nonumberline Operationalisierung der Affektbilanz}{34}{subparagraph*.31}%
 \contentsline {subsubsection}{\nonumberline Analyse des Potenzials mittels Zweitreaktion}{35}{subsubsection*.32}%
-\contentsline {subparagraph}{\nonumberline Operationalisierung der aktiven Systeme}{36}{subparagraph*.33}%
-\contentsline {paragraph}{\nonumberline Schritt A: Ermittlung der Rohpunkte ($R$)}{36}{paragraph*.34}%
-\contentsline {paragraph}{\nonumberline Schritt B: Relative Normalisierung (Prozentuierung)}{36}{paragraph*.35}%
+\contentsline {subparagraph}{\nonumberline Operationalisierung der aktiven Systeme}{35}{subparagraph*.33}%
+\contentsline {paragraph}{\nonumberline Schritt A: Ermittlung der Rohpunkte ($\boldsymbol {Y}$)}{36}{paragraph*.34}%
+\contentsline {paragraph}{\nonumberline Schritt B: Relative Normalisierung (Prozentuierung $\boldsymbol {P}$)}{36}{paragraph*.35}%
 \contentsline {section}{\numberline {3.5}PSI-basierte Ziele}{38}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Regelbasierte Zielermittlung über die Modulationskanäle}{38}{subsection.3.5.1}%
 \contentsline {section}{\numberline {3.6}Intervention}{39}{section.3.6}%
-\contentsline {paragraph}{\nonumberline Intervention 1 ($I_1$): Übergreifende Haltung}{39}{paragraph*.36}%
-\contentsline {paragraph}{\nonumberline Intervention 2 ($I_2$): Selbstmotivierung (Modulationsannahme 1)}{40}{paragraph*.37}%
-\contentsline {paragraph}{\nonumberline Intervention 3 ($I_3$): Selbstberuhigung (Modulationsannahme 2)}{40}{paragraph*.38}%
-\contentsline {subsubsection}{\nonumberline Auswahl der Interventionen}{41}{subsubsection*.39}%
+\contentsline {paragraph}{\nonumberline Intervention 1 ($\boldsymbol {I_1}$): Übergreifende Haltung}{39}{paragraph*.36}%
+\contentsline {paragraph}{\nonumberline Intervention 2 ($\boldsymbol {I_2}$): Selbstmotivierung (Modulationsannahme 1)}{40}{paragraph*.37}%
+\contentsline {paragraph}{\nonumberline Intervention 3 ($\boldsymbol {I_3}$): Selbstberuhigung (Modulationsannahme 2)}{40}{paragraph*.38}%
+\contentsline {subsubsection}{\nonumberline Auswahl der Interventionen}{40}{subsubsection*.39}%
 \contentsline {section}{\numberline {3.7}Gesprächsebene}{41}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Evaluation}{42}{section.3.8}%
 \contentsline {subsection}{\numberline {3.8.1}Metriken und mathematische Operationalisierung}{43}{subsection.3.8.1}%
 \contentsline {subsubsection}{\nonumberline Szenarienspezifische Zielmetriken nach Modulationsannahmen}{43}{subsubsection*.40}%
 \contentsline {subsection}{\numberline {3.8.2}Hypothesenformulierung und statistische Auswertung}{44}{subsection.3.8.2}%
-\contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($r$)}{45}{subsubsection*.41}%
+\contentsline {subsubsection}{\nonumberline Statistische Effektstärke ($\boldsymbol {r}$)}{45}{subsubsection*.41}%
 \contentsline {chapter}{\numberline {4}Demonstration und Ergebnisse}{46}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Demonstration der Szenarienauswahl}{46}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Szenario 1 (Basisszenario $\mathcal {S}_{M1}$): Der prokrastinierende Manager}{46}{subsection.4.1.1}%
