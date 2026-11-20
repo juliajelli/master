@@ -387,6 +387,8 @@ INPUT .\Kapitel\abstract_deu.tex
 INPUT .\Kapitel\abstract_deu.tex
 INPUT .\Kapitel\abstract_deu.tex
 INPUT Kapitel\abstract_deu.tex
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
@@ -402,8 +404,6 @@ INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
 OUTPUT main.lof
-INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
-INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
@@ -553,6 +553,8 @@ INPUT main.aux
 INPUT .\Titel\titel.aux
 INPUT .\Titel\titel.aux
 INPUT Titel\titel.aux
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbsy10.pfb
+INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbsy10.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\julia\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb

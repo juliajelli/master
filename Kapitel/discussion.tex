@@ -194,6 +194,7 @@ Aufgrund der Funktionsweise des zugrunde liegenden Sprachmodells generiert das S
 Während die technische Reproduzierbarkeit und Durchführbarkeit des Versuchsaufbaus durch die vollständige Dokumentation des experimentellen Settings, der API- und SDK-Spezifikationen, aller Prompts sowie der Python-basierten Auswertungslogik standardisiert gewährleistet ist, unterliegt die Ergebnisreproduzierbarkeit den Grenzen stochastischer Cloud-Modelle. Bei einer zeitlich unabhängigen Wiederholung der gesamten Versuchsreihe oder dem Einsatz einer abweichenden Modellversion können sich andere Verteilungen und Effektstärken ergeben. Dies stellt keinen methodischen Fehler dar, sondern resultiert aus den inhärenten Sampling-Prozessen sowie möglichen unangekündigten Backend-Aktualisierungen proprietärer Anbieter. Die vorliegenden Befunde sind somit unmittelbar an die spezifische Modell- und Prompt-Konfiguration zum Erhebungszeitpunkt gebunden. Der Versuchsaufbau ist zwar technisch replizierbar, die generierten Dialogverläufe bleiben jedoch variabel, sodass bei einer erneuten Ausführung lediglich vergleichbare statistische Tendenzen, nicht aber deterministische Konstanten oder identische Einzelergebnisse erwartet werden können.
 Durch die technische Reproduzierbarkeit bietet sich die Möglichkeit, anhand weiterer Szenarien oder Bedingungen einen ähnlichen Versuchsaufbau zu wiederholen.
 
+
 \subsection{Grenzen der Operationalisierung und Validität}
 Ein kritischer Aspekt in Betrachtung der Ergebnisse ist die Konstruktvalidität \citep{morris1981response}. Die psychischen Funktionssysteme und Modulationsprozesse der PSI-Theorie wurden im Rahmen dieser Untersuchung über linguistische Indikatoren operationalisiert. Diese ermöglichen eine Auswertung der sprachlichen Dialogverläufe, stellen jedoch keinen unmittelbaren Nachweis einer tatsächlichen psychischen Systemaktivierung oder einer Veränderung menschlicher Selbstregulation dar. Außerdem kann die Bewertung der sprachlichen Merkmale anhan der Scores von 0 bis 3 als kritisch betrachtet werden. Die Generalisierung der Kriterien ist zwar hilfreich, um daraus Regeln zu definieren, führt hier jedoch zu einer starken Vereinfachung psychischer Prozesse durch diese Bewertungsform.
 Die externe Validität ist eingeschränkt, da die Evaluation auf zwei definierten und mehrfach simulierten Basisszenarien beruht. Eine Übertragung der Ergebnisse auf reale Coaching-Situationen, unterschiedliche Nutzergruppen oder komplexe und unstrukturierte Belastungssituationen wurde nicht untersucht.
@@ -224,8 +225,8 @@ Ausweichmuster umgehen.
 
 Eine weitere Option wäre der Übergang zu einer hybriden Systemarchitektur, 
 bei der die psychologische Zustandserkennung vollständig vom generativen Sprachmodell 
-losgelöst wird. Deterministische oder spezialisierte NLP-Klassifikatoren (z.\,B. 
-feingetunte BERT-Modelle) könnten die Sentiment- und Systemanalyse übernehmen \citep{alaparthi2021bert}. Das LLM würde 
+losgelöst wird. Deterministische oder spezialisierte NLP-Klassifikatoren z.\,B. 
+feingetunte Bidirectional Encoder Representations from Transformers (BERT) - Modelle könnten die Sentiment- und Systemanalyse übernehmen \citep{alaparthi2021bert}. Das LLM würde 
 dadurch auf die reine, stilistisch kontrollierte Textgenerierung reduziert werden, was die 
 Nachvollziehbarkeit, Sicherheit und Wartbarkeit des Gesamtsystems im Sinne moderner 
 Softwarearchitekturen erhöht.
