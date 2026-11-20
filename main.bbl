@@ -673,6 +673,35 @@ Haykin, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hevner%
+, March%
+, Park%
+\BCBL {}\ \BBA {} Ram%
+}{%
+Hevner%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+hevner2004design}
+\APACinsertmetastar {%
+hevner2004design}%
+\begin{APACrefauthors}%
+Hevner, A\BPBI R.%
+, March, S\BPBI T.%
+, Park, J.%
+\BCBL {}\ \BBA {} Ram, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design science in information systems research1} {Design
+  science in information systems research1}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{MIS quarterly}{28}{1}{75--106}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 E\BPBI J.~Hu%
 \ \protect \BOthers {.}}{%
 E\BPBI J.~Hu%

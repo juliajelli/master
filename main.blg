@@ -25,45 +25,45 @@ Warning--entry type for "hu2026expert" isn't style-file defined
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in bricken1990learning
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 70 entries,
+You've used 71 entries,
             6951 wiz_defined-function locations,
-            1711 strings with 26398 characters,
-and the built_in function-call counts, 151031 in all, are:
-= -- 18690
-> -- 1274
-< -- 7517
-+ -- 7752
-- -- 148
-* -- 9847
-:= -- 27829
-add.period$ -- 303
-call.type$ -- 70
-change.case$ -- 1207
+            1718 strings with 26623 characters,
+and the built_in function-call counts, 153048 in all, are:
+= -- 18933
+> -- 1297
+< -- 7607
++ -- 7854
+- -- 150
+* -- 9978
+:= -- 28168
+add.period$ -- 307
+call.type$ -- 71
+change.case$ -- 1224
 chr.to.int$ -- 0
-cite$ -- 141
-duplicate$ -- 4164
-empty$ -- 5669
-format.name$ -- 2162
-if$ -- 28281
+cite$ -- 143
+duplicate$ -- 4233
+empty$ -- 5749
+format.name$ -- 2203
+if$ -- 28667
 int.to.chr$ -- 0
-int.to.str$ -- 210
+int.to.str$ -- 213
 missing$ -- 0
-newline$ -- 1858
-num.names$ -- 572
-pop$ -- 2552
+newline$ -- 1886
+num.names$ -- 580
+pop$ -- 2581
 preamble$ -- 1
-purify$ -- 282
+purify$ -- 286
 quote$ -- 0
-skip$ -- 9572
+skip$ -- 9702
 stack$ -- 0
-substring$ -- 8514
-swap$ -- 2350
-text.length$ -- 244
+substring$ -- 8625
+swap$ -- 2389
+text.length$ -- 246
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 6776
+type$ -- 6856
 warning$ -- 2
-while$ -- 745
+while$ -- 759
 width$ -- 0
-write$ -- 2298
+write$ -- 2337
 (There were 5 warnings)
